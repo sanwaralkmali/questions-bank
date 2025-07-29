@@ -73,6 +73,46 @@ app.get('/api/questions', (req, res) => {
   }
 });
 
+// GET /api/questions/approved - Get only approved questions
+app.get('/api/questions/approved', (req, res) => {
+  try {
+    const data = readQuestions();
+    const approvedQuestions = data.questions.filter(q => q.reviewStatus === 'approved');
+    res.json({
+      success: true,
+      data: approvedQuestions,
+      total: approvedQuestions.length,
+      lastUpdated: data.lastUpdated
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: 'Failed to fetch approved questions',
+      error: error.message
+    });
+  }
+});
+
+// GET /api/questions/pending - Get pending review questions
+app.get('/api/questions/pending', (req, res) => {
+  try {
+    const data = readQuestions();
+    const pendingQuestions = data.questions.filter(q => q.reviewStatus === 'pending');
+    res.json({
+      success: true,
+      data: pendingQuestions,
+      total: pendingQuestions.length,
+      lastUpdated: data.lastUpdated
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: 'Failed to fetch pending questions',
+      error: error.message
+    });
+  }
+});
+
 // POST /api/questions - Add a new question
 app.post('/api/questions', (req, res) => {
   try {
@@ -113,7 +153,10 @@ app.post('/api/questions', (req, res) => {
       level,
       wave: mapDifficultyToWave(level),
       points: 10,
-      createdAt: new Date().toISOString()
+      createdAt: new Date().toISOString(),
+      reviewStatus: 'pending', // 'pending', 'approved', 'rejected'
+      reviewedAt: null,
+      reviewedBy: null
     };
 
     // Read existing questions
@@ -128,7 +171,7 @@ app.post('/api/questions', (req, res) => {
     if (success) {
       res.json({
         success: true,
-        message: 'Question saved successfully!',
+        message: 'Question submitted successfully! It has been added to the review queue and will be approved soon.',
         question: newQuestion,
         totalQuestions: data.questions.length
       });
@@ -141,6 +184,59 @@ app.post('/api/questions', (req, res) => {
 
   } catch (error) {
     console.error('Error saving question:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Internal server error',
+      error: error.message
+    });
+  }
+});
+
+// PUT /api/questions/:id/review - Approve or reject a question (admin endpoint)
+app.put('/api/questions/:id/review', (req, res) => {
+  try {
+    const { id } = req.params;
+    const { status, reviewedBy } = req.body; // status: 'approved' or 'rejected'
+
+    if (!status || !['approved', 'rejected'].includes(status)) {
+      return res.status(400).json({
+        success: false,
+        message: 'Status must be either "approved" or "rejected"'
+      });
+    }
+
+    const data = readQuestions();
+    const questionIndex = data.questions.findIndex(q => q.id == id);
+
+    if (questionIndex === -1) {
+      return res.status(404).json({
+        success: false,
+        message: 'Question not found'
+      });
+    }
+
+    // Update the question
+    data.questions[questionIndex].reviewStatus = status;
+    data.questions[questionIndex].reviewedAt = new Date().toISOString();
+    data.questions[questionIndex].reviewedBy = reviewedBy || 'admin';
+
+    const success = writeQuestions(data);
+
+    if (success) {
+      res.json({
+        success: true,
+        message: `Question ${status} successfully`,
+        question: data.questions[questionIndex]
+      });
+    } else {
+      res.status(500).json({
+        success: false,
+        message: 'Failed to update question'
+      });
+    }
+
+  } catch (error) {
+    console.error('Error updating question:', error);
     res.status(500).json({
       success: false,
       message: 'Internal server error',

@@ -18,14 +18,15 @@ export interface QuestionForJSON {
   points: number;
 }
 
-// Backend API URL - change this to your deployed backend URL
-const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://questions-bank-8z7m.onrender.com' // Replace with your actual deployed URL
-  : 'http://localhost:3001';
+// Backend API URL - using the deployed backend
+const API_BASE_URL = 'https://questions-bank-8z7m.onrender.com';
 
 // Function to save question to backend API
 export const saveQuestionToFile = async (questionData: QuestionData): Promise<{ success: boolean; message: string }> => {
   try {
+    console.log('Sending request to:', `${API_BASE_URL}/api/questions`);
+    console.log('Request data:', questionData);
+    
     const response = await fetch(`${API_BASE_URL}/api/questions`, {
       method: 'POST',
       headers: {
@@ -34,7 +35,9 @@ export const saveQuestionToFile = async (questionData: QuestionData): Promise<{ 
       body: JSON.stringify(questionData),
     });
 
+    console.log('Response status:', response.status);
     const result = await response.json();
+    console.log('Response data:', result);
 
     if (response.ok && result.success) {
       return {
@@ -58,7 +61,7 @@ export const saveQuestionToFile = async (questionData: QuestionData): Promise<{ 
 };
 
 // Function to get all questions from backend
-export const getAllQuestions = async (): Promise<{ success: boolean; data?: any[]; message?: string }> => {
+export const getAllQuestions = async (): Promise<{ success: boolean; data?: QuestionForJSON[]; message?: string }> => {
   try {
     const response = await fetch(`${API_BASE_URL}/api/questions`);
     const result = await response.json();

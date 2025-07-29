@@ -29,6 +29,7 @@ import {
   mapDifficultyToWave,
   type QuestionData,
 } from "@/lib/questionUtils";
+import { toast } from "sonner";
 
 interface AddQuestionFormProps {
   skills: Array<{ id: string; title: string }>;
@@ -80,44 +81,49 @@ const AddQuestionForm = ({ skills, onQuestionAdded }: AddQuestionFormProps) => {
 
     // Validate form
     if (!formData.question.trim()) {
-      alert("Please enter a question");
+      toast.error("Please enter a question");
       return;
     }
 
     if (!formData.correctAnswer) {
-      alert("Please select the correct answer");
+      toast.error("Please select the correct answer");
       return;
     }
 
     if (!formData.skill) {
-      alert("Please select a skill");
+      toast.error("Please select a skill");
       return;
     }
 
     if (!formData.grade) {
-      alert("Please select a grade");
+      toast.error("Please select a grade");
       return;
     }
 
     if (!formData.level) {
-      alert("Please select a difficulty level");
+      toast.error("Please select a difficulty level");
       return;
     }
 
     // Check if all choices are filled
     if (formData.choices.some((choice) => !choice.trim())) {
-      alert("Please fill in all choices");
+      toast.error("Please fill in all choices");
       return;
     }
 
     setIsSubmitting(true);
 
     try {
-      // Save question to JSON file
+      // Save question to backend
       const result = await saveQuestionToFile(formData);
 
       if (result.success) {
-        alert(result.message);
+        // Show success toaster with review message
+        toast.success("Question Submitted Successfully!", {
+          description:
+            "Your question has been submitted for review. It will be added to the question bank after approval.",
+          duration: 5000,
+        });
 
         // Reset form
         setFormData({
@@ -132,11 +138,11 @@ const AddQuestionForm = ({ skills, onQuestionAdded }: AddQuestionFormProps) => {
         setOpen(false);
         onQuestionAdded();
       } else {
-        alert(result.message);
+        toast.error(result.message || "Failed to submit question");
       }
     } catch (error) {
       console.error("Error adding question:", error);
-      alert("Error adding question. Please try again.");
+      toast.error("Network error. Please check your connection and try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -171,10 +177,10 @@ const AddQuestionForm = ({ skills, onQuestionAdded }: AddQuestionFormProps) => {
       </DialogTrigger>
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle>Add New Question</DialogTitle>
+          <DialogTitle>Submit New Question</DialogTitle>
           <DialogDescription>
-            Create a new math question with LaTeX support. The question will be
-            saved to the corresponding JSON file.
+            Create a new math question with LaTeX support. Your question will be
+            reviewed and approved before being added to the question bank.
           </DialogDescription>
         </DialogHeader>
 
@@ -295,85 +301,6 @@ const AddQuestionForm = ({ skills, onQuestionAdded }: AddQuestionFormProps) => {
             </div>
           </div>
 
-          {/* File Information */}
-          {formData.skill && (
-            <Card className="bg-blue-50 border-blue-200">
-              <CardContent className="p-4">
-                <h4 className="font-semibold mb-2 text-blue-800">
-                  File Information:
-                </h4>
-                <div className="text-sm space-y-1 text-blue-700">
-                  <div>
-                    <strong>Target File:</strong> public/data/skills/
-                    {formData.skill}.json
-                  </div>
-                  <div>
-                    <strong>Skill:</strong> {getSelectedSkillName()}
-                  </div>
-                  <div>
-                    <strong>Grade:</strong>{" "}
-                    {formData.grade
-                      ? `Grade ${formData.grade}`
-                      : "Not selected"}
-                  </div>
-                  <div>
-                    <strong>Difficulty:</strong>{" "}
-                    {formData.level
-                      ? difficultyLevels.find((l) => l.value === formData.level)
-                          ?.label
-                      : "Not selected"}
-                  </div>
-                  <div>
-                    <strong>Wave Level:</strong>{" "}
-                    {formData.level
-                      ? mapDifficultyToWave(formData.level)
-                      : "Not set"}
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          )}
-
-          {/* Preview */}
-          {formData.question && (
-            <Card className="bg-gray-50">
-              <CardContent className="p-4">
-                <h4 className="font-semibold mb-2">Preview:</h4>
-                <div className="text-sm space-y-2">
-                  <div>
-                    <strong>Question:</strong> {formData.question}
-                  </div>
-                  <div>
-                    <strong>Choices:</strong>
-                    <div className="ml-4 space-y-1">
-                      {formData.choices.map((choice, index) => (
-                        <div
-                          key={index}
-                          className={cn(
-                            "flex items-center gap-2",
-                            choice === formData.correctAnswer &&
-                              "text-green-600 font-semibold"
-                          )}
-                        >
-                          <span>{String.fromCharCode(65 + index)}.</span>
-                          <span>
-                            {choice ||
-                              `Choice ${String.fromCharCode(65 + index)}`}
-                          </span>
-                          {choice === formData.correctAnswer && (
-                            <Badge className="bg-green-500 text-white text-xs">
-                              Correct
-                            </Badge>
-                          )}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          )}
-
           <DialogFooter>
             <Button
               type="button"
@@ -384,7 +311,7 @@ const AddQuestionForm = ({ skills, onQuestionAdded }: AddQuestionFormProps) => {
               Cancel
             </Button>
             <Button type="submit" disabled={isSubmitting}>
-              {isSubmitting ? "Saving..." : "Add Question"}
+              {isSubmitting ? "Submitting..." : "Submit for Review"}
             </Button>
           </DialogFooter>
         </form>
