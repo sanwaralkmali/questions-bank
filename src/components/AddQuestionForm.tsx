@@ -31,8 +31,16 @@ import {
 } from "@/lib/questionUtils";
 import { toast } from "sonner";
 
+interface Skill {
+  id: string;
+  title: string;
+  description: string;
+  difficulty: string;
+  color: string;
+}
+
 interface AddQuestionFormProps {
-  skills: Array<{ id: string; title: string }>;
+  skills: Skill[];
   onQuestionAdded: () => void;
 }
 
@@ -249,7 +257,23 @@ const AddQuestionForm = ({ skills, onQuestionAdded }: AddQuestionFormProps) => {
                 <SelectContent>
                   {skills.map((skill) => (
                     <SelectItem key={skill.id} value={skill.id}>
-                      {skill.title}
+                      <div className="flex items-center justify-between w-full">
+                        <span>{skill.title}</span>
+                        <Badge
+                          variant="outline"
+                          className={cn(
+                            "ml-2 text-xs",
+                            skill.difficulty === "Easy" &&
+                              "border-green-200 text-green-700 bg-green-50",
+                            skill.difficulty === "Medium" &&
+                              "border-yellow-200 text-yellow-700 bg-yellow-50",
+                            skill.difficulty === "Hard" &&
+                              "border-red-200 text-red-700 bg-red-50"
+                          )}
+                        >
+                          {skill.difficulty}
+                        </Badge>
+                      </div>
                     </SelectItem>
                   ))}
                 </SelectContent>

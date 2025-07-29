@@ -30,6 +30,15 @@ interface SkillData {
   questions: Question[];
 }
 
+// Add interface for skills with difficulty
+interface Skill {
+  id: string;
+  title: string;
+  description: string;
+  difficulty: string;
+  color: string;
+}
+
 // Helper function to render text with LaTeX expressions
 const renderMathText = (text: string) => {
   // Split text by LaTeX delimiters
@@ -56,9 +65,7 @@ const renderMathText = (text: string) => {
 };
 
 const DebugQuestions = () => {
-  const [skills, setSkills] = useState<Array<{ id: string; title: string }>>(
-    []
-  );
+  const [skills, setSkills] = useState<Skill[]>([]);
   const [selectedSkill, setSelectedSkill] = useState<string>("");
   const [skillData, setSkillData] = useState<SkillData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -70,7 +77,17 @@ const DebugQuestions = () => {
       try {
         const response = await fetch("/data/games.json");
         const skillsData = await response.json();
-        setSkills(skillsData);
+
+        // Sort skills by difficulty: Easy -> Medium -> Hard
+        const sortedSkills = skillsData.sort((a: Skill, b: Skill) => {
+          const difficultyOrder = { Easy: 1, Medium: 2, Hard: 3 };
+          return (
+            difficultyOrder[a.difficulty as keyof typeof difficultyOrder] -
+            difficultyOrder[b.difficulty as keyof typeof difficultyOrder]
+          );
+        });
+
+        setSkills(sortedSkills);
       } catch (error) {
         console.error("Failed to load skills:", error);
       } finally {
@@ -165,7 +182,23 @@ const DebugQuestions = () => {
                   <SelectContent>
                     {skills.map((skill) => (
                       <SelectItem key={skill.id} value={skill.id}>
-                        {skill.title}
+                        <div className="flex items-center justify-between w-full">
+                          <span>{skill.title}</span>
+                          <Badge
+                            variant="outline"
+                            className={cn(
+                              "ml-2 text-xs",
+                              skill.difficulty === "Easy" &&
+                                "border-green-200 text-green-700 bg-green-50",
+                              skill.difficulty === "Medium" &&
+                                "border-yellow-200 text-yellow-700 bg-yellow-50",
+                              skill.difficulty === "Hard" &&
+                                "border-red-200 text-red-700 bg-red-50"
+                            )}
+                          >
+                            {skill.difficulty}
+                          </Badge>
+                        </div>
                       </SelectItem>
                     ))}
                   </SelectContent>
