@@ -1,0 +1,3243 @@
+{
+  "title": "Factoring by Grouping",
+  "description": "Factor the given expression by grouping",
+  "waves": 5,
+  "timePerQuestion": 75,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+3x+6$",
+      "choices": [
+        "$(x+2)(x-3)$",
+        "$(x+2)(x+3)$",
+        "$(x+2)(x+5)$",
+        "$(x+3)(x+4)$"
+      ],
+      "answer": "$(x+2)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+4x+3x+12$",
+      "choices": [
+        "$(x+2)(x+3)$",
+        "$(x+3)(x+4)$",
+        "$(x+4)(x+5)$",
+        "$(x+3)(x-4)$"
+      ],
+      "answer": "$(x+3)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+4x+8$",
+      "choices": [
+        "$(x+2)(x+4)$",
+        "$(x+2)(x-4)$",
+        "$(x+1)(x+4)$",
+        "$(x+2)(x+3)$"
+      ],
+      "answer": "$(x+2)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+2x+6$",
+      "choices": [
+        "$(x+2)(x+2)$",
+        "$(x-2)(x-3)$",
+        "$(x+2)(x+3)$",
+        "$(x+1)(x+3)$"
+      ],
+      "answer": "$(x+2)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+4x+8$",
+      "choices": [
+        "$(x+2)(x+6)$",
+        "$(x+4)(x+4)$",
+        "$(x+2)(x-4)$",
+        "$(x+2)(x+4)$"
+      ],
+      "answer": "$(x+2)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+x+x+1$",
+      "choices": [
+        "$(x+1)(x+3)$",
+        "$(x+1)(x+2)$",
+        "$(x+1)(x-1)$",
+        "$(x+1)(x+1)$"
+      ],
+      "answer": "$(x+1)(x+1)$",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+5x+15$",
+      "choices": [
+        "$(x+5)(x+5)$",
+        "$(x-3)(x-5)$",
+        "$(x+3)(x+6)$",
+        "$(x+3)(x+5)$"
+      ],
+      "answer": "$(x+3)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+5x+10$",
+      "choices": [
+        "$(x+1)(x+5)$",
+        "$(x+2)(x+6)$",
+        "$(x+5)(x-2)$",
+        "$(x+2)(x+5)$"
+      ],
+      "answer": "$(x+2)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+4x+20$",
+      "choices": [
+        "$(x+4)(x+5)$",
+        "$(x+2)(x+5)$",
+        "$(x+4)(x-5)$",
+        "$(x+4)(x+6)$"
+      ],
+      "answer": "$(x+4)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+3x+9$",
+      "choices": [
+        "$(x+1)(x+3)$",
+        "$(x+3)(x+4)$",
+        "$(x+3)(x+3)$",
+        "$(x-3)(x-3)$"
+      ],
+      "answer": "$(x+3)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+4x+20$",
+      "choices": [
+        "$(x+5)(x+5)$",
+        "$(x+5)(x-4)$",
+        "$(x+4)(x+7)$",
+        "$(x+4)(x+5)$"
+      ],
+      "answer": "$(x+4)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+5x+25$",
+      "choices": [
+        "$(x+5)(x+6)$",
+        "$(x+5)(x+5)$",
+        "$(x+5)(x-5)$",
+        "$(x+5)(x+7)$"
+      ],
+      "answer": "$(x+5)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+2x+10$",
+      "choices": [
+        "$(x+1)(x+5)$",
+        "$(x+2)(x+5)$",
+        "$(x+2)(x+4)$",
+        "$(x-2)(x-5)$"
+      ],
+      "answer": "$(x+2)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+4x+12$",
+      "choices": [
+        "$(x+4)(x+5)$",
+        "$(x+4)(x-3)$",
+        "$(x+3)(x+5)$",
+        "$(x+3)(x+4)$"
+      ],
+      "answer": "$(x+3)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+2x+4$",
+      "choices": [
+        "$(x-2)(x-2)$",
+        "$(x+2)(x-2)$",
+        "$(x+2)(x+2)$",
+        "$(x+2)(x+4)$"
+      ],
+      "answer": "$(x+2)(x+2)$",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+5x+10$",
+      "choices": [
+        "$(x+2)(x+3)$",
+        "$(x+3)(x+5)$",
+        "$(x+5)(x-2)$",
+        "$(x+2)(x+5)$"
+      ],
+      "answer": "$(x+2)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+2x+4$",
+      "choices": [
+        "$(x+1)(x+2)$",
+        "$(x+2)(x+2)$",
+        "$(x-2)(x-2)$",
+        "$(x+2)(x+3)$"
+      ],
+      "answer": "$(x+2)(x+2)$",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+x+x+1$",
+      "choices": ["$(x+1)(x+3)$", "$(x-1)(x-1)$", "$(x)(x+1)$", "$(x+1)(x+1)$"],
+      "answer": "$(x+1)(x+1)$",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+x+2x+2$",
+      "choices": [
+        "$(x+2)(x-1)$",
+        "$(x+1)(x-2)$",
+        "$(x+1)(x+3)$",
+        "$(x+1)(x+2)$"
+      ],
+      "answer": "$(x+1)(x+2)$",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+3x+9$",
+      "choices": [
+        "$(x+1)(x+3)$",
+        "$(x+3)(x+3)$",
+        "$(x+3)(x-3)$",
+        "$(x+3)(x+5)$"
+      ],
+      "answer": "$(x+3)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+x+2$",
+      "choices": [
+        "$(x+1)(x+2)$",
+        "$(x+1)(x+4)$",
+        "$(x-1)(x-2)$",
+        "$(x+2)(x-1)$"
+      ],
+      "answer": "$(x+1)(x+2)$",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+x+3$",
+      "choices": ["$(x-1)(x-3)$", "$(x+1)(x+3)$", "$(x+1)(x+2)$", "$(x)(x+3)$"],
+      "answer": "$(x+1)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+4x+12$",
+      "choices": [
+        "$(x+3)(x+4)$",
+        "$(x+3)(x+6)$",
+        "$(x+4)(x+5)$",
+        "$(x+3)(x-4)$"
+      ],
+      "answer": "$(x+3)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+5x+25$",
+      "choices": [
+        "$(x+5)(x-5)$",
+        "$(x+5)(x+5)$",
+        "$(x+4)(x+5)$",
+        "$(x+5)(x+7)$"
+      ],
+      "answer": "$(x+5)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+x+2$",
+      "choices": [
+        "$(x+2)(x-1)$",
+        "$(x+1)(x+2)$",
+        "$(x+1)(x+3)$",
+        "$(x+2)(x+2)$"
+      ],
+      "answer": "$(x+1)(x+2)$",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+2x+6$",
+      "choices": [
+        "$(x+2)(x-3)$",
+        "$(x+3)(x+4)$",
+        "$(x+2)(x+3)$",
+        "$(x+1)(x+2)$"
+      ],
+      "answer": "$(x+2)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+3x+9$",
+      "choices": [
+        "$(x+3)(x+4)$",
+        "$(x-3)(x-3)$",
+        "$(x+3)(x+3)$",
+        "$(x+3)(x+5)$"
+      ],
+      "answer": "$(x+3)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+2x+10$",
+      "choices": [
+        "$(x+2)(x+3)$",
+        "$(x+5)(x-2)$",
+        "$(x+2)(x+5)$",
+        "$(x+1)(x+5)$"
+      ],
+      "answer": "$(x+2)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+4x+8$",
+      "choices": [
+        "$(x+2)(x-4)$",
+        "$(x+3)(x+4)$",
+        "$(x+2)(x+6)$",
+        "$(x+2)(x+4)$"
+      ],
+      "answer": "$(x+2)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+x+2$",
+      "choices": [
+        "$(x+2)(x+2)$",
+        "$(x+1)(x+2)$",
+        "$(x+1)(x+1)$",
+        "$(x+2)(x-1)$"
+      ],
+      "answer": "$(x+1)(x+2)$",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+4x+20$",
+      "choices": [
+        "$(x+4)(x-5)$",
+        "$(x+4)(x+5)$",
+        "$(x+4)(x+6)$",
+        "$(x+3)(x+5)$"
+      ],
+      "answer": "$(x+4)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+3x+9$",
+      "choices": [
+        "$(x+3)(x-3)$",
+        "$(x+3)(x+3)$",
+        "$(x+2)(x+3)$",
+        "$(x+1)(x+3)$"
+      ],
+      "answer": "$(x+3)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+4x+12$",
+      "choices": [
+        "$(x+3)(x+5)$",
+        "$(x+4)(x-3)$",
+        "$(x+3)(x+4)$",
+        "$(x+4)(x+4)$"
+      ],
+      "answer": "$(x+3)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+x+3$",
+      "choices": [
+        "$(x+1)(x+3)$",
+        "$(x+1)(x+1)$",
+        "$(x+1)(x-3)$",
+        "$(x+3)(x-1)$"
+      ],
+      "answer": "$(x+1)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+x+5x+5$",
+      "choices": [
+        "$(x+1)(x-5)$",
+        "$(x+1)(x+5)$",
+        "$(x+1)(x+4)$",
+        "$(x+3)(x+5)$"
+      ],
+      "answer": "$(x+1)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+2x+10$",
+      "choices": [
+        "$(x+2)(x+5)$",
+        "$(x-2)(x-5)$",
+        "$(x+2)(x+4)$",
+        "$(x+3)(x+5)$"
+      ],
+      "answer": "$(x+2)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+4x+2x+8$",
+      "choices": [
+        "$(x-2)(x-4)$",
+        "$(x+2)(x+6)$",
+        "$(x+2)(x+4)$",
+        "$(x+3)(x+4)$"
+      ],
+      "answer": "$(x+2)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+3x+9$",
+      "choices": [
+        "$(x+3)(x+3)$",
+        "$(x+3)(x-3)$",
+        "$(x+1)(x+3)$",
+        "$(x+2)(x+3)$"
+      ],
+      "answer": "$(x+3)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+2x+10$",
+      "choices": [
+        "$(x+2)(x+3)$",
+        "$(x+2)(x+5)$",
+        "$(x+3)(x+5)$",
+        "$(x+2)(x-5)$"
+      ],
+      "answer": "$(x+2)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+4x+x+4$",
+      "choices": [
+        "$(x+4)(x-1)$",
+        "$(x+1)(x-4)$",
+        "$(x+1)(x+4)$",
+        "$(x+1)(x+3)$"
+      ],
+      "answer": "$(x+1)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+3x+9$",
+      "choices": [
+        "$(x+1)(x+3)$",
+        "$(x+3)(x+4)$",
+        "$(x+3)(x+3)$",
+        "$(x-3)(x-3)$"
+      ],
+      "answer": "$(x+3)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+x+5$",
+      "choices": ["$(x+5)(x-1)$", "$(x)(x+5)$", "$(x+1)(x+5)$", "$(x+1)(x+4)$"],
+      "answer": "$(x+1)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+4x+2x+8$",
+      "choices": [
+        "$(x-2)(x-4)$",
+        "$(x+2)(x+6)$",
+        "$(x+4)(x+4)$",
+        "$(x+2)(x+4)$"
+      ],
+      "answer": "$(x+2)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+4x+8$",
+      "choices": [
+        "$(x+1)(x+4)$",
+        "$(x+2)(x+4)$",
+        "$(x+4)(x-2)$",
+        "$(x+2)(x+2)$"
+      ],
+      "answer": "$(x+2)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+2x+4$",
+      "choices": [
+        "$(x+2)(x+2)$",
+        "$(x+2)(x-2)$",
+        "$(x+2)(x+4)$",
+        "$(x+1)(x+2)$"
+      ],
+      "answer": "$(x+2)(x+2)$",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+3x+15$",
+      "choices": [
+        "$(x+3)(x+5)$",
+        "$(x-3)(x-5)$",
+        "$(x+2)(x+5)$",
+        "$(x+3)(x+3)$"
+      ],
+      "answer": "$(x+3)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+2x+3x+6$",
+      "choices": [
+        "$(x+2)(x+3)$",
+        "$(x+3)(x+3)$",
+        "$(x-2)(x-3)$",
+        "$(x+2)(x+4)$"
+      ],
+      "answer": "$(x+2)(x+3)$",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+3x+4x+12$",
+      "choices": [
+        "$(x+4)(x+4)$",
+        "$(x+3)(x+3)$",
+        "$(x-3)(x-4)$",
+        "$(x+3)(x+4)$"
+      ],
+      "answer": "$(x+3)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+4x+4x+16$",
+      "choices": [
+        "$(x+3)(x+4)$",
+        "$(x+4)(x+6)$",
+        "$(x+4)(x+4)$",
+        "$(x+4)(x-4)$"
+      ],
+      "answer": "$(x+4)(x+4)$",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "Factor by grouping: $x^2+5x+3x+15$",
+      "choices": [
+        "$(x+4)(x+5)$",
+        "$(x+3)(x-5)$",
+        "$(x+3)(x+5)$",
+        "$(x+3)(x+7)$"
+      ],
+      "answer": "$(x+3)(x+5)$",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+5x+6x+15$",
+      "choices": [
+        "$(2x+5)(x+3)$",
+        "$(2x+7)(x+3)$",
+        "$(2x+5)(x-3)$",
+        "$(2x+5)(x+1)$"
+      ],
+      "answer": "$(2x+5)(x+3)$",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-3x-15x+15$",
+      "choices": [
+        "$(3x-3)(x-5)$",
+        "$(3x-3)(x-3)$",
+        "$(3x+3)(x-5)$",
+        "$(3x-5)(x-5)$"
+      ],
+      "answer": "$(3x-3)(x-5)$",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2+x+6x+2$",
+      "choices": [
+        "$(3x+1)(x+1)$",
+        "$(3x+1)(x+2)$",
+        "$(3x-1)(x+2)$",
+        "$(3x+1)(x-2)$"
+      ],
+      "answer": "$(3x+1)(x+2)$",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-6x+5x-10$",
+      "choices": [
+        "$(3x+3)(x-2)$",
+        "$(3x+5)(x+2)$",
+        "$(3x+5)(x-3)$",
+        "$(3x+5)(x-2)$"
+      ],
+      "answer": "$(3x+5)(x-2)$",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2-6x-4x+12$",
+      "choices": [
+        "$(2x-2)(x-3)$",
+        "$(2x-4)(x-1)$",
+        "$(2x-4)(x-3)$",
+        "$(2x-4)(x+3)$"
+      ],
+      "answer": "$(2x-4)(x-3)$",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2-4x-8x+16$",
+      "choices": [
+        "$(2x-4)(x-6)$",
+        "$(2x-4)(x+4)$",
+        "$(2x-4)(x-4)$",
+        "$(2x-2)(x-4)$"
+      ],
+      "answer": "$(2x-4)(x-4)$",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+8x-2x-8$",
+      "choices": [
+        "$(2x-2)(x+2)$",
+        "$(2x-2)(x+4)$",
+        "$(2x+2)(x+4)$",
+        "$(2x-1)(x+4)$"
+      ],
+      "answer": "$(2x-2)(x+4)$",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2-2x+3x-6$",
+      "choices": [
+        "$(x+3)(x-4)$",
+        "$(x+2)(x-2)$",
+        "$(x+2)(x+3)$",
+        "$(x+3)(x-2)$"
+      ],
+      "answer": "$(x+3)(x-2)$",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2+2x-15x-10$",
+      "choices": [
+        "$(3x+2)(x+5)$",
+        "$(3x+3)(x-5)$",
+        "$(3x+2)(x-7)$",
+        "$(3x+2)(x-5)$"
+      ],
+      "answer": "$(3x+2)(x-5)$",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+6x-x-3$",
+      "choices": [
+        "$(2x-1)(x+2)$",
+        "$(2x-1)(x+3)$",
+        "$(2x-1)(x-3)$",
+        "$(2x+1)(x+3)$"
+      ],
+      "answer": "$(2x-1)(x+3)$",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-9x+3x-9$",
+      "choices": [
+        "$(3x-3)(x-3)$",
+        "$(3x+3)(x-2)$",
+        "$(3x+3)(x-3)$",
+        "$(3x+4)(x-3)$"
+      ],
+      "answer": "$(3x+3)(x-3)$",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2-3x-x+3$",
+      "choices": [
+        "$(x+1)(x-3)$",
+        "$(x-1)(x-2)$",
+        "$(x+3)(x-1)$",
+        "$(x-1)(x-3)$"
+      ],
+      "answer": "$(x-1)(x-3)$",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-x-9x+3$",
+      "choices": [
+        "$(3x-3)(x-3)$",
+        "$(3x-1)(x+3)$",
+        "$(3x-1)(x-3)$",
+        "$(3x-1)(x-5)$"
+      ],
+      "answer": "$(3x-1)(x-3)$",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2-5x-x+5$",
+      "choices": [
+        "$(x-2)(x-5)$",
+        "$(x-1)(x-4)$",
+        "$(x-1)(x-5)$",
+        "$(x+5)(x-1)$"
+      ],
+      "answer": "$(x-1)(x-5)$",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2+2x+4x+8$",
+      "choices": [
+        "$(x+4)(x+4)$",
+        "$(x+2)(x+4)$",
+        "$(x+2)(x+6)$",
+        "$(x+4)(x-2)$"
+      ],
+      "answer": "$(x+2)(x+4)$",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+4x-x-2$",
+      "choices": [
+        "$(2x-1)(x+2)$",
+        "$(2x-2)(x+2)$",
+        "$(2x-1)(x+4)$",
+        "$(2x-1)(x-2)$"
+      ],
+      "answer": "$(2x-1)(x+2)$",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+10x-4x-20$",
+      "choices": [
+        "$(2x-4)(x+7)$",
+        "$(2x-3)(x+5)$",
+        "$(2x-4)(x+5)$",
+        "$(2x+4)(x+5)$"
+      ],
+      "answer": "$(2x-4)(x+5)$",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+x-10x-5$",
+      "choices": [
+        "$(2x+1)(x-6)$",
+        "$(2x+1)(x-5)$",
+        "$(2x-1)(x+5)$",
+        "$(2x+3)(x-5)$"
+      ],
+      "answer": "$(2x+1)(x-5)$",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2-8x+5x-20$",
+      "choices": [
+        "$(2x+5)(x-4)$",
+        "$(2x+5)(x-3)$",
+        "$(2x+4)(x-4)$",
+        "$(2x-5)(x-4)$"
+      ],
+      "answer": "$(2x+5)(x-4)$",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2+3x-x-3$",
+      "choices": [
+        "$(x+1)(x+3)$",
+        "$(x-1)(x-3)$",
+        "$(x+3)(x-1)$",
+        "$(x+4)(x-1)$"
+      ],
+      "answer": "$(x+3)(x-1)$",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+4x+8x+16$",
+      "choices": [
+        "$(2x+2)(x+4)$",
+        "$(2x+4)(x+4)$",
+        "$(2x+4)(x-4)$",
+        "$(2x+4)(x+3)$"
+      ],
+      "answer": "$(2x+4)(x+4)$",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-3x+x-1$",
+      "choices": [
+        "$(3x)(x-1)$",
+        "$(3x+1)(x-1)$",
+        "$(3x+1)(x-3)$",
+        "$(3x-1)(x-1)$"
+      ],
+      "answer": "$(3x+1)(x-1)$",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+4x+4x+8$",
+      "choices": [
+        "$(2x-4)(x-2)$",
+        "$(2x+4)(x+1)$",
+        "$(2x+4)(x+2)$",
+        "$(2x+5)(x+2)$"
+      ],
+      "answer": "$(2x+4)(x+2)$",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-x-6x+2$",
+      "choices": [
+        "$(3x-1)(x-1)$",
+        "$(3x)(x-2)$",
+        "$(3x-1)(x-2)$",
+        "$(3x+1)(x+2)$"
+      ],
+      "answer": "$(3x-1)(x-2)$",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2-8x-2x+8$",
+      "choices": [
+        "$(2x-2)(x-4)$",
+        "$(2x+2)(x+4)$",
+        "$(2x-2)(x-5)$",
+        "$(2x-4)(x-4)$"
+      ],
+      "answer": "$(2x-2)(x-4)$",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2-2x+3x-6$",
+      "choices": [
+        "$(x+3)(x-1)$",
+        "$(x+5)(x-2)$",
+        "$(x+2)(x+3)$",
+        "$(x+3)(x-2)$"
+      ],
+      "answer": "$(x+3)(x-2)$",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-3x+x-1$",
+      "choices": [
+        "$(3x+1)(x-2)$",
+        "$(3x+3)(x-1)$",
+        "$(3x-1)(x-1)$",
+        "$(3x+1)(x-1)$"
+      ],
+      "answer": "$(3x+1)(x-1)$",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2+9x+4x+12$",
+      "choices": [
+        "$(3x+4)(x+3)$",
+        "$(3x+4)(x-3)$",
+        "$(3x+4)(x+5)$",
+        "$(3x+5)(x+3)$"
+      ],
+      "answer": "$(3x+4)(x+3)$",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-6x-3x+6$",
+      "choices": [
+        "$(3x-4)(x-2)$",
+        "$(3x-3)(x-2)$",
+        "$(3x+3)(x-2)$",
+        "$(3x-3)(x-1)$"
+      ],
+      "answer": "$(3x-3)(x-2)$",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2-5x+2x-10$",
+      "choices": [
+        "$(x-2)(x-5)$",
+        "$(x+2)(x-6)$",
+        "$(x+4)(x-5)$",
+        "$(x+2)(x-5)$"
+      ],
+      "answer": "$(x+2)(x-5)$",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2-3x+5x-15$",
+      "choices": [
+        "$(x+5)(x-2)$",
+        "$(x+5)(x-3)$",
+        "$(x+3)(x-5)$",
+        "$(x+4)(x-3)$"
+      ],
+      "answer": "$(x+5)(x-3)$",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+8x+x+4$",
+      "choices": [
+        "$(2x+1)(x+2)$",
+        "$(2x+2)(x+4)$",
+        "$(2x+1)(x-4)$",
+        "$(2x+1)(x+4)$"
+      ],
+      "answer": "$(2x+1)(x+4)$",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-4x-12x+16$",
+      "choices": [
+        "$(3x-4)(x-2)$",
+        "$(3x-4)(x+4)$",
+        "$(3x-4)(x-4)$",
+        "$(3x-3)(x-4)$"
+      ],
+      "answer": "$(3x-4)(x-4)$",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2+5x-4x-20$",
+      "choices": [
+        "$(x+5)(x-2)$",
+        "$(x+6)(x-4)$",
+        "$(x+5)(x-4)$",
+        "$(x+4)(x-5)$"
+      ],
+      "answer": "$(x+5)(x-4)$",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+4x+5x+10$",
+      "choices": [
+        "$(2x+5)(x-2)$",
+        "$(2x+5)(x+2)$",
+        "$(2x+5)(x+4)$",
+        "$(2x+6)(x+2)$"
+      ],
+      "answer": "$(2x+5)(x+2)$",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-4x+12x-16$",
+      "choices": [
+        "$(3x-4)(x+3)$",
+        "$(3x-4)(x+4)$",
+        "$(3x+4)(x+4)$",
+        "$(3x-5)(x+4)$"
+      ],
+      "answer": "$(3x-4)(x+4)$",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2-2x-5x+10$",
+      "choices": [
+        "$(x-2)(x-5)$",
+        "$(x-3)(x-5)$",
+        "$(x+2)(x+5)$",
+        "$(x-2)(x-4)$"
+      ],
+      "answer": "$(x-2)(x-5)$",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+10x+x+5$",
+      "choices": [
+        "$(2x-1)(x+5)$",
+        "$(2x+1)(x+5)$",
+        "$(2x+1)(x-5)$",
+        "$(2x+1)(x+4)$"
+      ],
+      "answer": "$(2x+1)(x+5)$",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2+8x-2x-8$",
+      "choices": [
+        "$(2x-2)(x+2)$",
+        "$(2x-2)(x+4)$",
+        "$(2x-2)(x+4)$",
+        "$(2x-1)(x+4)$"
+      ],
+      "answer": "$(2x-2)(x+4)$",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2+3x+x+3$",
+      "choices": [
+        "$(x+1)(x+3)$",
+        "$(x+1)(x+2)$",
+        "$(x+3)(x-1)$",
+        "$(x+3)(x+3)$"
+      ],
+      "answer": "$(x+1)(x+3)$",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2+3x-x-3$",
+      "choices": [
+        "$(x+3)(x-1)$",
+        "$(x+5)(x-1)$",
+        "$(x-1)(x-3)$",
+        "$(x+3)(x-2)$"
+      ],
+      "answer": "$(x+3)(x-1)$",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-15x-4x+20$",
+      "choices": [
+        "$(3x-4)(x+5)$",
+        "$(3x-4)(x-4)$",
+        "$(3x-3)(x-5)$",
+        "$(3x-4)(x-5)$"
+      ],
+      "answer": "$(3x-4)(x-5)$",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2-4x+2x-4$",
+      "choices": [
+        "$(2x+4)(x-2)$",
+        "$(2x+2)(x-4)$",
+        "$(2x+2)(x+2)$",
+        "$(2x+2)(x-2)$"
+      ],
+      "answer": "$(2x+2)(x-2)$",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-4x+6x-8$",
+      "choices": [
+        "$(3x-4)(x+1)$",
+        "$(3x-3)(x+2)$",
+        "$(3x-4)(x+2)$",
+        "$(3x+4)(x-2)$"
+      ],
+      "answer": "$(3x-4)(x+2)$",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2-5x-x+5$",
+      "choices": [
+        "$(x-1)(x-3)$",
+        "$(x+1)(x+5)$",
+        "$(x-3)(x-5)$",
+        "$(x-1)(x-5)$"
+      ],
+      "answer": "$(x-1)(x-5)$",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-15x+2x-10$",
+      "choices": [
+        "$(3x+2)(x-3)$",
+        "$(3x+2)(x-5)$",
+        "$(3x-2)(x+5)$",
+        "$(3x+4)(x-5)$"
+      ],
+      "answer": "$(3x+2)(x-5)$",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2-4x+6x-8$",
+      "choices": [
+        "$(3x-4)(x+1)$",
+        "$(3x-2)(x+2)$",
+        "$(3x+4)(x-2)$",
+        "$(3x-4)(x+2)$"
+      ],
+      "answer": "$(3x-4)(x+2)$",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Factor by grouping: $2x^2-x+10x-5$",
+      "choices": [
+        "$(2x)(x+5)$",
+        "$(2x+1)(x+5)$",
+        "$(2x-1)(x+5)$",
+        "$(2x-1)(x+4)$"
+      ],
+      "answer": "$(2x-1)(x+5)$",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Factor by grouping: $x^2-4x+4x-16$",
+      "choices": [
+        "$(x+4)(x-5)$",
+        "$(x+4)(x+4)$",
+        "$(x+5)(x-4)$",
+        "$(x+4)(x-4)$"
+      ],
+      "answer": "$(x+4)(x-4)$",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Factor by grouping: $3x^2+3x-9x-9$",
+      "choices": [
+        "$(3x+3)(x-3)$",
+        "$(3x+1)(x-3)$",
+        "$(3x+3)(x+3)$",
+        "$(3x+3)(x-1)$"
+      ],
+      "answer": "$(3x+3)(x-3)$",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2-7x-21x+49$",
+      "choices": [
+        "$(3x-9)(x-7)$",
+        "$(3x-7)(x-8)$",
+        "$(3x-7)(x+7)$",
+        "$(3x-7)(x-7)$"
+      ],
+      "answer": "$(3x-7)(x-7)$",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Factor by grouping: $16x^2-4x-4x+1$",
+      "choices": [
+        "$(4x-1)(4x-3)$",
+        "$(4x-1)(4x-1)$",
+        "$(4x+1)(4x-1)$",
+        "$(4x-1)(4x-2)$"
+      ],
+      "answer": "$(4x-1)(4x-1)$",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Factor by grouping: $12x^2+12x+18x+18$",
+      "choices": [
+        "$(3x+2)(4x+6)$",
+        "$(3x+3)(4x+6)$",
+        "$(3x-3)(4x+6)$",
+        "$(3x+3)(4x+8)$"
+      ],
+      "answer": "$(3x+3)(4x+6)$",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Factor by grouping: $8x^2+12x-12x-18$",
+      "choices": [
+        "$(2x-3)(4x-6)$",
+        "$(2x-3)(4x+6)$",
+        "$(2x-2)(4x+6)$",
+        "$(2x-3)(4x+7)$"
+      ],
+      "answer": "$(2x-3)(4x+6)$",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2+8x-8x-16$",
+      "choices": [
+        "$(2x+4)(2x-4)$",
+        "$(2x+4)(2x+4)$",
+        "$(2x+6)(2x-4)$",
+        "$(2x+4)(2x-6)$"
+      ],
+      "answer": "$(2x+4)(2x-4)$",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Factor by grouping: $6x^2+15x-2x-5$",
+      "choices": [
+        "$(2x+5)(3x+1)$",
+        "$(2x+5)(3x-2)$",
+        "$(2x+3)(3x-1)$",
+        "$(2x+5)(3x-1)$"
+      ],
+      "answer": "$(2x+5)(3x-1)$",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2-3x-4x+3$",
+      "choices": [
+        "$(4x-3)(x-2)$",
+        "$(4x-3)(x+1)$",
+        "$(4x-3)(x-1)$",
+        "$(4x-2)(x-1)$"
+      ],
+      "answer": "$(4x-3)(x-1)$",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2+12x-4x-12$",
+      "choices": [
+        "$(2x+5)(2x-2)$",
+        "$(2x+6)(2x-4)$",
+        "$(2x+2)(2x-6)$",
+        "$(2x+6)(2x-2)$"
+      ],
+      "answer": "$(2x+6)(2x-2)$",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2-12x-2x+8$",
+      "choices": [
+        "$(3x-2)(x-4)$",
+        "$(3x-2)(x+4)$",
+        "$(3x-2)(x-3)$",
+        "$(3x-3)(x-4)$"
+      ],
+      "answer": "$(3x-2)(x-4)$",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Factor by grouping: $6x^2+6x+6x+6$",
+      "choices": [
+        "$(2x+1)(3x+3)$",
+        "$(2x+2)(3x+3)$",
+        "$(2x-2)(3x-3)$",
+        "$(2x+2)(3x+4)$"
+      ],
+      "answer": "$(2x+2)(3x+3)$",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Factor by grouping: $16x^2+28x-8x-14$",
+      "choices": [
+        "$(4x+2)(4x-7)$",
+        "$(4x+7)(4x-2)$",
+        "$(4x+8)(4x-2)$",
+        "$(4x+7)(4x-1)$"
+      ],
+      "answer": "$(4x+7)(4x-2)$",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Factor by grouping: $9x^2+3x+18x+6$",
+      "choices": [
+        "$(3x+1)(3x+6)$",
+        "$(3x+1)(3x+4)$",
+        "$(3x-1)(3x-6)$",
+        "$(3x+2)(3x+6)$"
+      ],
+      "answer": "$(3x+1)(3x+6)$",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Factor by grouping: $2x^2+2x+10x+10$",
+      "choices": [
+        "$(2x+2)(x-5)$",
+        "$(2x+2)(x+3)$",
+        "$(2x+1)(x+5)$",
+        "$(2x+2)(x+5)$"
+      ],
+      "answer": "$(2x+2)(x+5)$",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2+x-21x-7$",
+      "choices": [
+        "$(3x+1)(x-9)$",
+        "$(3x-1)(x-7)$",
+        "$(3x+1)(x-7)$",
+        "$(3x)(x-7)$"
+      ],
+      "answer": "$(3x+1)(x-7)$",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Factor by grouping: $6x^2+4x+12x+8$",
+      "choices": [
+        "$(2x+4)(3x-2)$",
+        "$(2x+3)(3x+2)$",
+        "$(2x+4)(3x+2)$",
+        "$(2x+4)(3x+4)$"
+      ],
+      "answer": "$(2x+4)(3x+2)$",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2+12x-4x-16$",
+      "choices": [
+        "$(3x-4)(x+4)$",
+        "$(3x-4)(x+6)$",
+        "$(3x-6)(x+4)$",
+        "$(3x-4)(x-4)$"
+      ],
+      "answer": "$(3x-4)(x+4)$",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Factor by grouping: $9x^2+18x-3x-6$",
+      "choices": [
+        "$(3x+4)(3x-1)$",
+        "$(3x-1)(3x-6)$",
+        "$(3x+6)(3x-3)$",
+        "$(3x+6)(3x-1)$"
+      ],
+      "answer": "$(3x+6)(3x-1)$",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Factor by grouping: $6x^2-6x+21x-21$",
+      "choices": [
+        "$(2x+6)(3x-3)$",
+        "$(2x+7)(3x-3)$",
+        "$(2x+7)(3x-1)$",
+        "$(2x-7)(3x-3)$"
+      ],
+      "answer": "$(2x+7)(3x-3)$",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2+16x-6x-24$",
+      "choices": [
+        "$(4x-6)(x+6)$",
+        "$(4x-5)(x+4)$",
+        "$(4x-6)(x-4)$",
+        "$(4x-6)(x+4)$"
+      ],
+      "answer": "$(4x-6)(x+4)$",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Factor by grouping: $12x^2+18x-12x-18$",
+      "choices": [
+        "$(3x-3)(4x+6)$",
+        "$(3x-3)(4x+7)$",
+        "$(3x-2)(4x+6)$",
+        "$(3x+3)(4x+6)$"
+      ],
+      "answer": "$(3x-3)(4x+6)$",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Factor by grouping: $2x^2+7x-6x-21$",
+      "choices": [
+        "$(2x+7)(x+3)$",
+        "$(2x+7)(x-4)$",
+        "$(2x+7)(x-3)$",
+        "$(2x+5)(x-3)$"
+      ],
+      "answer": "$(2x+7)(x-3)$",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "Factor by grouping: $6x^2+21x-8x-28$",
+      "choices": [
+        "$(2x+7)(3x-6)$",
+        "$(2x+7)(3x-4)$",
+        "$(2x+5)(3x-4)$",
+        "$(2x-7)(3x+4)$"
+      ],
+      "answer": "$(2x+7)(3x-4)$",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2+2x+4x+2$",
+      "choices": [
+        "$(4x+2)(x+1)$",
+        "$(4x+2)(x+2)$",
+        "$(4x+2)(x-1)$",
+        "$(4x+3)(x+1)$"
+      ],
+      "answer": "$(4x+2)(x+1)$",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Factor by grouping: $6x^2-12x-15x+30$",
+      "choices": [
+        "$(2x-5)(3x-5)$",
+        "$(2x-6)(3x-6)$",
+        "$(2x-5)(3x+6)$",
+        "$(2x-5)(3x-6)$"
+      ],
+      "answer": "$(2x-5)(3x-6)$",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "Factor by grouping: $9x^2-9x+21x-21$",
+      "choices": [
+        "$(3x+7)(3x-3)$",
+        "$(3x+5)(3x-3)$",
+        "$(3x-3)(3x-7)$",
+        "$(3x+7)(3x-2)$"
+      ],
+      "answer": "$(3x+7)(3x-3)$",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2+14x-4x-14$",
+      "choices": [
+        "$(2x+9)(2x-2)$",
+        "$(2x+7)(2x-3)$",
+        "$(2x+2)(2x-7)$",
+        "$(2x+7)(2x-2)$"
+      ],
+      "answer": "$(2x+7)(2x-2)$",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2-x+15x-5$",
+      "choices": [
+        "$(3x+1)(x+5)$",
+        "$(3x-1)(x+5)$",
+        "$(3x-1)(x+6)$",
+        "$(3x-1)(x-5)$"
+      ],
+      "answer": "$(3x-1)(x+5)$",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "Factor by grouping: $12x^2-28x+3x-7$",
+      "choices": [
+        "$(3x-5)(4x+1)$",
+        "$(3x-7)(4x+2)$",
+        "$(3x-7)(4x+1)$",
+        "$(3x-7)(4x-1)$"
+      ],
+      "answer": "$(3x-7)(4x+1)$",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2+15x-6x-30$",
+      "choices": [
+        "$(3x-6)(x+5)$",
+        "$(3x+6)(x-5)$",
+        "$(3x-7)(x+5)$",
+        "$(3x-6)(x+3)$"
+      ],
+      "answer": "$(3x-6)(x+5)$",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "Factor by grouping: $6x^2+10x-9x-15$",
+      "choices": [
+        "$(2x-3)(3x+3)$",
+        "$(2x+3)(3x-5)$",
+        "$(2x-2)(3x+5)$",
+        "$(2x-3)(3x+5)$"
+      ],
+      "answer": "$(2x-3)(3x+5)$",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "Factor by grouping: $8x^2+12x-8x-12$",
+      "choices": [
+        "$(2x-2)(4x+6)$",
+        "$(2x-2)(4x+7)$",
+        "$(2x+2)(4x+6)$",
+        "$(2x-1)(4x+6)$"
+      ],
+      "answer": "$(2x-2)(4x+6)$",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2-4x-12x+12$",
+      "choices": [
+        "$(4x-3)(x-3)$",
+        "$(4x-4)(x-5)$",
+        "$(4x-4)(x+3)$",
+        "$(4x-4)(x-3)$"
+      ],
+      "answer": "$(4x-4)(x-3)$",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2+4x+5x+5$",
+      "choices": [
+        "$(4x-5)(x+1)$",
+        "$(4x+3)(x+1)$",
+        "$(4x+5)(x+1)$",
+        "$(4x+5)(x)$"
+      ],
+      "answer": "$(4x+5)(x+1)$",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2+7x+16x+28$",
+      "choices": [
+        "$(4x+7)(x+3)$",
+        "$(4x-7)(x+4)$",
+        "$(4x+7)(x+4)$",
+        "$(4x+8)(x+4)$"
+      ],
+      "answer": "$(4x+7)(x+4)$",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "Factor by grouping: $2x^2+7x+6x+21$",
+      "choices": [
+        "$(2x+7)(x+2)$",
+        "$(2x+6)(x+3)$",
+        "$(2x+7)(x+3)$",
+        "$(2x+7)(x-3)$"
+      ],
+      "answer": "$(2x+7)(x+3)$",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "Factor by grouping: $2x^2+2x-2x-2$",
+      "choices": [
+        "$(2x+4)(x-1)$",
+        "$(2x+1)(x-1)$",
+        "$(2x+2)(x+1)$",
+        "$(2x+2)(x-1)$"
+      ],
+      "answer": "$(2x+2)(x-1)$",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2-9x+7x-21$",
+      "choices": [
+        "$(3x+7)(x+3)$",
+        "$(3x+9)(x-3)$",
+        "$(3x+7)(x-3)$",
+        "$(3x+7)(x-2)$"
+      ],
+      "answer": "$(3x+7)(x-3)$",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "Factor by grouping: $12x^2-3x+20x-5$",
+      "choices": [
+        "$(3x-5)(4x+1)$",
+        "$(3x+5)(4x-1)$",
+        "$(3x+7)(4x-1)$",
+        "$(3x+5)(4x+1)$"
+      ],
+      "answer": "$(3x+5)(4x-1)$",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "Factor by grouping: $8x^2+8x-4x-4$",
+      "choices": [
+        "$(2x-2)(4x+2)$",
+        "$(2x+2)(4x-4)$",
+        "$(2x+1)(4x-2)$",
+        "$(2x+2)(4x-2)$"
+      ],
+      "answer": "$(2x+2)(4x-2)$",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "Factor by grouping: $2x^2+7x-4x-14$",
+      "choices": [
+        "$(2x-7)(x+2)$",
+        "$(2x+7)(x-1)$",
+        "$(2x+7)(x-2)$",
+        "$(2x+6)(x-2)$"
+      ],
+      "answer": "$(2x+7)(x-2)$",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2+5x+15x+25$",
+      "choices": [
+        "$(3x+5)(x-5)$",
+        "$(3x+5)(x+6)$",
+        "$(3x+7)(x+5)$",
+        "$(3x+5)(x+5)$"
+      ],
+      "answer": "$(3x+5)(x+5)$",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2+2x-10x-5$",
+      "choices": [
+        "$(2x+1)(2x-4)$",
+        "$(2x+1)(2x-5)$",
+        "$(2x+1)(2x+5)$",
+        "$(2x-1)(2x-5)$"
+      ],
+      "answer": "$(2x+1)(2x-5)$",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2-7x+12x-21$",
+      "choices": [
+        "$(4x+7)(x+3)$",
+        "$(4x-7)(x+3)$",
+        "$(4x-6)(x+3)$",
+        "$(4x-7)(x+2)$"
+      ],
+      "answer": "$(4x-7)(x+3)$",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Factor by grouping: $2x^2+x-12x-6$",
+      "choices": [
+        "$(2x+1)(x-6)$",
+        "$(2x-1)(x-6)$",
+        "$(2x+2)(x-6)$",
+        "$(2x+1)(x-4)$"
+      ],
+      "answer": "$(2x+1)(x-6)$",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2-5x+15x-25$",
+      "choices": [
+        "$(3x-5)(x-5)$",
+        "$(3x-5)(x+5)$",
+        "$(3x-5)(x+6)$",
+        "$(3x-3)(x+5)$"
+      ],
+      "answer": "$(3x-5)(x+5)$",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Factor by grouping: $8x^2-8x+20x-20$",
+      "choices": [
+        "$(2x+5)(4x-4)$",
+        "$(2x+5)(4x-5)$",
+        "$(2x+5)(4x+4)$",
+        "$(2x+3)(4x-4)$"
+      ],
+      "answer": "$(2x+5)(4x-4)$",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2-4x-4x+4$",
+      "choices": [
+        "$(4x-4)(x-1)$",
+        "$(4x-4)(x-2)$",
+        "$(4x-6)(x-1)$",
+        "$(4x+4)(x+1)$"
+      ],
+      "answer": "$(4x-4)(x-1)$",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Factor by grouping: $2x^2-12x+6x-36$",
+      "choices": [
+        "$(2x+6)(x-6)$",
+        "$(2x-6)(x+6)$",
+        "$(2x+8)(x-6)$",
+        "$(2x+6)(x-8)$"
+      ],
+      "answer": "$(2x+6)(x-6)$",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Factor by grouping: $3x^2-x-6x+2$",
+      "choices": [
+        "$(3x-1)(x+2)$",
+        "$(3x-1)(x-2)$",
+        "$(3x-1)(x-4)$",
+        "$(3x-3)(x-2)$"
+      ],
+      "answer": "$(3x-1)(x-2)$",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Factor by grouping: $4x^2+8x-6x-12$",
+      "choices": [
+        "$(4x-6)(x+2)$",
+        "$(4x+6)(x+2)$",
+        "$(4x-6)(x+3)$",
+        "$(4x-8)(x+2)$"
+      ],
+      "answer": "$(4x-6)(x+2)$",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Factor by grouping: $4x^2+12x+6x+18$",
+      "choices": [
+        "$(2x+3)(2x+6)$",
+        "$(2x+4)(2x+6)$",
+        "$(2x+3)(2x+8)$",
+        "$(2x+6)(2x-3)$"
+      ],
+      "answer": "$(2x+3)(2x+6)$",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Factor by grouping: $5x^2+25x-10x-50$",
+      "choices": [
+        "$(5x-10)(x+5)$",
+        "$(5x-10)(x+7)$",
+        "$(5x-11)(x+5)$",
+        "$(5x+10)(x+5)$"
+      ],
+      "answer": "$(5x-10)(x+5)$",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Factor by grouping: $-3x^2-8x+21x+56$",
+      "choices": [
+        "$(-3x-8)(x-8)$",
+        "$(-3x-8)(x+7)$",
+        "$(-3x-9)(x-7)$",
+        "$(-3x-8)(x-7)$"
+      ],
+      "answer": "$(-3x-8)(x-7)$",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Factor by grouping: $x^2-3x+10x-30$",
+      "choices": [
+        "$(-x+10)(-x+3)$",
+        "$(-x+2)(-x-10)$",
+        "$(-x+3)(-x-11)$",
+        "$(-x+3)(-x-10)$"
+      ],
+      "answer": "$(-x+3)(-x-10)$",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Factor by grouping: $5x^2+30x+9x+54$",
+      "choices": [
+        "$(-5x-7)(-x-6)$",
+        "$(-5x+9)(-x+6)$",
+        "$(-5x-9)(-x-7)$",
+        "$(-5x-9)(-x-6)$"
+      ],
+      "answer": "$(-5x-9)(-x-6)$",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Factor by grouping: $9x^2-6x+6x-4$",
+      "choices": [
+        "$(3x+2)(3x-4)$",
+        "$(3x+3)(3x-2)$",
+        "$(3x+2)(3x-2)$",
+        "$(3x-2)(3x-2)$"
+      ],
+      "answer": "$(3x+2)(3x-2)$",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Factor by grouping: $-6x^2-10x+12x+20$",
+      "choices": [
+        "$(-3x-5)(2x-4)$",
+        "$(-3x-5)(2x-3)$",
+        "$(-3x-7)(2x-4)$",
+        "$(3x+5)(-2x-4)$"
+      ],
+      "answer": "$(-3x-5)(2x-4)$",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Factor by grouping: $-5x^2+50x-5x+50$",
+      "choices": [
+        "$(-x+8)(5x+5)$",
+        "$(-x-10)(5x+5)$",
+        "$(-x+10)(5x+6)$",
+        "$(-x+10)(5x+5)$"
+      ],
+      "answer": "$(-x+10)(5x+5)$",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Factor by grouping: $15x^2+45x+3x+9$",
+      "choices": [
+        "$(3x+9)(5x+3)$",
+        "$(3x+10)(5x+1)$",
+        "$(3x+9)(5x+1)$",
+        "$(3x+9)(5x-1)$"
+      ],
+      "answer": "$(3x+9)(5x+1)$",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Factor by grouping: $3x^2+7x+3x+7$",
+      "choices": [
+        "$(3x-7)(x-1)$",
+        "$(3x+7)(x+1)$",
+        "$(3x+6)(x+1)$",
+        "$(3x+7)(x+3)$"
+      ],
+      "answer": "$(3x+7)(x+1)$",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Factor by grouping: $2x^2+6x-4x-12$",
+      "choices": [
+        "$(2x+6)(x-2)$",
+        "$(2x-6)(x+2)$",
+        "$(2x-6)(x+4)$",
+        "$(2x-4)(x+2)$"
+      ],
+      "answer": "$(2x-6)(x+2)$",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Factor by grouping: $15x^2-3x+20x-4$",
+      "choices": [
+        "$(3x+4)(5x-1)$",
+        "$(3x+6)(5x-1)$",
+        "$(3x+4)(5x+1)$",
+        "$(3x+4)(5x)$"
+      ],
+      "answer": "$(3x+4)(5x-1)$",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Factor by grouping: $8x^2+2x-24x-6$",
+      "choices": [
+        "$(2x-8)(4x+1)$",
+        "$(2x-6)(4x)$",
+        "$(2x-6)(4x+1)$",
+        "$(2x+6)(4x+1)$"
+      ],
+      "answer": "$(2x-6)(4x+1)$",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Factor by grouping: $9x^2+30x-6x-20$",
+      "choices": [
+        "$(3x+10)(3x-1)$",
+        "$(3x-10)(3x-2)$",
+        "$(3x+10)(3x-2)$",
+        "$(3x+8)(3x-2)$"
+      ],
+      "answer": "$(3x+10)(3x-2)$",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Factor by grouping: $4x^2-6x-20x+30$",
+      "choices": [
+        "$(2x-10)(2x-4)$",
+        "$(2x-3)(2x-8)$",
+        "$(2x+3)(2x-10)$",
+        "$(2x-10)(2x-3)$"
+      ],
+      "answer": "$(2x-10)(2x-3)$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Factor by grouping: $10x^2+45x+18x+81$",
+      "choices": [
+        "$(2x-9)(5x+9)$",
+        "$(2x+7)(5x+9)$",
+        "$(2x+9)(5x+9)$",
+        "$(2x+9)(5x+11)$"
+      ],
+      "answer": "$(2x+9)(5x+9)$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Factor by grouping: $4x^2-8x+10x-20$",
+      "choices": [
+        "$(4x-10)(x-2)$",
+        "$(4x+10)(x-1)$",
+        "$(4x+10)(x-2)$",
+        "$(4x+8)(x-2)$"
+      ],
+      "answer": "$(4x+10)(x-2)$",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Factor by grouping: $2x^2-8x-12x+48$",
+      "choices": [
+        "$(2x-8)(x+6)$",
+        "$(2x-8)(x-6)$",
+        "$(2x-8)(x-5)$",
+        "$(2x-10)(x-6)$"
+      ],
+      "answer": "$(2x-8)(x-6)$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Factor by grouping: $4x^2+20x+6x+30$",
+      "choices": [
+        "$(4x+7)(x+5)$",
+        "$(4x-6)(x-5)$",
+        "$(4x+6)(x+5)$",
+        "$(4x+6)(x+3)$"
+      ],
+      "answer": "$(4x+6)(x+5)$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Factor by grouping: $6x^2-30x+10x-50$",
+      "choices": [
+        "$(2x+10)(3x+5)$",
+        "$(2x-10)(3x+4)$",
+        "$(2x-10)(3x+5)$",
+        "$(2x-11)(3x+5)$"
+      ],
+      "answer": "$(2x-10)(3x+5)$",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Factor by grouping: $4x^2+20x+18x+90$",
+      "choices": [
+        "$(2x+10)(2x+9)$",
+        "$(2x+10)(2x+10)$",
+        "$(2x+11)(2x+9)$",
+        "$(2x+10)(2x-9)$"
+      ],
+      "answer": "$(2x+10)(2x+9)$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Factor by grouping: $4x^2+28x+7x+49$",
+      "choices": [
+        "$(4x+7)(x+7)$",
+        "$(4x+8)(x+7)$",
+        "$(4x+7)(x+9)$",
+        "$(4x-7)(x-7)$"
+      ],
+      "answer": "$(4x+7)(x+7)$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Factor by grouping: $2x^2-14x+6x-42$",
+      "choices": [
+        "$(2x+6)(x-7)$",
+        "$(2x+6)(x-8)$",
+        "$(2x+7)(x-7)$",
+        "$(2x-6)(x+7)$"
+      ],
+      "answer": "$(2x+6)(x-7)$",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Factor by grouping: $6x^2-12x-14x+28$",
+      "choices": [
+        "$(2x-6)(3x-7)$",
+        "$(2x-4)(3x-7)$",
+        "$(2x-4)(3x-9)$",
+        "$(2x-4)(3x+7)$"
+      ],
+      "answer": "$(2x-4)(3x-7)$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Factor by grouping: $10x^2+20x-10x-20$",
+      "choices": [
+        "$(2x-2)(5x+11)$",
+        "$(2x+2)(5x+10)$",
+        "$(2x-3)(5x+10)$",
+        "$(2x-2)(5x+10)$"
+      ],
+      "answer": "$(2x-2)(5x+10)$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Factor by grouping: $16x^2-12x-12x+9$",
+      "choices": [
+        "$(4x-2)(4x-3)$",
+        "$(4x-3)(4x-5)$",
+        "$(4x+3)(4x-3)$",
+        "$(4x-3)(4x-3)$"
+      ],
+      "answer": "$(4x-3)(4x-3)$",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Factor by grouping: $4x^2+2x+36x+18$",
+      "choices": [
+        "$(4x-2)(x-9)$",
+        "$(4x+2)(x+9)$",
+        "$(4x+2)(x+10)$",
+        "$(4x+1)(x+9)$"
+      ],
+      "answer": "$(4x+2)(x+9)$",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Factor by grouping: $12x^2+15x+4x+5$",
+      "choices": [
+        "$(3x+1)(4x+4)$",
+        "$(3x+1)(4x+5)$",
+        "$(3x+2)(4x+5)$",
+        "$(3x-1)(4x+5)$"
+      ],
+      "answer": "$(3x+1)(4x+5)$",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Factor by grouping: $10x^2-20x+25x-50$",
+      "choices": [
+        "$(2x-5)(5x+10)$",
+        "$(2x+5)(5x-10)$",
+        "$(2x+5)(5x-12)$",
+        "$(2x+4)(5x-10)$"
+      ],
+      "answer": "$(2x+5)(5x-10)$",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "Factor by grouping: $16x^2-40x-24x+60$",
+      "choices": [
+        "$(4x-10)(4x-4)$",
+        "$(4x-10)(4x-6)$",
+        "$(4x+10)(4x-6)$",
+        "$(4x-6)(4x-9)$"
+      ],
+      "answer": "$(4x-10)(4x-6)$",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "Factor by grouping: $20x^2+8x-30x-12$",
+      "choices": [
+        "$(4x-4)(5x+2)$",
+        "$(4x-6)(5x+3)$",
+        "$(4x-6)(5x-2)$",
+        "$(4x-6)(5x+2)$"
+      ],
+      "answer": "$(4x-6)(5x+2)$",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "Factor by grouping: $6x^2-24x+14x-56$",
+      "choices": [
+        "$(2x-8)(3x+7)$",
+        "$(2x-7)(3x+7)$",
+        "$(2x-8)(3x+9)$",
+        "$(2x+8)(3x-7)$"
+      ],
+      "answer": "$(2x-8)(3x+7)$",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "Factor by grouping: $5x^2-10x+5x-10$",
+      "choices": [
+        "$(5x-11)(x+1)$",
+        "$(5x-10)(x)$",
+        "$(5x+10)(x-1)$",
+        "$(5x-10)(x+1)$"
+      ],
+      "answer": "$(5x-10)(x+1)$",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "Factor by grouping: $25x^2+35x+45x+63$",
+      "choices": [
+        "$(5x+7)(5x+9)$",
+        "$(5x+7)(5x-9)$",
+        "$(5x+11)(5x+7)$",
+        "$(5x+9)(5x+9)$"
+      ],
+      "answer": "$(5x+7)(5x+9)$",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "Factor by grouping: $3x^2+10x+9x+30$",
+      "choices": [
+        "$(3x+10)(x+3)$",
+        "$(3x+11)(x+3)$",
+        "$(3x-10)(x+3)$",
+        "$(3x+10)(x+4)$"
+      ],
+      "answer": "$(3x+10)(x+3)$",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Factor by grouping: $-5x^2-15x+10x+30$",
+      "choices": [
+        "$(-5x+11)(x+3)$",
+        "$(-5x+10)(x+5)$",
+        "$(-5x+10)(x+3)$",
+        "$(-5x-10)(x+3)$"
+      ],
+      "answer": "$(-5x+10)(x+3)$",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "Factor by grouping: $5x^2+40x-4x-32$",
+      "choices": [
+        "$(5x-4)(x+7)$",
+        "$(5x+4)(x-8)$",
+        "$(5x-2)(x+8)$",
+        "$(5x-4)(x+8)$"
+      ],
+      "answer": "$(5x-4)(x+8)$",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "Factor by grouping: $-2x^2-10x-6x-30$",
+      "choices": [
+        "$(-2x-8)(x+5)$",
+        "$(-2x+6)(x-5)$",
+        "$(2x+6)(-x-5)$",
+        "$(-2x-6)(x+3)$"
+      ],
+      "answer": "$(-2x-6)(x+5)$",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "Factor by grouping: $5x^2+7x-35x-49$",
+      "choices": [
+        "$(5x+7)(x-7)$",
+        "$(5x+7)(x-8)$",
+        "$(5x+7)(x+7)$",
+        "$(5x+8)(x-7)$"
+      ],
+      "answer": "$(5x+7)(x-7)$",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "Factor by grouping: $9x^2-12x-6x+8$",
+      "choices": [
+        "$(3x-2)(3x-4)$",
+        "$(3x-3)(3x-4)$",
+        "$(3x+4)(3x-2)$",
+        "$(3x-2)(3x-3)$"
+      ],
+      "answer": "$(3x-2)(3x-4)$",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "Factor by grouping: $-10x^2-40x+10x+40$",
+      "choices": [
+        "$(-5x+3)(2x+8)$",
+        "$(-5x+5)(2x+8)$",
+        "$(-5x+5)(2x+10)$",
+        "$(-5x-5)(2x+8)$"
+      ],
+      "answer": "$(-5x+5)(2x+8)$",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "Factor by grouping: $-15x^2-18x-35x-42$",
+      "choices": [
+        "$(-5x-8)(3x+7)$",
+        "$(-5x+6)(3x-7)$",
+        "$(-5x-6)(3x+9)$",
+        "$(-5x-6)(3x+7)$"
+      ],
+      "answer": "$(-5x-6)(3x+7)$",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Factor by grouping: $-25x^2-5x-5x-1$",
+      "choices": [
+        "$(-5x-1)(5x+1)$",
+        "$(-5x-1)(5x+2)$",
+        "$(-5x+1)(5x-1)$",
+        "$(-5x-3)(5x+1)$"
+      ],
+      "answer": "$(-5x-1)(5x+1)$",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Factor by grouping: $9x^2-18x+30x-60$",
+      "choices": [
+        "$(3x+10)(3x-4)$",
+        "$(3x+10)(3x-6)$",
+        "$(3x-10)(3x-6)$",
+        "$(3x+11)(3x-6)$"
+      ],
+      "answer": "$(3x+10)(3x-6)$",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "Factor by grouping: $20x^2+30x+8x+12$",
+      "choices": [
+        "$(4x+6)(5x+2)$",
+        "$(4x+8)(5x+2)$",
+        "$(4x+6)(5x+4)$",
+        "$(4x+6)(5x+1)$"
+      ],
+      "answer": "$(4x+6)(5x+2)$",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "Factor by grouping: $16x^2-36x-24x+54$",
+      "choices": [
+        "$(4x-5)(4x-9)$",
+        "$(4x+9)(4x-6)$",
+        "$(4x-6)(4x-9)$",
+        "$(4x-6)(4x-7)$"
+      ],
+      "answer": "$(4x-6)(4x-9)$",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Factor by grouping: $16x^2-16x-28x+28$",
+      "choices": [
+        "$(4x-4)(4x-6)$",
+        "$(4x-5)(4x-7)$",
+        "$(4x+4)(4x-7)$",
+        "$(4x-4)(4x-7)$"
+      ],
+      "answer": "$(4x-4)(4x-7)$",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Factor by grouping: $-5x^2+7x-20x+28$",
+      "choices": [
+        "$(-5x+7)(x+2)$",
+        "$(-5x+8)(x+4)$",
+        "$(-5x+7)(x+4)$",
+        "$(-5x-7)(x+4)$"
+      ],
+      "answer": "$(-5x+7)(x+4)$",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Factor by grouping: $15x^2+15x-9x-9$",
+      "choices": [
+        "$(3x+3)(5x-3)$",
+        "$(3x+1)(5x-3)$",
+        "$(3x+3)(5x-5)$",
+        "$(3x-3)(5x+3)$"
+      ],
+      "answer": "$(3x+3)(5x-3)$",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "Factor by grouping: $2x^2+20x+4x+40$",
+      "choices": [
+        "$(2x-4)(x+10)$",
+        "$(2x+3)(x+10)$",
+        "$(2x+4)(x+12)$",
+        "$(2x+4)(x+10)$"
+      ],
+      "answer": "$(2x+4)(x+10)$",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Factor by grouping: $18x^2+9x+72x+36$",
+      "choices": [
+        "$(3x+12)(6x+3)$",
+        "$(3x+12)(6x+4)$",
+        "$(3x+11)(6x+3)$",
+        "$(3x+12)(6x+2)$"
+      ],
+      "answer": "$(3x+12)(6x+3)$",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Factor by grouping: $-30x^2-20x+12x+8$",
+      "choices": [
+        "$(-6x-4)(5x-2)$",
+        "$(-6x-6)(5x-2)$",
+        "$(-6x-4)(5x-1)$",
+        "$(-6x-4)(5x-3)$"
+      ],
+      "answer": "$(-6x-4)(5x-2)$",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Factor by grouping: $8x^2-6x+40x-30$",
+      "choices": [
+        "$(2x-10)(4x-3)$",
+        "$(2x+10)(4x-4)$",
+        "$(2x+9)(4x-3)$",
+        "$(2x+10)(4x-3)$"
+      ],
+      "answer": "$(2x+10)(4x-3)$",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Factor by grouping: $15x^2-45x+21x-63$",
+      "choices": [
+        "$(3x-9)(5x+7)$",
+        "$(3x-7)(5x+7)$",
+        "$(3x-9)(5x+9)$",
+        "$(3x+9)(5x-7)$"
+      ],
+      "answer": "$(3x-9)(5x+7)$",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Factor by grouping: $12x^2+36x+27x+81$",
+      "choices": [
+        "$(3x+9)(4x+9)$",
+        "$(3x+9)(4x-9)$",
+        "$(3x+9)(4x+10)$",
+        "$(3x+8)(4x+9)$"
+      ],
+      "answer": "$(3x+9)(4x+9)$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Factor by grouping: $12x^2+33x-48x-132$",
+      "choices": [
+        "$(3x+12)(4x-11)$",
+        "$(3x+12)(4x-13)$",
+        "$(3x+11)(4x-11)$",
+        "$(3x+12)(4x-10)$"
+      ],
+      "answer": "$(3x+12)(4x-11)$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Factor by grouping: $12x^2+30x+20x+50$",
+      "choices": [
+        "$(2x+5)(6x+10)$",
+        "$(2x+5)(6x+8)$",
+        "$(2x+5)(6x+11)$",
+        "$(2x+6)(6x+10)$"
+      ],
+      "answer": "$(2x+5)(6x+10)$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Factor by grouping: $-18x^2-36x+72x+144$",
+      "choices": [
+        "$(-3x+12)(6x+12)$",
+        "$(-3x+14)(6x+12)$",
+        "$(-3x+12)(6x+10)$",
+        "$(-3x+12)(6x+13)$"
+      ],
+      "answer": "$(-3x+12)(6x+12)$",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Factor by grouping: $-10x^2+30x+16x-48$",
+      "choices": [
+        "$(-2x+6)(5x-7)$",
+        "$(-2x+6)(5x-8)$",
+        "$(-2x-6)(5x+8)$",
+        "$(-2x+8)(5x-8)$"
+      ],
+      "answer": "$(-2x+6)(5x-8)$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Factor by grouping: $-36x^2-72x+12x+24$",
+      "choices": [
+        "$(-6x+1)(6x+12)$",
+        "$(-6x+2)(6x-12)$",
+        "$(-6x+2)(6x+12)$",
+        "$(-6x+2)(6x+10)$"
+      ],
+      "answer": "$(-6x+2)(6x+12)$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Factor by grouping: $12x^2-3x+40x-10$",
+      "choices": [
+        "$(3x+8)(4x-1)$",
+        "$(3x+10)(4x+1)$",
+        "$(3x+10)(4x-1)$",
+        "$(3x-10)(4x-1)$"
+      ],
+      "answer": "$(3x+10)(4x-1)$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Factor by grouping: $-12x^2-10x-6x-5$",
+      "choices": [
+        "$(-6x-3)(2x+1)$",
+        "$(-6x-5)(2x)$",
+        "$(-6x-5)(2x+1)$",
+        "$(-6x+5)(2x+1)$"
+      ],
+      "answer": "$(-6x-5)(2x+1)$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Factor by grouping: $15x^2+27x-15x-27$",
+      "choices": [
+        "$(3x-1)(5x+9)$",
+        "$(3x-3)(5x-9)$",
+        "$(3x-3)(5x+8)$",
+        "$(3x-3)(5x+9)$"
+      ],
+      "answer": "$(3x-3)(5x+9)$",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Factor by grouping: $-8x^2+44x+14x-77$",
+      "choices": [
+        "$(-2x+11)(4x-5)$",
+        "$(-2x-11)(4x-7)$",
+        "$(-2x+13)(4x-7)$",
+        "$(-2x+11)(4x-7)$"
+      ],
+      "answer": "$(-2x+11)(4x-7)$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Factor by grouping: $30x^2+24x+10x+8$",
+      "choices": [
+        "$(5x+2)(6x+2)$",
+        "$(5x+4)(6x+2)$",
+        "$(5x-4)(6x+2)$",
+        "$(5x+4)(6x+3)$"
+      ],
+      "answer": "$(5x+4)(6x+2)$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Factor by grouping: $6x^2+12x-10x-20$",
+      "choices": [
+        "$(2x+4)(3x-3)$",
+        "$(2x+4)(3x-5)$",
+        "$(2x+2)(3x-5)$",
+        "$(2x+4)(3x+5)$"
+      ],
+      "answer": "$(2x+4)(3x-5)$",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Factor by grouping: $6x^2-8x+3x-4$",
+      "choices": [
+        "$(2x+1)(3x-4)$",
+        "$(2x-1)(3x+4)$",
+        "$(2x+2)(3x-4)$",
+        "$(2x+1)(3x-2)$"
+      ],
+      "answer": "$(2x+1)(3x-4)$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Factor by grouping: $6x^2+18x-24x-72$",
+      "choices": [
+        "$(2x-6)(3x+12)$",
+        "$(2x+4)(3x-12)$",
+        "$(2x+6)(3x-12)$",
+        "$(2x+6)(3x-13)$"
+      ],
+      "answer": "$(2x+6)(3x-12)$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Factor by grouping: $24x^2+18x-4x-3$",
+      "choices": [
+        "$(4x+3)(6x-2)$",
+        "$(4x+3)(6x+1)$",
+        "$(4x+3)(6x-1)$",
+        "$(4x+5)(6x-1)$"
+      ],
+      "answer": "$(4x+3)(6x-1)$",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Factor by grouping: $16x^2+44x+20x+55$",
+      "choices": [
+        "$(4x+11)(4x+5)$",
+        "$(4x+10)(4x+5)$",
+        "$(4x+5)(4x+11)$",
+        "$(4x+11)(4x+6)$"
+      ],
+      "answer": "$(4x+11)(4x+5)$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Factor by grouping: $10x^2+25x+12x+30$",
+      "choices": [
+        "$(2x+5)(5x+6)$",
+        "$(2x+5)(5x+4)$",
+        "$(2x+5)(5x-6)$",
+        "$(2x+4)(5x+6)$"
+      ],
+      "answer": "$(2x+5)(5x+6)$",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Factor by grouping: $15x^2-21x+35x-49$",
+      "choices": [
+        "$(3x+7)(5x+7)$",
+        "$(3x+7)(5x-7)$",
+        "$(3x+5)(5x-7)$",
+        "$(3x+7)(5x-8)$"
+      ],
+      "answer": "$(3x+7)(5x-7)$",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "Factor by grouping: $36x^2+72x-12x-24$",
+      "choices": [
+        "$(6x+14)(6x-2)$",
+        "$(6x+12)(6x-3)$",
+        "$(6x+12)(6x-2)$",
+        "$(6x-12)(6x-2)$"
+      ],
+      "answer": "$(6x+12)(6x-2)$",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Factor by grouping: $-36x^2-54x+66x+99$",
+      "choices": [
+        "$(-6x-9)(6x-9)$",
+        "$(-6x+9)(6x+11)$",
+        "$(-6x-10)(6x-11)$",
+        "$(-6x-9)(6x-11)$"
+      ],
+      "answer": "$(-6x-9)(6x-11)$",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Factor by grouping: $-12x^2+12x-24x+24$",
+      "choices": [
+        "$(-3x+3)(4x+8)$",
+        "$(-3x-3)(4x+8)$",
+        "$(-3x+3)(4x+6)$",
+        "$(-3x+5)(4x+8)$"
+      ],
+      "answer": "$(-3x+3)(4x+8)$",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Factor by grouping: $-18x^2-54x+24x+72$",
+      "choices": [
+        "$(-3x-9)(6x-8)$",
+        "$(-3x-9)(6x-9)$",
+        "$(-3x-9)(6x-7)$",
+        "$(-3x-10)(6x-8)$"
+      ],
+      "answer": "$(-3x-9)(6x-8)$",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "Factor by grouping: $24x^2-48x+20x-40$",
+      "choices": [
+        "$(4x-8)(6x+5)$",
+        "$(4x-8)(6x+3)$",
+        "$(4x-10)(6x+5)$",
+        "$(4x-8)(6x-5)$"
+      ],
+      "answer": "$(4x-8)(6x+5)$",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Factor by grouping: $-18x^2+12x+12x-8$",
+      "choices": [
+        "$(-3x+2)(6x-4)$",
+        "$(-3x-2)(6x-4)$",
+        "$(-3x+3)(6x-4)$",
+        "$(-3x+2)(6x-2)$"
+      ],
+      "answer": "$(-3x+2)(6x-4)$",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Factor by grouping: $-18x^2+18x-42x+42$",
+      "choices": [
+        "$(-6x+6)(3x+5)$",
+        "$(-6x+8)(3x+7)$",
+        "$(-6x+6)(3x-7)$",
+        "$(-6x+6)(3x+7)$"
+      ],
+      "answer": "$(-6x+6)(3x+7)$",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Factor by grouping: $-12x^2+30x+20x-50$",
+      "choices": [
+        "$(-4x+10)(3x-5)$",
+        "$(-4x-10)(3x-5)$",
+        "$(-4x+10)(3x-4)$",
+        "$(-4x+9)(3x-5)$"
+      ],
+      "answer": "$(-4x+10)(3x-5)$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Factor by grouping: $-12x^2-32x+24x+64$",
+      "choices": [
+        "$(-4x+7)(3x+8)$",
+        "$(-4x+8)(3x+9)$",
+        "$(-4x+8)(3x+8)$",
+        "$(-4x+8)(3x-8)$"
+      ],
+      "answer": "$(-4x+8)(3x+8)$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Factor by grouping: $30x^2-45x+24x-36$",
+      "choices": [
+        "$(5x+4)(6x-9)$",
+        "$(5x+6)(6x-9)$",
+        "$(5x+4)(6x-7)$",
+        "$(5x+4)(6x-10)$"
+      ],
+      "answer": "$(5x+4)(6x-9)$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Factor by grouping: $-24x^2+12x-6x+3$",
+      "choices": [
+        "$(-4x-2)(6x-3)$",
+        "$(-4x-1)(6x-5)$",
+        "$(-4x-1)(6x-3)$",
+        "$(-4x+1)(6x-3)$"
+      ],
+      "answer": "$(-4x-1)(6x-3)$",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Factor by grouping: $20x^2+50x-40x-100$",
+      "choices": [
+        "$(4x+10)(5x-10)$",
+        "$(4x+10)(5x-9)$",
+        "$(4x+9)(5x-10)$",
+        "$(4x+10)(5x-11)$"
+      ],
+      "answer": "$(4x+10)(5x-10)$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Factor by grouping: $15x^2-45x+9x-27$",
+      "choices": [
+        "$(3x-9)(5x+3)$",
+        "$(3x+9)(5x-3)$",
+        "$(3x-8)(5x+3)$",
+        "$(3x-9)(5x+2)$"
+      ],
+      "answer": "$(3x-9)(5x+3)$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Factor by grouping: $-25x^2+10x+55x-22$",
+      "choices": [
+        "$(-5x+11)(5x-3)$",
+        "$(-5x+11)(5x-2)$",
+        "$(-5x-11)(5x-2)$",
+        "$(-5x+9)(5x-2)$"
+      ],
+      "answer": "$(-5x+11)(5x-2)$",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Factor by grouping: $30x^2-6x+10x-2$",
+      "choices": [
+        "$(5x-1)(6x+1)$",
+        "$(5x+1)(6x-2)$",
+        "$(5x-1)(6x+2)$",
+        "$(5x-2)(6x+2)$"
+      ],
+      "answer": "$(5x-1)(6x+2)$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Factor by grouping: $8x^2-4x-28x+14$",
+      "choices": [
+        "$(2x-6)(4x-2)$",
+        "$(2x-7)(4x+2)$",
+        "$(2x-7)(4x-2)$",
+        "$(2x-7)(4x-1)$"
+      ],
+      "answer": "$(2x-7)(4x-2)$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Factor by grouping: $6x^2-20x+6x-20$",
+      "choices": [
+        "$(2x+2)(3x-9)$",
+        "$(2x+2)(3x-10)$",
+        "$(2x-2)(3x-10)$",
+        "$(2x+1)(3x-10)$"
+      ],
+      "answer": "$(2x+2)(3x-10)$",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Factor by grouping: $-9x^2+9x-15x+15$",
+      "choices": [
+        "$(-3x-3)(3x-5)$",
+        "$(-3x+3)(3x+5)$",
+        "$(-3x+3)(3x+6)$",
+        "$(-3x+1)(3x+5)$"
+      ],
+      "answer": "$(-3x+3)(3x+5)$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Factor by grouping: $10x^2+4x+20x+8$",
+      "choices": [
+        "$(2x-4)(5x+2)$",
+        "$(2x+2)(5x+2)$",
+        "$(2x+4)(5x+3)$",
+        "$(2x+4)(5x+2)$"
+      ],
+      "answer": "$(2x+4)(5x+2)$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Factor by grouping: $4x^2-4x-22x+22$",
+      "choices": [
+        "$(2x-12)(2x-2)$",
+        "$(2x-11)(2x-2)$",
+        "$(2x+2)(2x-11)$",
+        "$(2x-1)(2x-11)$"
+      ],
+      "answer": "$(2x-11)(2x-2)$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "Factor by grouping: $36x^2-30x+36x-30$",
+      "choices": [
+        "$(6x+6)(6x-5)$",
+        "$(6x+5)(6x-6)$",
+        "$(6x+6)(6x-4)$",
+        "$(6x+7)(6x-5)$"
+      ],
+      "answer": "$(6x+6)(6x-5)$",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Factor by grouping: $12x^2+48x-10x-40$",
+      "choices": [
+        "$(2x+8)(6x-5)$",
+        "$(2x+9)(6x-5)$",
+        "$(2x-8)(6x-5)$",
+        "$(2x+8)(6x-7)$"
+      ],
+      "answer": "$(2x+8)(6x-5)$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Factor by grouping: $-10x^2+5x+6x-3$",
+      "choices": [
+        "$(-2x+1)(5x-4)$",
+        "$(-2x+1)(5x+3)$",
+        "$(-2x-1)(5x-3)$",
+        "$(-2x+1)(5x-3)$"
+      ],
+      "answer": "$(-2x+1)(5x-3)$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Factor by grouping: $10x^2+55x-2x-11$",
+      "choices": [
+        "$(2x+10)(5x-1)$",
+        "$(2x+11)(5x-1)$",
+        "$(2x+11)(5x-3)$",
+        "$(2x-11)(5x-1)$"
+      ],
+      "answer": "$(2x+11)(5x-1)$",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Factor by grouping: $8x^2-16x+32x-64$",
+      "choices": [
+        "$(2x+8)(4x-8)$",
+        "$(2x-8)(4x-8)$",
+        "$(2x+8)(4x-7)$",
+        "$(2x+10)(4x-8)$"
+      ],
+      "answer": "$(2x+8)(4x-8)$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Factor by grouping: $-25x^2+50x-50x+100$",
+      "choices": [
+        "$(-5x+11)(5x+10)$",
+        "$(-5x+10)(5x+8)$",
+        "$(-5x+10)(5x+10)$",
+        "$(-5x-10)(5x+10)$"
+      ],
+      "answer": "$(-5x+10)(5x+10)$",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Factor by grouping: $20x^2-20x-60x+60$",
+      "choices": [
+        "$(4x-12)(5x-5)$",
+        "$(4x-12)(5x-7)$",
+        "$(4x-13)(5x-5)$",
+        "$(4x-12)(5x-4)$"
+      ],
+      "answer": "$(4x-12)(5x-5)$",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Factor by grouping: $15x^2-9x+20x-12$",
+      "choices": [
+        "$(3x+4)(5x-3)$",
+        "$(3x+4)(5x-1)$",
+        "$(3x+2)(5x-3)$",
+        "$(3x-4)(5x-3)$"
+      ],
+      "answer": "$(3x+4)(5x-3)$",
+      "points": 30
+    }
+  ]
+}

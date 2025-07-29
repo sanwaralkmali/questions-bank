@@ -1,0 +1,3258 @@
+{
+  "title": "Operations with Scientific Notation",
+  "description": "Add, subtract, multiply, and divide numbers in scientific notation!",
+  "waves": 5,
+  "timePerQuestion": 90,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Add: $(2.0 \\times 10^3) + (3.0 \\times 10^3)$",
+      "choices": [
+        "$5.0 \\times 10^3$",
+        "$5.0 \\times 10^6$",
+        "$6.0 \\times 10^3$",
+        "$6.0 \\times 10^6$"
+      ],
+      "answer": "$5.0 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Subtract: $(8.0 \\times 10^5) - (5.0 \\times 10^5)$",
+      "choices": [
+        "$3.0 \\times 10^5$",
+        "$3.0 \\times 10^0$",
+        "$13.0 \\times 10^5$",
+        "$3.0 \\times 10^{10}$"
+      ],
+      "answer": "$3.0 \\times 10^5$",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Multiply: $(2.0 \\times 10^2) \\times (3.0 \\times 10^4)$",
+      "choices": [
+        "$6.0 \\times 10^6$",
+        "$6.0 \\times 10^8$",
+        "$5.0 \\times 10^6$",
+        "$6.0 \\times 10^2$"
+      ],
+      "answer": "$6.0 \\times 10^6$",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Divide: $(9.0 \\times 10^7) \\div (3.0 \\times 10^2)$",
+      "choices": [
+        "$3.0 \\times 10^5$",
+        "$3.0 \\times 10^9$",
+        "$6.0 \\times 10^5$",
+        "$3.0 \\times 10^{14}$"
+      ],
+      "answer": "$3.0 \\times 10^5$",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Add: $(1.5 \\times 10^2) + (2.5 \\times 10^2)$",
+      "choices": [
+        "$4.0 \\times 10^2$",
+        "$4.0 \\times 10^4$",
+        "$3.0 \\times 10^2$",
+        "$4.0 \\times 10^0$"
+      ],
+      "answer": "$4.0 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Subtract: $(7.5 \\times 10^4) - (2.5 \\times 10^4)$",
+      "choices": [
+        "$5.0 \\times 10^4$",
+        "$5.0 \\times 10^0$",
+        "$10.0 \\times 10^4$",
+        "$5.0 \\times 10^8$"
+      ],
+      "answer": "$5.0 \\times 10^4$",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Multiply: $(4.0 \\times 10^1) \\times (2.0 \\times 10^3)$",
+      "choices": [
+        "$8.0 \\times 10^4$",
+        "$8.0 \\times 10^3$",
+        "$6.0 \\times 10^4$",
+        "$8.0 \\times 10^1$"
+      ],
+      "answer": "$8.0 \\times 10^4$",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Divide: $(1.2 \\times 10^6) \\div (4.0 \\times 10^2)$",
+      "choices": [
+        "$3.0 \\times 10^3$",
+        "$0.3 \\times 10^4$",
+        "$3.0 \\times 10^8$",
+        "$4.8 \\times 10^4$"
+      ],
+      "answer": "$3.0 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Add: $(6.1 \\times 10^1) + (1.8 \\times 10^1)$",
+      "choices": [
+        "$7.9 \\times 10^1$",
+        "$7.9 \\times 10^2$",
+        "$7.9 \\times 10^0$",
+        "$7.9 \\times 10^{-1}$"
+      ],
+      "answer": "$7.9 \\times 10^1$",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Subtract: $(9.3 \\times 10^2) - (4.1 \\times 10^2)$",
+      "choices": [
+        "$5.2 \\times 10^2$",
+        "$5.2 \\times 10^0$",
+        "$13.4 \\times 10^2$",
+        "$5.2 \\times 10^4$"
+      ],
+      "answer": "$5.2 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Multiply: $(1.1 \\times 10^3) \\times (5.0 \\times 10^1)$",
+      "choices": [
+        "$5.5 \\times 10^4$",
+        "$5.5 \\times 10^3$",
+        "$6.1 \\times 10^4$",
+        "$5.5 \\times 10^2$"
+      ],
+      "answer": "$5.5 \\times 10^4$",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Divide: $(8.4 \\times 10^5) \\div (2.0 \\times 10^3)$",
+      "choices": [
+        "$4.2 \\times 10^2$",
+        "$4.2 \\times 10^8$",
+        "$6.4 \\times 10^2$",
+        "$4.2 \\times 10^{-2}$"
+      ],
+      "answer": "$4.2 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Add: $(4.2 \\times 10^0) + (3.7 \\times 10^0)$",
+      "choices": [
+        "$7.9 \\times 10^0$",
+        "$7.9 \\times 10^1$",
+        "$7.9 \\times 10^{-1}$",
+        "$7.9 \\times 10^2$"
+      ],
+      "answer": "$7.9 \\times 10^0$",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Subtract: $(6.8 \\times 10^3) - (1.5 \\times 10^3)$",
+      "choices": [
+        "$5.3 \\times 10^3$",
+        "$5.3 \\times 10^0$",
+        "$8.3 \\times 10^3$",
+        "$5.3 \\times 10^6$"
+      ],
+      "answer": "$5.3 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Multiply: $(3.0 \\times 10^5) \\times (2.0 \\times 10^{-2})$",
+      "choices": [
+        "$6.0 \\times 10^3$",
+        "$6.0 \\times 10^7$",
+        "$5.0 \\times 10^3$",
+        "$6.0 \\times 10^{-10}$"
+      ],
+      "answer": "$6.0 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Divide: $(7.0 \\times 10^4) \\div (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$7.0 \\times 10^5$",
+        "$7.0 \\times 10^3$",
+        "$7.0 \\times 10^{-4}$",
+        "$7.0 \\times 10^0$"
+      ],
+      "answer": "$7.0 \\times 10^5$",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Add: $(2.2 \\times 10^{-1}) + (3.3 \\times 10^{-1})$",
+      "choices": [
+        "$5.5 \\times 10^{-1}$",
+        "$5.5 \\times 10^{-2}$",
+        "$5.5 \\times 10^0$",
+        "$5.5 \\times 10^{-0.5}$"
+      ],
+      "answer": "$5.5 \\times 10^{-1}$",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Subtract: $(4.5 \\times 10^{-3}) - (1.5 \\times 10^{-3})$",
+      "choices": [
+        "$3.0 \\times 10^{-3}$",
+        "$3.0 \\times 10^0$",
+        "$6.0 \\times 10^{-3}$",
+        "$3.0 \\times 10^{-6}$"
+      ],
+      "answer": "$3.0 \\times 10^{-3}$",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Multiply: $(5.0 \\times 10^0) \\times (1.0 \\times 10^0)$",
+      "choices": [
+        "$5.0 \\times 10^0$",
+        "$5.0 \\times 10^1$",
+        "$1.0 \\times 10^0$",
+        "$5.0 \\times 10^2$"
+      ],
+      "answer": "$5.0 \\times 10^0$",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Divide: $(6.0 \\times 10^0) \\div (2.0 \\times 10^0)$",
+      "choices": [
+        "$3.0 \\times 10^0$",
+        "$3.0 \\times 10^1$",
+        "$3.0 \\times 10^{-1}$",
+        "$3.0 \\times 10^2$"
+      ],
+      "answer": "$3.0 \\times 10^0$",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Add: $(1.0 \\times 10^1) + (4.0 \\times 10^1)$",
+      "choices": [
+        "$5.0 \\times 10^1$",
+        "$5.0 \\times 10^2$",
+        "$4.0 \\times 10^1$",
+        "$5.0 \\times 10^0$"
+      ],
+      "answer": "$5.0 \\times 10^1$",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Subtract: $(9.0 \\times 10^6) - (2.0 \\times 10^6)$",
+      "choices": [
+        "$7.0 \\times 10^6$",
+        "$7.0 \\times 10^0$",
+        "$11.0 \\times 10^6$",
+        "$7.0 \\times 10^{12}$"
+      ],
+      "answer": "$7.0 \\times 10^6$",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Multiply: $(3.0 \\times 10^{-1}) \\times (3.0 \\times 10^2)$",
+      "choices": [
+        "$9.0 \\times 10^1$",
+        "$9.0 \\times 10^{-2}$",
+        "$6.0 \\times 10^1$",
+        "$9.0 \\times 10^{-3}$"
+      ],
+      "answer": "$9.0 \\times 10^1$",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Divide: $(8.0 \\times 10^3) \\div (2.0 \\times 10^{-1})$",
+      "choices": [
+        "$4.0 \\times 10^4$",
+        "$4.0 \\times 10^2$",
+        "$4.0 \\times 10^{-3}$",
+        "$4.0 \\times 10^0$"
+      ],
+      "answer": "$4.0 \\times 10^4$",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Add: $(5.0 \\times 10^4) + (1.0 \\times 10^4)$",
+      "choices": [
+        "$6.0 \\times 10^4$",
+        "$6.0 \\times 10^8$",
+        "$4.0 \\times 10^4$",
+        "$6.0 \\times 10^0$"
+      ],
+      "answer": "$6.0 \\times 10^4$",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Subtract: $(7.0 \\times 10^{-2}) - (3.0 \\times 10^{-2})$",
+      "choices": [
+        "$4.0 \\times 10^{-2}$",
+        "$4.0 \\times 10^0$",
+        "$10.0 \\times 10^{-2}$",
+        "$4.0 \\times 10^{-4}$"
+      ],
+      "answer": "$4.0 \\times 10^{-2}$",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Multiply: $(2.5 \\times 10^2) \\times (2.0 \\times 10^3)$",
+      "choices": [
+        "$5.0 \\times 10^5$",
+        "$5.0 \\times 10^6$",
+        "$4.5 \\times 10^5$",
+        "$5.0 \\times 10^1$"
+      ],
+      "answer": "$5.0 \\times 10^5$",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Divide: $(1.5 \\times 10^5) \\div (5.0 \\times 10^1)$",
+      "choices": [
+        "$3.0 \\times 10^3$",
+        "$0.3 \\times 10^4$",
+        "$3.0 \\times 10^6$",
+        "$7.5 \\times 10^6$"
+      ],
+      "answer": "$3.0 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Add: $(3.5 \\times 10^3) + (4.5 \\times 10^3)$",
+      "choices": [
+        "$8.0 \\times 10^3$",
+        "$8.0 \\times 10^6$",
+        "$1.0 \\times 10^3$",
+        "$8.0 \\times 10^0$"
+      ],
+      "answer": "$8.0 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Subtract: $(6.0 \\times 10^5) - (1.0 \\times 10^5)$",
+      "choices": [
+        "$5.0 \\times 10^5$",
+        "$5.0 \\times 10^0$",
+        "$7.0 \\times 10^5$",
+        "$5.0 \\times 10^{10}$"
+      ],
+      "answer": "$5.0 \\times 10^5$",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "Multiply: $(1.2 \\times 10^1) \\times (4.0 \\times 10^2)$",
+      "choices": [
+        "$4.8 \\times 10^3$",
+        "$4.8 \\times 10^2$",
+        "$5.2 \\times 10^3$",
+        "$4.8 \\times 10^1$"
+      ],
+      "answer": "$4.8 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "Divide: $(9.9 \\times 10^7) \\div (1.1 \\times 10^4)$",
+      "choices": [
+        "$9.0 \\times 10^3$",
+        "$9.0 \\times 10^{11}$",
+        "$8.8 \\times 10^3$",
+        "$9.0 \\times 10^0$"
+      ],
+      "answer": "$9.0 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "Add: $(4.0 \\times 10^{-2}) + (5.0 \\times 10^{-2})$",
+      "choices": [
+        "$9.0 \\times 10^{-2}$",
+        "$9.0 \\times 10^{-4}$",
+        "$1.0 \\times 10^{-2}$",
+        "$9.0 \\times 10^0$"
+      ],
+      "answer": "$9.0 \\times 10^{-2}$",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "Subtract: $(8.5 \\times 10^1) - (3.5 \\times 10^1)$",
+      "choices": [
+        "$5.0 \\times 10^1$",
+        "$5.0 \\times 10^0$",
+        "$12.0 \\times 10^1$",
+        "$5.0 \\times 10^2$"
+      ],
+      "answer": "$5.0 \\times 10^1$",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "Multiply: $(2.0 \\times 10^{-3}) \\times (4.0 \\times 10^{-1})$",
+      "choices": [
+        "$8.0 \\times 10^{-4}$",
+        "$8.0 \\times 10^{-3}$",
+        "$6.0 \\times 10^{-4}$",
+        "$8.0 \\times 10^{-2}$"
+      ],
+      "answer": "$8.0 \\times 10^{-4}$",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "Divide: $(2.4 \\times 10^6) \\div (6.0 \\times 10^3)$",
+      "choices": [
+        "$4.0 \\times 10^2$",
+        "$0.4 \\times 10^3$",
+        "$4.0 \\times 10^9$",
+        "$14.4 \\times 10^9$"
+      ],
+      "answer": "$4.0 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "Add: $(1.1 \\times 10^5) + (2.2 \\times 10^5)$",
+      "choices": [
+        "$3.3 \\times 10^5$",
+        "$3.3 \\times 10^{10}$",
+        "$1.1 \\times 10^5$",
+        "$3.3 \\times 10^0$"
+      ],
+      "answer": "$3.3 \\times 10^5$",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "Subtract: $(5.5 \\times 10^0) - (2.5 \\times 10^0)$",
+      "choices": [
+        "$3.0 \\times 10^0$",
+        "$3.0 \\times 10^1$",
+        "$8.0 \\times 10^0$",
+        "$3.0 \\times 10^{-1}$"
+      ],
+      "answer": "$3.0 \\times 10^0$",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "Multiply: $(6.0 \\times 10^4) \\times (1.5 \\times 10^{-1})$",
+      "choices": [
+        "$9.0 \\times 10^3$",
+        "$9.0 \\times 10^5$",
+        "$7.5 \\times 10^3$",
+        "$9.0 \\times 10^{-4}$"
+      ],
+      "answer": "$9.0 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "Divide: $(3.6 \\times 10^2) \\div (1.2 \\times 10^1)$",
+      "choices": [
+        "$3.0 \\times 10^1$",
+        "$3.0 \\times 10^3$",
+        "$2.4 \\times 10^1$",
+        "$3.0 \\times 10^0$"
+      ],
+      "answer": "$3.0 \\times 10^1$",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "Add: $(7.0 \\times 10^6) + (2.0 \\times 10^6)$",
+      "choices": [
+        "$9.0 \\times 10^6$",
+        "$9.0 \\times 10^{12}$",
+        "$5.0 \\times 10^6$",
+        "$9.0 \\times 10^0$"
+      ],
+      "answer": "$9.0 \\times 10^6$",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "Subtract: $(8.0 \\times 10^{-4}) - (3.0 \\times 10^{-4})$",
+      "choices": [
+        "$5.0 \\times 10^{-4}$",
+        "$5.0 \\times 10^0$",
+        "$11.0 \\times 10^{-4}$",
+        "$5.0 \\times 10^{-8}$"
+      ],
+      "answer": "$5.0 \\times 10^{-4}$",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "Multiply: $(1.0 \\times 10^0) \\times (8.0 \\times 10^0)$",
+      "choices": [
+        "$8.0 \\times 10^0$",
+        "$8.0 \\times 10^1$",
+        "$1.0 \\times 10^0$",
+        "$8.0 \\times 10^2$"
+      ],
+      "answer": "$8.0 \\times 10^0$",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "Divide: $(4.5 \\times 10^5) \\div (1.5 \\times 10^2)$",
+      "choices": [
+        "$3.0 \\times 10^3$",
+        "$3.0 \\times 10^7$",
+        "$3.0 \\times 10^2$",
+        "$3.0 \\times 10^{-3}$"
+      ],
+      "answer": "$3.0 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "Add: $(2.5 \\times 10^1) + (7.5 \\times 10^1)$",
+      "choices": [
+        "$1.0 \\times 10^2$",
+        "$1.0 \\times 10^1$",
+        "$10.0 \\times 10^1$",
+        "$1.0 \\times 10^0$"
+      ],
+      "answer": "$1.0 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "Subtract: $(9.5 \\times 10^2) - (4.5 \\times 10^2)$",
+      "choices": [
+        "$5.0 \\times 10^2$",
+        "$5.0 \\times 10^0$",
+        "$14.0 \\times 10^2$",
+        "$5.0 \\times 10^4$"
+      ],
+      "answer": "$5.0 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "Multiply: $(4.0 \\times 10^{-2}) \\times (2.0 \\times 10^{-1})$",
+      "choices": [
+        "$8.0 \\times 10^{-3}$",
+        "$8.0 \\times 10^{-2}$",
+        "$6.0 \\times 10^{-3}$",
+        "$8.0 \\times 10^{-1}$"
+      ],
+      "answer": "$8.0 \\times 10^{-3}$",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "Divide: $(1.8 \\times 10^4) \\div (3.0 \\times 10^1)$",
+      "choices": [
+        "$6.0 \\times 10^2$",
+        "$0.6 \\times 10^3$",
+        "$6.0 \\times 10^5$",
+        "$5.4 \\times 10^5$"
+      ],
+      "answer": "$6.0 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "Add: $(6.5 \\times 10^3) + (3.5 \\times 10^3)$",
+      "choices": [
+        "$1.0 \\times 10^4$",
+        "$10.0 \\times 10^3$",
+        "$1.0 \\times 10^3$",
+        "$1.0 \\times 10^6$"
+      ],
+      "answer": "$1.0 \\times 10^4$",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "Subtract: $(2.0 \\times 10^0) - (1.0 \\times 10^0)$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^1$",
+        "$3.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Add: $(2.0 \\times 10^3) + (3.0 \\times 10^2)$",
+      "choices": [
+        "$2.3 \\times 10^3$",
+        "$5.0 \\times 10^3$",
+        "$2.03 \\times 10^3$",
+        "$5.0 \\times 10^2$"
+      ],
+      "answer": "$2.3 \\times 10^3$",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Subtract: $(8.0 \\times 10^5) - (5.0 \\times 10^4)$",
+      "choices": [
+        "$7.5 \\times 10^5$",
+        "$3.0 \\times 10^5$",
+        "$7.95 \\times 10^5$",
+        "$7.5 \\times 10^4$"
+      ],
+      "answer": "$7.5 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Multiply: $(2.5 \\times 10^2) \\times (4.0 \\times 10^{-1})$",
+      "choices": [
+        "$1.0 \\times 10^2$",
+        "$10.0 \\times 10^1$",
+        "$1.0 \\times 10^3$",
+        "$1.0 \\times 10^1$"
+      ],
+      "answer": "$1.0 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Divide: $(9.0 \\times 10^7) \\div (3.0 \\times 10^{-2})$",
+      "choices": [
+        "$3.0 \\times 10^9$",
+        "$3.0 \\times 10^5$",
+        "$6.0 \\times 10^9$",
+        "$3.0 \\times 10^{14}$"
+      ],
+      "answer": "$3.0 \\times 10^9$",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Add: $(1.5 \\times 10^4) + (2.5 \\times 10^5)$",
+      "choices": [
+        "$2.65 \\times 10^5$",
+        "$4.0 \\times 10^5$",
+        "$2.65 \\times 10^4$",
+        "$4.0 \\times 10^9$"
+      ],
+      "answer": "$2.65 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Subtract: $(7.5 \\times 10^2) - (2.5 \\times 10^1)$",
+      "choices": [
+        "$7.25 \\times 10^2$",
+        "$5.0 \\times 10^2$",
+        "$7.25 \\times 10^1$",
+        "$7.25 \\times 10^3$"
+      ],
+      "answer": "$7.25 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Multiply: $(4.5 \\times 10^{-3}) \\times (2.0 \\times 10^5)$",
+      "choices": [
+        "$9.0 \\times 10^2$",
+        "$9.0 \\times 10^{-15}$",
+        "$9.0 \\times 10^8$",
+        "$9.0 \\times 10^{-8}$"
+      ],
+      "answer": "$9.0 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Divide: $(1.2 \\times 10^6) \\div (6.0 \\times 10^{-2})$",
+      "choices": [
+        "$2.0 \\times 10^7$",
+        "$0.2 \\times 10^8$",
+        "$2.0 \\times 10^4$",
+        "$7.2 \\times 10^4$"
+      ],
+      "answer": "$2.0 \\times 10^7$",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Add: $(6.1 \\times 10^{-1}) + (1.8 \\times 10^0)$",
+      "choices": [
+        "$2.41 \\times 10^0$",
+        "$7.9 \\times 10^0$",
+        "$1.861 \\times 10^0$",
+        "$2.41 \\times 10^{-1}$"
+      ],
+      "answer": "$2.41 \\times 10^0$",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Subtract: $(9.3 \\times 10^4) - (4.1 \\times 10^3)$",
+      "choices": [
+        "$8.89 \\times 10^4$",
+        "$5.2 \\times 10^4$",
+        "$8.89 \\times 10^3$",
+        "$8.89 \\times 10^7$"
+      ],
+      "answer": "$8.89 \\times 10^4$",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Multiply: $(1.1 \\times 10^{-2}) \\times (5.0 \\times 10^3)$",
+      "choices": [
+        "$5.5 \\times 10^1$",
+        "$5.5 \\times 10^{-6}$",
+        "$5.5 \\times 10^5$",
+        "$5.5 \\times 10^{-5}$"
+      ],
+      "answer": "$5.5 \\times 10^1$",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Divide: $(8.4 \\times 10^5) \\div (2.0 \\times 10^0)$",
+      "choices": [
+        "$4.2 \\times 10^5$",
+        "$4.2 \\times 10^0$",
+        "$4.2 \\times 10^6$",
+        "$16.8 \\times 10^5$"
+      ],
+      "answer": "$4.2 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "Add: $(4.2 \\times 10^1) + (3.7 \\times 10^2)$",
+      "choices": [
+        "$4.12 \\times 10^2$",
+        "$7.9 \\times 10^2$",
+        "$4.12 \\times 10^1$",
+        "$4.12 \\times 10^3$"
+      ],
+      "answer": "$4.12 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Subtract: $(6.8 \\times 10^0) - (1.5 \\times 10^{-1})$",
+      "choices": [
+        "$6.65 \\times 10^0$",
+        "$5.3 \\times 10^0$",
+        "$6.65 \\times 10^{-1}$",
+        "$6.65 \\times 10^1$"
+      ],
+      "answer": "$6.65 \\times 10^0$",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Multiply: $(3.0 \\times 10^{-5}) \\times (2.0 \\times 10^2)$",
+      "choices": [
+        "$6.0 \\times 10^{-3}$",
+        "$6.0 \\times 10^{-10}$",
+        "$6.0 \\times 10^{-7}$",
+        "$6.0 \\times 10^7$"
+      ],
+      "answer": "$6.0 \\times 10^{-3}$",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "Divide: $(7.0 \\times 10^4) \\div (1.0 \\times 10^0)$",
+      "choices": [
+        "$7.0 \\times 10^4$",
+        "$7.0 \\times 10^3$",
+        "$7.0 \\times 10^5$",
+        "$7.0 \\times 10^0$"
+      ],
+      "answer": "$7.0 \\times 10^4$",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Add: $(2.2 \\times 10^2) + (3.3 \\times 10^3)$",
+      "choices": [
+        "$3.52 \\times 10^3$",
+        "$5.5 \\times 10^3$",
+        "$3.52 \\times 10^2$",
+        "$3.52 \\times 10^5$"
+      ],
+      "answer": "$3.52 \\times 10^3$",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Subtract: $(4.5 \\times 10^0) - (1.5 \\times 10^{-1})$",
+      "choices": [
+        "$4.35 \\times 10^0$",
+        "$3.0 \\times 10^0$",
+        "$4.35 \\times 10^{-1}$",
+        "$4.35 \\times 10^1$"
+      ],
+      "answer": "$4.35 \\times 10^0$",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Multiply: $(5.5 \\times 10^1) \\times (1.0 \\times 10^0)$",
+      "choices": [
+        "$5.5 \\times 10^1$",
+        "$5.5 \\times 10^0$",
+        "$5.5 \\times 10^2$",
+        "$5.5 \\times 10^{-1}$"
+      ],
+      "answer": "$5.5 \\times 10^1$",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Divide: $(6.0 \\times 10^0) \\div (2.0 \\times 10^{-1})$",
+      "choices": [
+        "$3.0 \\times 10^1$",
+        "$3.0 \\times 10^0$",
+        "$3.0 \\times 10^{-1}$",
+        "$3.0 \\times 10^2$"
+      ],
+      "answer": "$3.0 \\times 10^1$",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Add: $(1.0 \\times 10^5) + (4.0 \\times 10^4)$",
+      "choices": [
+        "$1.4 \\times 10^5$",
+        "$5.0 \\times 10^5$",
+        "$1.4 \\times 10^4$",
+        "$1.4 \\times 10^9$"
+      ],
+      "answer": "$1.4 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "Subtract: $(9.0 \\times 10^3) - (2.0 \\times 10^2)$",
+      "choices": [
+        "$8.8 \\times 10^3$",
+        "$7.0 \\times 10^3$",
+        "$8.8 \\times 10^2$",
+        "$8.8 \\times 10^5$"
+      ],
+      "answer": "$8.8 \\times 10^3$",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Multiply: $(3.5 \\times 10^{-1}) \\times (2.0 \\times 10^3)$",
+      "choices": [
+        "$7.0 \\times 10^2$",
+        "$7.0 \\times 10^{-3}$",
+        "$7.0 \\times 10^4$",
+        "$7.0 \\times 10^{-4}$"
+      ],
+      "answer": "$7.0 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Divide: $(8.0 \\times 10^3) \\div (4.0 \\times 10^{-2})$",
+      "choices": [
+        "$2.0 \\times 10^5$",
+        "$2.0 \\times 10^1$",
+        "$2.0 \\times 10^3$",
+        "$2.0 \\times 10^{-5}$"
+      ],
+      "answer": "$2.0 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Add: $(5.0 \\times 10^{-2}) + (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$1.5 \\times 10^{-1}$",
+        "$6.0 \\times 10^{-1}$",
+        "$1.5 \\times 10^{-2}$",
+        "$1.5 \\times 10^{-3}$"
+      ],
+      "answer": "$1.5 \\times 10^{-1}$",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Subtract: $(7.0 \\times 10^4) - (3.0 \\times 10^3)$",
+      "choices": [
+        "$6.7 \\times 10^4$",
+        "$4.0 \\times 10^4$",
+        "$6.7 \\times 10^3$",
+        "$6.7 \\times 10^7$"
+      ],
+      "answer": "$6.7 \\times 10^4$",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Multiply: $(2.5 \\times 10^{-2}) \\times (3.0 \\times 10^4)$",
+      "choices": [
+        "$7.5 \\times 10^2$",
+        "$7.5 \\times 10^{-8}$",
+        "$7.5 \\times 10^6$",
+        "$7.5 \\times 10^{-6}$"
+      ],
+      "answer": "$7.5 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Divide: $(1.5 \\times 10^5) \\div (5.0 \\times 10^{-2})$",
+      "choices": [
+        "$3.0 \\times 10^6$",
+        "$0.3 \\times 10^7$",
+        "$3.0 \\times 10^3$",
+        "$7.5 \\times 10^3$"
+      ],
+      "answer": "$3.0 \\times 10^6$",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Add: $(3.5 \\times 10^2) + (4.5 \\times 10^4)$",
+      "choices": [
+        "$4.535 \\times 10^4$",
+        "$8.0 \\times 10^4$",
+        "$4.535 \\times 10^2$",
+        "$4.535 \\times 10^6$"
+      ],
+      "answer": "$4.535 \\times 10^4$",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Subtract: $(6.0 \\times 10^0) - (1.0 \\times 10^{-2})$",
+      "choices": [
+        "$5.99 \\times 10^0$",
+        "$5.0 \\times 10^0$",
+        "$5.99 \\times 10^{-2}$",
+        "$5.99 \\times 10^2$"
+      ],
+      "answer": "$5.99 \\times 10^0$",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Multiply: $(1.2 \\times 10^{-4}) \\times (4.0 \\times 10^3)$",
+      "choices": [
+        "$4.8 \\times 10^{-1}$",
+        "$4.8 \\times 10^{-12}$",
+        "$4.8 \\times 10^7$",
+        "$4.8 \\times 10^{-7}$"
+      ],
+      "answer": "$4.8 \\times 10^{-1}$",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Divide: $(9.9 \\times 10^7) \\div (1.1 \\times 10^0)$",
+      "choices": [
+        "$9.0 \\times 10^7$",
+        "$9.0 \\times 10^6$",
+        "$9.0 \\times 10^8$",
+        "$10.89 \\times 10^7$"
+      ],
+      "answer": "$9.0 \\times 10^7$",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Add: $(4.0 \\times 10^3) + (5.0 \\times 10^5)$",
+      "choices": [
+        "$5.04 \\times 10^5$",
+        "$9.0 \\times 10^5$",
+        "$5.04 \\times 10^3$",
+        "$5.04 \\times 10^8$"
+      ],
+      "answer": "$5.04 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Subtract: $(8.5 \\times 10^{-1}) - (3.5 \\times 10^{-2})$",
+      "choices": [
+        "$8.15 \\times 10^{-1}$",
+        "$5.0 \\times 10^{-1}$",
+        "$8.15 \\times 10^{-2}$",
+        "$8.15 \\times 10^0$"
+      ],
+      "answer": "$8.15 \\times 10^{-1}$",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Multiply: $(2.0 \\times 10^0) \\times (4.0 \\times 10^{-3})$",
+      "choices": [
+        "$8.0 \\times 10^{-3}$",
+        "$8.0 \\times 10^3$",
+        "$8.0 \\times 10^{-4}$",
+        "$8.0 \\times 10^0$"
+      ],
+      "answer": "$8.0 \\times 10^{-3}$",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Divide: $(2.4 \\times 10^6) \\div (6.0 \\times 10^0)$",
+      "choices": [
+        "$4.0 \\times 10^5$",
+        "$4.0 \\times 10^6$",
+        "$4.0 \\times 10^7$",
+        "$14.4 \\times 10^6$"
+      ],
+      "answer": "$4.0 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "Add: $(1.1 \\times 10^{-3}) + (2.2 \\times 10^{-2})$",
+      "choices": [
+        "$2.31 \\times 10^{-2}$",
+        "$3.3 \\times 10^{-2}$",
+        "$2.31 \\times 10^{-3}$",
+        "$2.31 \\times 10^{-5}$"
+      ],
+      "answer": "$2.31 \\times 10^{-2}$",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Subtract: $(5.5 \\times 10^2) - (2.5 \\times 10^1)$",
+      "choices": [
+        "$5.25 \\times 10^2$",
+        "$3.0 \\times 10^2$",
+        "$5.25 \\times 10^1$",
+        "$5.25 \\times 10^3$"
+      ],
+      "answer": "$5.25 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Multiply: $(6.0 \\times 10^{-4}) \\times (1.5 \\times 10^2)$",
+      "choices": [
+        "$9.0 \\times 10^{-2}$",
+        "$9.0 \\times 10^{-8}$",
+        "$9.0 \\times 10^{-6}$",
+        "$9.0 \\times 10^6$"
+      ],
+      "answer": "$9.0 \\times 10^{-2}$",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Divide: $(3.6 \\times 10^2) \\div (1.2 \\times 10^{-1})$",
+      "choices": [
+        "$3.0 \\times 10^3$",
+        "$3.0 \\times 10^1$",
+        "$3.0 \\times 10^2$",
+        "$3.0 \\times 10^{-3}$"
+      ],
+      "answer": "$3.0 \\times 10^3$",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Add: $(7.0 \\times 10^{-1}) + (2.0 \\times 10^0)$",
+      "choices": [
+        "$2.7 \\times 10^0$",
+        "$9.0 \\times 10^0$",
+        "$2.7 \\times 10^{-1}$",
+        "$2.7 \\times 10^1$"
+      ],
+      "answer": "$2.7 \\times 10^0$",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Subtract: $(8.0 \\times 10^5) - (3.0 \\times 10^4)$",
+      "choices": [
+        "$7.7 \\times 10^5$",
+        "$5.0 \\times 10^5$",
+        "$7.7 \\times 10^4$",
+        "$7.7 \\times 10^9$"
+      ],
+      "answer": "$7.7 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Multiply: $(1.0 \\times 10^0) \\times (8.0 \\times 10^{-2})$",
+      "choices": [
+        "$8.0 \\times 10^{-2}$",
+        "$8.0 \\times 10^2$",
+        "$8.0 \\times 10^0$",
+        "$8.0 \\times 10^{-1}$"
+      ],
+      "answer": "$8.0 \\times 10^{-2}$",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Divide: $(4.5 \\times 10^5) \\div (1.5 \\times 10^0)$",
+      "choices": [
+        "$3.0 \\times 10^5$",
+        "$3.0 \\times 10^4$",
+        "$3.0 \\times 10^6$",
+        "$6.75 \\times 10^5$"
+      ],
+      "answer": "$3.0 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Add: $(2.5 \\times 10^{-2}) + (7.5 \\times 10^{-1})$",
+      "choices": [
+        "$7.75 \\times 10^{-1}$",
+        "$1.0 \\times 10^{-1}$",
+        "$7.75 \\times 10^{-2}$",
+        "$7.75 \\times 10^{-3}$"
+      ],
+      "answer": "$7.75 \\times 10^{-1}$",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Subtract: $(9.5 \\times 10^3) - (4.5 \\times 10^1)$",
+      "choices": [
+        "$9.455 \\times 10^3$",
+        "$5.0 \\times 10^3$",
+        "$9.455 \\times 10^1$",
+        "$9.455 \\times 10^4$"
+      ],
+      "answer": "$9.455 \\times 10^3$",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Multiply: $(4.0 \\times 10^3) \\times (2.0 \\times 10^{-5})$",
+      "choices": [
+        "$8.0 \\times 10^{-2}$",
+        "$8.0 \\times 10^{-15}$",
+        "$8.0 \\times 10^{-8}$",
+        "$8.0 \\times 10^8$"
+      ],
+      "answer": "$8.0 \\times 10^{-2}$",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Divide: $(1.8 \\times 10^4) \\div (3.0 \\times 10^{-3})$",
+      "choices": [
+        "$6.0 \\times 10^6$",
+        "$0.6 \\times 10^7$",
+        "$6.0 \\times 10^1$",
+        "$5.4 \\times 10^1$"
+      ],
+      "answer": "$6.0 \\times 10^6$",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Add: $(6.5 \\times 10^0) + (3.5 \\times 10^{-1})$",
+      "choices": [
+        "$6.85 \\times 10^0$",
+        "$1.0 \\times 10^0$",
+        "$6.85 \\times 10^{-1}$",
+        "$6.85 \\times 10^1$"
+      ],
+      "answer": "$6.85 \\times 10^0$",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Subtract: $(2.0 \\times 10^5) - (1.0 \\times 10^3)$",
+      "choices": [
+        "$1.99 \\times 10^5$",
+        "$1.0 \\times 10^5$",
+        "$1.99 \\times 10^3$",
+        "$1.99 \\times 10^8$"
+      ],
+      "answer": "$1.99 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Add: $(2.1 \\times 10^3) + (3.5 \\times 10^4)$",
+      "choices": [
+        "$3.71 \\times 10^4$",
+        "$5.6 \\times 10^4$",
+        "$3.71 \\times 10^3$",
+        "$3.71 \\times 10^7$"
+      ],
+      "answer": "$3.71 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Subtract: $(8.2 \\times 10^{-2}) - (5.0 \\times 10^{-3})$",
+      "choices": [
+        "$7.7 \\times 10^{-2}$",
+        "$3.2 \\times 10^{-2}$",
+        "$7.7 \\times 10^{-3}$",
+        "$7.7 \\times 10^{-5}$"
+      ],
+      "answer": "$7.7 \\times 10^{-2}$",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Multiply: $(1.25 \\times 10^2) \\times (8.0 \\times 10^{-4})$",
+      "choices": [
+        "$1.0 \\times 10^{-1}$",
+        "$10.0 \\times 10^{-2}$",
+        "$1.0 \\times 10^{-2}$",
+        "$1.0 \\times 10^2$"
+      ],
+      "answer": "$1.0 \\times 10^{-1}$",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Divide: $(7.2 \\times 10^8) \\div (2.4 \\times 10^{-3})$",
+      "choices": [
+        "$3.0 \\times 10^{11}$",
+        "$3.0 \\times 10^5$",
+        "$3.0 \\times 10^8$",
+        "$3.0 \\times 10^{-11}$"
+      ],
+      "answer": "$3.0 \\times 10^{11}$",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Add: $(4.8 \\times 10^5) + (1.2 \\times 10^6)$",
+      "choices": [
+        "$1.68 \\times 10^6$",
+        "$6.0 \\times 10^6$",
+        "$1.68 \\times 10^5$",
+        "$1.68 \\times 10^{11}$"
+      ],
+      "answer": "$1.68 \\times 10^6$",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Subtract: $(9.1 \\times 10^3) - (3.5 \\times 10^2)$",
+      "choices": [
+        "$8.75 \\times 10^3$",
+        "$5.6 \\times 10^3$",
+        "$8.75 \\times 10^2$",
+        "$8.75 \\times 10^5$"
+      ],
+      "answer": "$8.75 \\times 10^3$",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Multiply: $(3.2 \\times 10^{-1}) \\times (2.5 \\times 10^{-2})$",
+      "choices": [
+        "$8.0 \\times 10^{-3}$",
+        "$8.0 \\times 10^{-2}$",
+        "$8.0 \\times 10^{-4}$",
+        "$8.0 \\times 10^{-1}$"
+      ],
+      "answer": "$8.0 \\times 10^{-3}$",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Divide: $(1.8 \\times 10^{-5}) \\div (6.0 \\times 10^{-2})$",
+      "choices": [
+        "$3.0 \\times 10^{-4}$",
+        "$0.3 \\times 10^{-3}$",
+        "$3.0 \\times 10^{-7}$",
+        "$3.0 \\times 10^{-10}$"
+      ],
+      "answer": "$3.0 \\times 10^{-4}$",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Add: $(7.5 \\times 10^{-4}) + (2.5 \\times 10^{-3})$",
+      "choices": [
+        "$3.25 \\times 10^{-3}$",
+        "$1.0 \\times 10^{-3}$",
+        "$3.25 \\times 10^{-4}$",
+        "$3.25 \\times 10^{-7}$"
+      ],
+      "answer": "$3.25 \\times 10^{-3}$",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Subtract: $(6.0 \\times 10^0) - (1.5 \\times 10^{-1})$",
+      "choices": [
+        "$5.85 \\times 10^0$",
+        "$4.5 \\times 10^0$",
+        "$5.85 \\times 10^{-1}$",
+        "$5.85 \\times 10^1$"
+      ],
+      "answer": "$5.85 \\times 10^0$",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Multiply: $(4.0 \\times 10^3) \\times (2.5 \\times 10^{-5})$",
+      "choices": [
+        "$1.0 \\times 10^{-1}$",
+        "$10.0 \\times 10^{-2}$",
+        "$1.0 \\times 10^{-2}$",
+        "$1.0 \\times 10^2$"
+      ],
+      "answer": "$1.0 \\times 10^{-1}$",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Divide: $(9.6 \\times 10^7) \\div (1.2 \\times 10^2)$",
+      "choices": [
+        "$8.0 \\times 10^5$",
+        "$8.0 \\times 10^9$",
+        "$8.0 \\times 10^6$",
+        "$8.0 \\times 10^4$"
+      ],
+      "answer": "$8.0 \\times 10^5$",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Add: $(1.5 \\times 10^2) + (8.5 \\times 10^3)$",
+      "choices": [
+        "$8.65 \\times 10^3$",
+        "$1.0 \\times 10^4$",
+        "$8.65 \\times 10^2$",
+        "$8.65 \\times 10^5$"
+      ],
+      "answer": "$8.65 \\times 10^3$",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Subtract: $(7.0 \\times 10^{-1}) - (2.0 \\times 10^{-2})$",
+      "choices": [
+        "$6.8 \\times 10^{-1}$",
+        "$5.0 \\times 10^{-1}$",
+        "$6.8 \\times 10^{-2}$",
+        "$6.8 \\times 10^0$"
+      ],
+      "answer": "$6.8 \\times 10^{-1}$",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Multiply: $(5.0 \\times 10^{-3}) \\times (1.5 \\times 10^{-1})$",
+      "choices": [
+        "$7.5 \\times 10^{-4}$",
+        "$7.5 \\times 10^{-3}$",
+        "$7.5 \\times 10^{-2}$",
+        "$7.5 \\times 10^{-5}$"
+      ],
+      "answer": "$7.5 \\times 10^{-4}$",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "Divide: $(2.1 \\times 10^6) \\div (7.0 \\times 10^3)$",
+      "choices": [
+        "$3.0 \\times 10^2$",
+        "$0.3 \\times 10^3$",
+        "$3.0 \\times 10^9$",
+        "$14.7 \\times 10^9$"
+      ],
+      "answer": "$3.0 \\times 10^2$",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Add: $(3.3 \\times 10^4) + (2.2 \\times 10^3)$",
+      "choices": [
+        "$3.52 \\times 10^4$",
+        "$5.5 \\times 10^4$",
+        "$3.52 \\times 10^3$",
+        "$3.52 \\times 10^7$"
+      ],
+      "answer": "$3.52 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Subtract: $(4.5 \\times 10^1) - (1.5 \\times 10^0)$",
+      "choices": [
+        "$4.35 \\times 10^1$",
+        "$3.0 \\times 10^1$",
+        "$4.35 \\times 10^0$",
+        "$4.35 \\times 10^2$"
+      ],
+      "answer": "$4.35 \\times 10^1$",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "Multiply: $(6.5 \\times 10^0) \\times (1.2 \\times 10^1)$",
+      "choices": [
+        "$7.8 \\times 10^1$",
+        "$7.8 \\times 10^0$",
+        "$7.8 \\times 10^2$",
+        "$7.8 \\times 10^{-1}$"
+      ],
+      "answer": "$7.8 \\times 10^1$",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Divide: $(8.8 \\times 10^5) \\div (4.4 \\times 10^{-2})$",
+      "choices": [
+        "$2.0 \\times 10^7$",
+        "$2.0 \\times 10^3$",
+        "$2.0 \\times 10^5$",
+        "$2.0 \\times 10^{-7}$"
+      ],
+      "answer": "$2.0 \\times 10^7$",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Add: $(1.0 \\times 10^{-1}) + (4.0 \\times 10^0)$",
+      "choices": [
+        "$4.1 \\times 10^0$",
+        "$5.0 \\times 10^0$",
+        "$4.1 \\times 10^{-1}$",
+        "$4.1 \\times 10^1$"
+      ],
+      "answer": "$4.1 \\times 10^0$",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "Subtract: $(9.0 \\times 10^6) - (2.0 \\times 10^5)$",
+      "choices": [
+        "$8.8 \\times 10^6$",
+        "$7.0 \\times 10^6$",
+        "$8.8 \\times 10^5$",
+        "$8.8 \\times 10^{11}$"
+      ],
+      "answer": "$8.8 \\times 10^6$",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Multiply: $(3.0 \\times 10^{-2}) \\times (3.0 \\times 10^{-1})$",
+      "choices": [
+        "$9.0 \\times 10^{-3}$",
+        "$9.0 \\times 10^{-2}$",
+        "$6.0 \\times 10^{-3}$",
+        "$9.0 \\times 10^{-1}$"
+      ],
+      "answer": "$9.0 \\times 10^{-3}$",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Divide: $(8.0 \\times 10^3) \\div (2.5 \\times 10^{-1})$",
+      "choices": [
+        "$3.2 \\times 10^4$",
+        "$3.2 \\times 10^2$",
+        "$3.2 \\times 10^3$",
+        "$3.2 \\times 10^{-4}$"
+      ],
+      "answer": "$3.2 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "Add: $(5.0 \\times 10^4) + (1.0 \\times 10^5)$",
+      "choices": [
+        "$1.5 \\times 10^5$",
+        "$6.0 \\times 10^5$",
+        "$1.5 \\times 10^4$",
+        "$1.5 \\times 10^9$"
+      ],
+      "answer": "$1.5 \\times 10^5$",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Subtract: $(7.0 \\times 10^{-3}) - (3.0 \\times 10^{-4})$",
+      "choices": [
+        "$6.7 \\times 10^{-3}$",
+        "$4.0 \\times 10^{-3}$",
+        "$6.7 \\times 10^{-4}$",
+        "$6.7 \\times 10^{-7}$"
+      ],
+      "answer": "$6.7 \\times 10^{-3}$",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Multiply: $(2.5 \\times 10^{-4}) \\times (2.0 \\times 10^5)$",
+      "choices": [
+        "$5.0 \\times 10^1$",
+        "$5.0 \\times 10^{-20}$",
+        "$5.0 \\times 10^{-9}$",
+        "$5.0 \\times 10^9$"
+      ],
+      "answer": "$5.0 \\times 10^1$",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "Divide: $(1.5 \\times 10^5) \\div (5.0 \\times 10^0)$",
+      "choices": [
+        "$3.0 \\times 10^4$",
+        "$0.3 \\times 10^5$",
+        "$3.0 \\times 10^5$",
+        "$7.5 \\times 10^5$"
+      ],
+      "answer": "$3.0 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "Add: $(3.5 \\times 10^2) + (4.5 \\times 10^1)$",
+      "choices": [
+        "$3.95 \\times 10^2$",
+        "$8.0 \\times 10^2$",
+        "$3.95 \\times 10^1$",
+        "$3.95 \\times 10^3$"
+      ],
+      "answer": "$3.95 \\times 10^2$",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "Subtract: $(6.0 \\times 10^5) - (1.0 \\times 10^4)$",
+      "choices": [
+        "$5.9 \\times 10^5$",
+        "$5.0 \\times 10^5$",
+        "$5.9 \\times 10^4$",
+        "$5.9 \\times 10^9$"
+      ],
+      "answer": "$5.9 \\times 10^5$",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "Multiply: $(1.2 \\times 10^{-5}) \\times (4.0 \\times 10^3)$",
+      "choices": [
+        "$4.8 \\times 10^{-2}$",
+        "$4.8 \\times 10^{-15}$",
+        "$4.8 \\times 10^{-8}$",
+        "$4.8 \\times 10^{-7}$"
+      ],
+      "answer": "$4.8 \\times 10^{-2}$",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "Divide: $(9.9 \\times 10^7) \\div (1.1 \\times 10^{-2})$",
+      "choices": [
+        "$9.0 \\times 10^9$",
+        "$9.0 \\times 10^5$",
+        "$9.0 \\times 10^7$",
+        "$9.0 \\times 10^{14}$"
+      ],
+      "answer": "$9.0 \\times 10^9$",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "Add: $(4.0 \\times 10^3) + (5.0 \\times 10^2)$",
+      "choices": [
+        "$4.5 \\times 10^3$",
+        "$9.0 \\times 10^3$",
+        "$4.5 \\times 10^2$",
+        "$4.5 \\times 10^5$"
+      ],
+      "answer": "$4.5 \\times 10^3$",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "Subtract: $(8.5 \\times 10^{-1}) - (3.5 \\times 10^{-3})$",
+      "choices": [
+        "$8.465 \\times 10^{-1}$",
+        "$5.0 \\times 10^{-1}$",
+        "$8.465 \\times 10^{-3}$",
+        "$8.465 \\times 10^0$"
+      ],
+      "answer": "$8.465 \\times 10^{-1}$",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "Multiply: $(2.0 \\times 10^{-4}) \\times (4.0 \\times 10^0)$",
+      "choices": [
+        "$8.0 \\times 10^{-4}$",
+        "$8.0 \\times 10^4$",
+        "$8.0 \\times 10^{-5}$",
+        "$8.0 \\times 10^0$"
+      ],
+      "answer": "$8.0 \\times 10^{-4}$",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "Divide: $(2.4 \\times 10^6) \\div (6.0 \\times 10^{-1})$",
+      "choices": [
+        "$4.0 \\times 10^6$",
+        "$0.4 \\times 10^7$",
+        "$4.0 \\times 10^5$",
+        "$14.4 \\times 10^5$"
+      ],
+      "answer": "$4.0 \\times 10^6$",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "Add: $(1.1 \\times 10^{-2}) + (2.2 \\times 10^{-4})$",
+      "choices": [
+        "$1.122 \\times 10^{-2}$",
+        "$3.3 \\times 10^{-2}$",
+        "$1.122 \\times 10^{-4}$",
+        "$1.122 \\times 10^{-6}$"
+      ],
+      "answer": "$1.122 \\times 10^{-2}$",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "Subtract: $(5.5 \\times 10^3) - (2.5 \\times 10^1)$",
+      "choices": [
+        "$5.475 \\times 10^3$",
+        "$3.0 \\times 10^3$",
+        "$5.475 \\times 10^1$",
+        "$5.475 \\times 10^4$"
+      ],
+      "answer": "$5.475 \\times 10^3$",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "Multiply: $(6.0 \\times 10^{-5}) \\times (1.5 \\times 10^3)$",
+      "choices": [
+        "$9.0 \\times 10^{-2}$",
+        "$9.0 \\times 10^{-15}$",
+        "$9.0 \\times 10^{-8}$",
+        "$9.0 \\times 10^{-6}$"
+      ],
+      "answer": "$9.0 \\times 10^{-2}$",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "Divide: $(3.6 \\times 10^2) \\div (1.2 \\times 10^{-3})$",
+      "choices": [
+        "$3.0 \\times 10^5$",
+        "$3.0 \\times 10^1$",
+        "$3.0 \\times 10^2$",
+        "$3.0 \\times 10^{-5}$"
+      ],
+      "answer": "$3.0 \\times 10^5$",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Add: $(7.0 \\times 10^6) + (2.0 \\times 10^4)$",
+      "choices": [
+        "$7.02 \\times 10^6$",
+        "$9.0 \\times 10^6$",
+        "$7.02 \\times 10^4$",
+        "$7.02 \\times 10^{10}$"
+      ],
+      "answer": "$7.02 \\times 10^6$",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Subtract: $(8.0 \\times 10^{-4}) - (3.0 \\times 10^{-5})$",
+      "choices": [
+        "$7.7 \\times 10^{-4}$",
+        "$5.0 \\times 10^{-4}$",
+        "$7.7 \\times 10^{-5}$",
+        "$7.7 \\times 10^{-9}$"
+      ],
+      "answer": "$7.7 \\times 10^{-4}$",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Multiply: $(1.0 \\times 10^{-1}) \\times (8.0 \\times 10^{-3})$",
+      "choices": [
+        "$8.0 \\times 10^{-4}$",
+        "$8.0 \\times 10^{-3}$",
+        "$8.0 \\times 10^{-2}$",
+        "$8.0 \\times 10^{-1}$"
+      ],
+      "answer": "$8.0 \\times 10^{-4}$",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Divide: $(4.5 \\times 10^5) \\div (1.5 \\times 10^{-1})$",
+      "choices": [
+        "$3.0 \\times 10^6$",
+        "$3.0 \\times 10^4$",
+        "$3.0 \\times 10^5$",
+        "$3.0 \\times 10^{-6}$"
+      ],
+      "answer": "$3.0 \\times 10^6$",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Add: $(2.5 \\times 10^1) + (7.5 \\times 10^0)$",
+      "choices": [
+        "$3.25 \\times 10^1$",
+        "$1.0 \\times 10^2$",
+        "$3.25 \\times 10^0$",
+        "$3.25 \\times 10^2$"
+      ],
+      "answer": "$3.25 \\times 10^1$",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Subtract: $(9.5 \\times 10^2) - (4.5 \\times 10^0)$",
+      "choices": [
+        "$9.455 \\times 10^2$",
+        "$5.0 \\times 10^2$",
+        "$9.455 \\times 10^0$",
+        "$9.455 \\times 10^4$"
+      ],
+      "answer": "$9.455 \\times 10^2$",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Multiply: $(4.0 \\times 10^{-2}) \\times (2.5 \\times 10^{-3})$",
+      "choices": [
+        "$1.0 \\times 10^{-4}$",
+        "$10.0 \\times 10^{-6}$",
+        "$1.0 \\times 10^{-5}$",
+        "$1.0 \\times 10^{-1}$"
+      ],
+      "answer": "$1.0 \\times 10^{-4}$",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Divide: $(1.8 \\times 10^4) \\div (3.0 \\times 10^{-2})$",
+      "choices": [
+        "$6.0 \\times 10^5$",
+        "$0.6 \\times 10^6$",
+        "$6.0 \\times 10^2$",
+        "$5.4 \\times 10^2$"
+      ],
+      "answer": "$6.0 \\times 10^5$",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Add: $(6.5 \\times 10^0) + (3.5 \\times 10^{-2})$",
+      "choices": [
+        "$6.535 \\times 10^0$",
+        "$1.0 \\times 10^0$",
+        "$6.535 \\times 10^{-2}$",
+        "$6.535 \\times 10^2$"
+      ],
+      "answer": "$6.535 \\times 10^0$",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Subtract: $(2.0 \\times 10^5) - (1.0 \\times 10^2)$",
+      "choices": [
+        "$1.999 \\times 10^5$",
+        "$1.0 \\times 10^5$",
+        "$1.999 \\times 10^2$",
+        "$1.999 \\times 10^7$"
+      ],
+      "answer": "$1.999 \\times 10^5$",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Calculate: $((2.0 \\times 10^3) + (3.0 \\times 10^2)) \\times (1.0 \\times 10^1)$",
+      "choices": [
+        "$2.3 \\times 10^4$",
+        "$5.0 \\times 10^4$",
+        "$2.3 \\times 10^5$",
+        "$2.03 \\times 10^4$"
+      ],
+      "answer": "$2.3 \\times 10^4$",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Calculate: $((8.0 \\times 10^5) - (5.0 \\times 10^4)) \\div (1.0 \\times 10^2)$",
+      "choices": [
+        "$7.5 \\times 10^3$",
+        "$3.0 \\times 10^3$",
+        "$7.95 \\times 10^3$",
+        "$7.5 \\times 10^2$"
+      ],
+      "answer": "$7.5 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Calculate: $(2.5 \\times 10^{-2}) \\times (4.0 \\times 10^3) \\div (1.0 \\times 10^1)$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$10.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-1}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Calculate: $((9.0 \\times 10^7) \\div (3.0 \\times 10^{-2})) + (1.0 \\times 10^9)$",
+      "choices": [
+        "$4.0 \\times 10^9$",
+        "$3.0 \\times 10^9$",
+        "$1.3 \\times 10^9$",
+        "$4.0 \\times 10^{14}$"
+      ],
+      "answer": "$4.0 \\times 10^9$",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Calculate: $((1.5 \\times 10^4) + (2.5 \\times 10^5)) \\times (2.0 \\times 10^{-1})$",
+      "choices": [
+        "$5.3 \\times 10^4$",
+        "$5.3 \\times 10^3$",
+        "$2.65 \\times 10^4$",
+        "$5.3 \\times 10^9$"
+      ],
+      "answer": "$5.3 \\times 10^4$",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Calculate: $((7.5 \\times 10^2) - (2.5 \\times 10^1)) \\div (5.0 \\times 10^0)$",
+      "choices": [
+        "$1.45 \\times 10^2$",
+        "$1.45 \\times 10^1$",
+        "$1.45 \\times 10^3$",
+        "$1.45 \\times 10^0$"
+      ],
+      "answer": "$1.45 \\times 10^2$",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Calculate: $(4.5 \\times 10^{-3}) \\times (2.0 \\times 10^5) \\div (9.0 \\times 10^2)$",
+      "choices": [
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^{-2}$",
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^1$"
+      ],
+      "answer": "$1.0 \\times 10^{-1}$",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Calculate: $((1.2 \\times 10^6) \\div (6.0 \\times 10^{-2})) - (1.0 \\times 10^7)$",
+      "choices": [
+        "$1.0 \\times 10^7$",
+        "$2.0 \\times 10^7$",
+        "$1.0 \\times 10^6$",
+        "$1.0 \\times 10^8$"
+      ],
+      "answer": "$1.0 \\times 10^7$",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Calculate: $((6.1 \\times 10^{-1}) + (1.8 \\times 10^0)) \\times (1.0 \\times 10^2)$",
+      "choices": [
+        "$2.41 \\times 10^2$",
+        "$7.9 \\times 10^2$",
+        "$1.861 \\times 10^2$",
+        "$2.41 \\times 10^1$"
+      ],
+      "answer": "$2.41 \\times 10^2$",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Calculate: $((9.3 \\times 10^4) - (4.1 \\times 10^3)) \\div (1.0 \\times 10^1)$",
+      "choices": [
+        "$8.89 \\times 10^3$",
+        "$5.2 \\times 10^3$",
+        "$8.89 \\times 10^2$",
+        "$8.89 \\times 10^6$"
+      ],
+      "answer": "$8.89 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Calculate: $(1.1 \\times 10^{-2}) \\times (5.0 \\times 10^3) \\div (5.5 \\times 10^1)$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Calculate: $((8.4 \\times 10^5) \\div (2.0 \\times 10^0)) + (1.0 \\times 10^5)$",
+      "choices": [
+        "$5.2 \\times 10^5$",
+        "$4.2 \\times 10^5$",
+        "$5.2 \\times 10^6$",
+        "$5.2 \\times 10^4$"
+      ],
+      "answer": "$5.2 \\times 10^5$",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Calculate: $((4.2 \\times 10^1) + (3.7 \\times 10^2)) \\times (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$4.12 \\times 10^1$",
+        "$7.9 \\times 10^1$",
+        "$4.12 \\times 10^0$",
+        "$4.12 \\times 10^2$"
+      ],
+      "answer": "$4.12 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Calculate: $((6.8 \\times 10^0) - (1.5 \\times 10^{-1})) \\div (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$6.65 \\times 10^1$",
+        "$5.3 \\times 10^1$",
+        "$6.65 \\times 10^0$",
+        "$6.65 \\times 10^2$"
+      ],
+      "answer": "$6.65 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Calculate: $(3.0 \\times 10^{-5}) \\times (2.0 \\times 10^2) \\div (6.0 \\times 10^{-3})$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Calculate: $((7.0 \\times 10^4) \\div (1.0 \\times 10^0)) - (5.0 \\times 10^4)$",
+      "choices": [
+        "$2.0 \\times 10^4$",
+        "$7.0 \\times 10^4$",
+        "$2.0 \\times 10^3$",
+        "$2.0 \\times 10^5$"
+      ],
+      "answer": "$2.0 \\times 10^4$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Calculate: $((2.2 \\times 10^2) + (3.3 \\times 10^3)) \\times (1.0 \\times 10^{-2})$",
+      "choices": [
+        "$3.52 \\times 10^1$",
+        "$5.5 \\times 10^1$",
+        "$3.52 \\times 10^0$",
+        "$3.52 \\times 10^3$"
+      ],
+      "answer": "$3.52 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Calculate: $((4.5 \\times 10^0) - (1.5 \\times 10^{-1})) \\div (1.0 \\times 10^0)$",
+      "choices": [
+        "$4.35 \\times 10^0$",
+        "$3.0 \\times 10^0$",
+        "$4.35 \\times 10^{-1}$",
+        "$4.35 \\times 10^1$"
+      ],
+      "answer": "$4.35 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Calculate: $(5.5 \\times 10^1) \\times (1.0 \\times 10^0) \\div (5.5 \\times 10^1)$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Calculate: $((6.0 \\times 10^0) \\div (2.0 \\times 10^{-1})) - (2.0 \\times 10^1)$",
+      "choices": [
+        "$1.0 \\times 10^1$",
+        "$3.0 \\times 10^1$",
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^2$"
+      ],
+      "answer": "$1.0 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Calculate: $((1.0 \\times 10^5) + (4.0 \\times 10^4)) \\times (5.0 \\times 10^{-1})$",
+      "choices": [
+        "$7.0 \\times 10^4$",
+        "$7.0 \\times 10^3$",
+        "$1.4 \\times 10^4$",
+        "$7.0 \\times 10^9$"
+      ],
+      "answer": "$7.0 \\times 10^4$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Calculate: $((9.0 \\times 10^3) - (2.0 \\times 10^2)) \\div (1.0 \\times 10^1)$",
+      "choices": [
+        "$8.8 \\times 10^2$",
+        "$7.0 \\times 10^2$",
+        "$8.8 \\times 10^1$",
+        "$8.8 \\times 10^4$"
+      ],
+      "answer": "$8.8 \\times 10^2$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Calculate: $(3.5 \\times 10^{-1}) \\times (2.0 \\times 10^3) \\div (7.0 \\times 10^2)$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Calculate: $((8.0 \\times 10^3) \\div (4.0 \\times 10^{-2})) + (1.0 \\times 10^5)$",
+      "choices": [
+        "$3.0 \\times 10^5$",
+        "$2.0 \\times 10^5$",
+        "$3.0 \\times 10^6$",
+        "$3.0 \\times 10^4$"
+      ],
+      "answer": "$3.0 \\times 10^5$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Calculate: $((5.0 \\times 10^{-2}) + (1.0 \\times 10^{-1})) \\times (1.0 \\times 10^2)$",
+      "choices": [
+        "$1.5 \\times 10^1$",
+        "$6.0 \\times 10^1$",
+        "$1.5 \\times 10^0$",
+        "$1.5 \\times 10^2$"
+      ],
+      "answer": "$1.5 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Calculate: $((7.0 \\times 10^4) - (3.0 \\times 10^3)) \\div (1.0 \\times 10^1)$",
+      "choices": [
+        "$6.7 \\times 10^3$",
+        "$4.0 \\times 10^3$",
+        "$6.7 \\times 10^2$",
+        "$6.7 \\times 10^6$"
+      ],
+      "answer": "$6.7 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Calculate: $(2.5 \\times 10^{-2}) \\times (3.0 \\times 10^4) \\div (7.5 \\times 10^2)$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Calculate: $((1.5 \\times 10^5) \\div (5.0 \\times 10^{-2})) - (2.0 \\times 10^6)$",
+      "choices": [
+        "$1.0 \\times 10^6$",
+        "$3.0 \\times 10^6$",
+        "$1.0 \\times 10^5$",
+        "$1.0 \\times 10^7$"
+      ],
+      "answer": "$1.0 \\times 10^6$",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Calculate: $((3.5 \\times 10^2) + (4.5 \\times 10^4)) \\times (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$4.535 \\times 10^3$",
+        "$8.0 \\times 10^3$",
+        "$4.535 \\times 10^2$",
+        "$4.535 \\times 10^5$"
+      ],
+      "answer": "$4.535 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "Calculate: $((6.0 \\times 10^0) - (1.0 \\times 10^{-2})) \\div (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$5.99 \\times 10^1$",
+        "$5.0 \\times 10^1$",
+        "$5.99 \\times 10^0$",
+        "$5.99 \\times 10^2$"
+      ],
+      "answer": "$5.99 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "Calculate: $(1.2 \\times 10^{-4}) \\times (4.0 \\times 10^3) \\div (4.8 \\times 10^{-1})$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "Calculate: $((9.9 \\times 10^7) \\div (1.1 \\times 10^0)) - (8.0 \\times 10^7)$",
+      "choices": [
+        "$1.0 \\times 10^7$",
+        "$9.0 \\times 10^7$",
+        "$1.0 \\times 10^6$",
+        "$1.0 \\times 10^8$"
+      ],
+      "answer": "$1.0 \\times 10^7$",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "Calculate: $((4.0 \\times 10^3) + (5.0 \\times 10^5)) \\times (1.0 \\times 10^{-2})$",
+      "choices": [
+        "$5.04 \\times 10^3$",
+        "$9.0 \\times 10^3$",
+        "$5.04 \\times 10^2$",
+        "$5.04 \\times 10^5$"
+      ],
+      "answer": "$5.04 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "Calculate: $((8.5 \\times 10^{-1}) - (3.5 \\times 10^{-2})) \\div (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$8.15 \\times 10^0$",
+        "$5.0 \\times 10^0$",
+        "$8.15 \\times 10^{-1}$",
+        "$8.15 \\times 10^1$"
+      ],
+      "answer": "$8.15 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "Calculate: $(2.0 \\times 10^0) \\times (4.0 \\times 10^{-3}) \\div (8.0 \\times 10^{-3})$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Calculate: $((2.4 \\times 10^6) \\div (6.0 \\times 10^0)) - (3.0 \\times 10^5)$",
+      "choices": [
+        "$1.0 \\times 10^5$",
+        "$4.0 \\times 10^5$",
+        "$1.0 \\times 10^4$",
+        "$1.0 \\times 10^6$"
+      ],
+      "answer": "$1.0 \\times 10^5$",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "Calculate: $((1.1 \\times 10^{-3}) + (2.2 \\times 10^{-2})) \\times (1.0 \\times 10^3)$",
+      "choices": [
+        "$2.31 \\times 10^1$",
+        "$3.3 \\times 10^1$",
+        "$2.31 \\times 10^0$",
+        "$2.31 \\times 10^2$"
+      ],
+      "answer": "$2.31 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "Calculate: $((5.5 \\times 10^2) - (2.5 \\times 10^1)) \\div (1.0 \\times 10^1)$",
+      "choices": [
+        "$5.25 \\times 10^1$",
+        "$3.0 \\times 10^1$",
+        "$5.25 \\times 10^0$",
+        "$5.25 \\times 10^2$"
+      ],
+      "answer": "$5.25 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "Calculate: $(6.0 \\times 10^{-4}) \\times (1.5 \\times 10^2) \\div (9.0 \\times 10^{-2})$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "Calculate: $((3.6 \\times 10^2) \\div (1.2 \\times 10^{-1})) - (2.0 \\times 10^3)$",
+      "choices": [
+        "$1.0 \\times 10^3$",
+        "$3.0 \\times 10^3$",
+        "$1.0 \\times 10^2$",
+        "$1.0 \\times 10^4$"
+      ],
+      "answer": "$1.0 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "Calculate: $((7.0 \\times 10^{-1}) + (2.0 \\times 10^0)) \\times (1.0 \\times 10^1)$",
+      "choices": [
+        "$2.7 \\times 10^1$",
+        "$9.0 \\times 10^1$",
+        "$2.7 \\times 10^0$",
+        "$2.7 \\times 10^2$"
+      ],
+      "answer": "$2.7 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "Calculate: $((8.0 \\times 10^5) - (3.0 \\times 10^4)) \\div (1.0 \\times 10^2)$",
+      "choices": [
+        "$7.7 \\times 10^3$",
+        "$5.0 \\times 10^3$",
+        "$7.7 \\times 10^2$",
+        "$7.7 \\times 10^5$"
+      ],
+      "answer": "$7.7 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Calculate: $(1.0 \\times 10^0) \\times (8.0 \\times 10^{-2}) \\div (8.0 \\times 10^{-2})$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Calculate: $((4.5 \\times 10^5) \\div (1.5 \\times 10^0)) + (1.0 \\times 10^5)$",
+      "choices": [
+        "$4.0 \\times 10^5$",
+        "$3.0 \\times 10^5$",
+        "$4.0 \\times 10^6$",
+        "$4.0 \\times 10^4$"
+      ],
+      "answer": "$4.0 \\times 10^5$",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "Calculate: $((2.5 \\times 10^{-2}) + (7.5 \\times 10^{-1})) \\times (1.0 \\times 10^2)$",
+      "choices": [
+        "$7.75 \\times 10^1$",
+        "$1.0 \\times 10^1$",
+        "$7.75 \\times 10^0$",
+        "$7.75 \\times 10^2$"
+      ],
+      "answer": "$7.75 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "Calculate: $((9.5 \\times 10^3) - (4.5 \\times 10^1)) \\div (1.0 \\times 10^1)$",
+      "choices": [
+        "$9.455 \\times 10^2$",
+        "$5.0 \\times 10^2$",
+        "$9.455 \\times 10^1$",
+        "$9.455 \\times 10^4$"
+      ],
+      "answer": "$9.455 \\times 10^2$",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Calculate: $(4.0 \\times 10^3) \\times (2.0 \\times 10^{-5}) \\div (8.0 \\times 10^{-2})$",
+      "choices": [
+        "$1.0 \\times 10^0$",
+        "$1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^1$",
+        "$1.0 \\times 10^{-2}$"
+      ],
+      "answer": "$1.0 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Calculate: $((1.8 \\times 10^4) \\div (3.0 \\times 10^{-3})) - (5.0 \\times 10^6)$",
+      "choices": [
+        "$1.0 \\times 10^6$",
+        "$6.0 \\times 10^6$",
+        "$1.0 \\times 10^5$",
+        "$1.0 \\times 10^7$"
+      ],
+      "answer": "$1.0 \\times 10^6$",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Calculate: $((6.5 \\times 10^0) + (3.5 \\times 10^{-1})) \\times (1.0 \\times 10^2)$",
+      "choices": [
+        "$6.85 \\times 10^2$",
+        "$1.0 \\times 10^2$",
+        "$6.85 \\times 10^1$",
+        "$6.85 \\times 10^3$"
+      ],
+      "answer": "$6.85 \\times 10^2$",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "Calculate: $((2.0 \\times 10^5) - (1.0 \\times 10^3)) \\div (1.0 \\times 10^2)$",
+      "choices": [
+        "$1.99 \\times 10^3$",
+        "$1.0 \\times 10^3$",
+        "$1.99 \\times 10^2$",
+        "$1.99 \\times 10^4$"
+      ],
+      "answer": "$1.99 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Evaluate: $((2.5 \\times 10^3) + (1.5 \\times 10^4)) \\div (5.0 \\times 10^2)$",
+      "choices": [
+        "$3.5 \\times 10^1$",
+        "$3.5 \\times 10^2$",
+        "$3.5 \\times 10^0$",
+        "$3.5 \\times 10^3$"
+      ],
+      "answer": "$3.5 \\times 10^1$",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Evaluate: $((8.0 \\times 10^{-2}) - (3.0 \\times 10^{-3})) \\times (2.0 \\times 10^4)$",
+      "choices": [
+        "$1.54 \\times 10^3$",
+        "$1.54 \\times 10^2$",
+        "$1.54 \\times 10^1$",
+        "$1.54 \\times 10^4$"
+      ],
+      "answer": "$1.54 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Evaluate: $(1.2 \\times 10^5) \\times (3.0 \\times 10^{-2}) + (4.0 \\times 10^3)$",
+      "choices": [
+        "$7.6 \\times 10^3$",
+        "$3.6 \\times 10^3$",
+        "$7.6 \\times 10^2$",
+        "$7.6 \\times 10^4$"
+      ],
+      "answer": "$7.6 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Evaluate: $(9.0 \\times 10^7) \\div (3.0 \\times 10^{-2}) - (2.0 \\times 10^9)$",
+      "choices": [
+        "$1.0 \\times 10^9$",
+        "$3.0 \\times 10^9$",
+        "$1.0 \\times 10^8$",
+        "$1.0 \\times 10^{10}$"
+      ],
+      "answer": "$1.0 \\times 10^9$",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Evaluate: $((4.0 \\times 10^2) + (6.0 \\times 10^3)) \\div (2.0 \\times 10^{-1})$",
+      "choices": [
+        "$3.2 \\times 10^4$",
+        "$3.2 \\times 10^3$",
+        "$3.2 \\times 10^2$",
+        "$3.2 \\times 10^5$"
+      ],
+      "answer": "$3.2 \\times 10^4$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Evaluate: $((7.5 \\times 10^4) - (2.5 \\times 10^3)) \\times (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$7.25 \\times 10^3$",
+        "$5.0 \\times 10^3$",
+        "$7.25 \\times 10^2$",
+        "$7.25 \\times 10^4$"
+      ],
+      "answer": "$7.25 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Evaluate: $(3.0 \\times 10^{-3}) \\times (2.0 \\times 10^5) + (1.0 \\times 10^2)$",
+      "choices": [
+        "$1.6 \\times 10^2$",
+        "$6.0 \\times 10^1$",
+        "$1.6 \\times 10^1$",
+        "$1.6 \\times 10^3$"
+      ],
+      "answer": "$1.6 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Evaluate: $(1.8 \\times 10^6) \\div (6.0 \\times 10^{-2}) - (2.0 \\times 10^7)$",
+      "choices": [
+        "$1.0 \\times 10^7$",
+        "$3.0 \\times 10^7$",
+        "$1.0 \\times 10^6$",
+        "$1.0 \\times 10^8$"
+      ],
+      "answer": "$1.0 \\times 10^7$",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Evaluate: $((6.1 \\times 10^1) + (1.8 \\times 10^0)) \\times (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$6.28 \\times 10^0$",
+        "$7.9 \\times 10^0$",
+        "$6.28 \\times 10^{-1}$",
+        "$6.28 \\times 10^1$"
+      ],
+      "answer": "$6.28 \\times 10^0$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Evaluate: $((9.3 \\times 10^4) - (4.1 \\times 10^3)) \\div (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$8.89 \\times 10^5$",
+        "$5.2 \\times 10^5$",
+        "$8.89 \\times 10^4$",
+        "$8.89 \\times 10^7$"
+      ],
+      "answer": "$8.89 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Evaluate: $(1.1 \\times 10^{-2}) \\times (5.0 \\times 10^3) + (2.0 \\times 10^1)$",
+      "choices": [
+        "$7.5 \\times 10^1$",
+        "$5.5 \\times 10^1$",
+        "$7.5 \\times 10^0$",
+        "$7.5 \\times 10^2$"
+      ],
+      "answer": "$7.5 \\times 10^1$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Evaluate: $(8.4 \\times 10^5) \\div (2.0 \\times 10^{-1}) - (3.0 \\times 10^6)$",
+      "choices": [
+        "$1.2 \\times 10^6$",
+        "$4.2 \\times 10^6$",
+        "$1.2 \\times 10^5$",
+        "$1.2 \\times 10^7$"
+      ],
+      "answer": "$1.2 \\times 10^6$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Evaluate: $((4.2 \\times 10^1) + (3.7 \\times 10^2)) \\div (1.0 \\times 10^0)$",
+      "choices": [
+        "$4.12 \\times 10^2$",
+        "$7.9 \\times 10^2$",
+        "$4.12 \\times 10^1$",
+        "$4.12 \\times 10^3$"
+      ],
+      "answer": "$4.12 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Evaluate: $((6.8 \\times 10^0) - (1.5 \\times 10^{-1})) \\times (1.0 \\times 10^2)$",
+      "choices": [
+        "$6.65 \\times 10^2$",
+        "$5.3 \\times 10^2$",
+        "$6.65 \\times 10^1$",
+        "$6.65 \\times 10^3$"
+      ],
+      "answer": "$6.65 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Evaluate: $(3.0 \\times 10^{-5}) \\times (2.0 \\times 10^2) + (1.0 \\times 10^{-2})$",
+      "choices": [
+        "$1.6 \\times 10^{-2}$",
+        "$6.0 \\times 10^{-3}$",
+        "$1.6 \\times 10^{-3}$",
+        "$1.6 \\times 10^{-1}$"
+      ],
+      "answer": "$1.6 \\times 10^{-2}$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Evaluate: $(7.0 \\times 10^4) \\div (1.0 \\times 10^{-1}) - (5.0 \\times 10^5)$",
+      "choices": [
+        "$2.0 \\times 10^5$",
+        "$7.0 \\times 10^5$",
+        "$2.0 \\times 10^4$",
+        "$2.0 \\times 10^6$"
+      ],
+      "answer": "$2.0 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Evaluate: $((2.2 \\times 10^2) + (3.3 \\times 10^3)) \\div (1.0 \\times 10^0)$",
+      "choices": [
+        "$3.52 \\times 10^3$",
+        "$5.5 \\times 10^3$",
+        "$3.52 \\times 10^2$",
+        "$3.52 \\times 10^5$"
+      ],
+      "answer": "$3.52 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Evaluate: $((4.5 \\times 10^0) - (1.5 \\times 10^{-1})) \\times (1.0 \\times 10^3)$",
+      "choices": [
+        "$4.35 \\times 10^3$",
+        "$3.0 \\times 10^3$",
+        "$4.35 \\times 10^2$",
+        "$4.35 \\times 10^4$"
+      ],
+      "answer": "$4.35 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Evaluate: $(5.5 \\times 10^1) \\times (1.0 \\times 10^{-2}) + (1.0 \\times 10^0)$",
+      "choices": [
+        "$1.55 \\times 10^0$",
+        "$0.55 \\times 10^0$",
+        "$1.55 \\times 10^{-1}$",
+        "$1.55 \\times 10^1$"
+      ],
+      "answer": "$1.55 \\times 10^0$",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Evaluate: $(6.0 \\times 10^0) \\div (2.0 \\times 10^{-1}) - (2.5 \\times 10^1)$",
+      "choices": [
+        "$5.0 \\times 10^0$",
+        "$3.0 \\times 10^1$",
+        "$5.0 \\times 10^1$",
+        "$5.0 \\times 10^2$"
+      ],
+      "answer": "$5.0 \\times 10^0$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Evaluate: $((1.0 \\times 10^5) + (4.0 \\times 10^4)) \\div (5.0 \\times 10^{-1})$",
+      "choices": [
+        "$2.8 \\times 10^5$",
+        "$1.4 \\times 10^5$",
+        "$2.8 \\times 10^4$",
+        "$2.8 \\times 10^6$"
+      ],
+      "answer": "$2.8 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Evaluate: $((9.0 \\times 10^3) - (2.0 \\times 10^2)) \\times (1.0 \\times 10^{-2})$",
+      "choices": [
+        "$8.8 \\times 10^1$",
+        "$7.0 \\times 10^1$",
+        "$8.8 \\times 10^0$",
+        "$8.8 \\times 10^2$"
+      ],
+      "answer": "$8.8 \\times 10^1$",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "Evaluate: $(3.5 \\times 10^{-1}) \\times (2.0 \\times 10^3) + (1.0 \\times 10^2)$",
+      "choices": [
+        "$8.0 \\times 10^2$",
+        "$7.0 \\times 10^2$",
+        "$8.0 \\times 10^1$",
+        "$8.0 \\times 10^3$"
+      ],
+      "answer": "$8.0 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Evaluate: $(8.0 \\times 10^3) \\div (4.0 \\times 10^{-2}) - (1.0 \\times 10^5)$",
+      "choices": [
+        "$1.0 \\times 10^5$",
+        "$2.0 \\times 10^5$",
+        "$1.0 \\times 10^4$",
+        "$1.0 \\times 10^6$"
+      ],
+      "answer": "$1.0 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Evaluate: $((5.0 \\times 10^{-2}) + (1.0 \\times 10^{-1})) \\div (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$1.5 \\times 10^0$",
+        "$6.0 \\times 10^0$",
+        "$1.5 \\times 10^{-1}$",
+        "$1.5 \\times 10^1$"
+      ],
+      "answer": "$1.5 \\times 10^0$",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Evaluate: $((7.0 \\times 10^4) - (3.0 \\times 10^3)) \\times (1.0 \\times 10^{-2})$",
+      "choices": [
+        "$6.7 \\times 10^2$",
+        "$4.0 \\times 10^2$",
+        "$6.7 \\times 10^1$",
+        "$6.7 \\times 10^3$"
+      ],
+      "answer": "$6.7 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "Evaluate: $(2.5 \\times 10^{-2}) \\times (3.0 \\times 10^4) + (1.0 \\times 10^2)$",
+      "choices": [
+        "$1.75 \\times 10^2$",
+        "$7.5 \\times 10^2$",
+        "$1.75 \\times 10^1$",
+        "$1.75 \\times 10^3$"
+      ],
+      "answer": "$1.75 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Evaluate: $(1.5 \\times 10^5) \\div (5.0 \\times 10^{-2}) - (2.0 \\times 10^6)$",
+      "choices": [
+        "$1.0 \\times 10^6$",
+        "$3.0 \\times 10^6$",
+        "$1.0 \\times 10^5$",
+        "$1.0 \\times 10^7$"
+      ],
+      "answer": "$1.0 \\times 10^6$",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Evaluate: $((3.5 \\times 10^2) + (4.5 \\times 10^4)) \\div (1.0 \\times 10^0)$",
+      "choices": [
+        "$4.535 \\times 10^4$",
+        "$8.0 \\times 10^4$",
+        "$4.535 \\times 10^2$",
+        "$4.535 \\times 10^6$"
+      ],
+      "answer": "$4.535 \\times 10^4$",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Evaluate: $((6.0 \\times 10^0) - (1.0 \\times 10^{-2})) \\times (1.0 \\times 10^3)$",
+      "choices": [
+        "$5.99 \\times 10^3$",
+        "$5.0 \\times 10^3$",
+        "$5.99 \\times 10^2$",
+        "$5.99 \\times 10^4$"
+      ],
+      "answer": "$5.99 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Evaluate: $(1.2 \\times 10^{-4}) \\times (4.0 \\times 10^3) + (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$2.2 \\times 10^{-1}$",
+        "$0.48 \\times 10^{-1}$",
+        "$2.2 \\times 10^{-2}$",
+        "$2.2 \\times 10^0$"
+      ],
+      "answer": "$2.2 \\times 10^{-1}$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Evaluate: $(9.9 \\times 10^7) \\div (1.1 \\times 10^{-2}) - (8.0 \\times 10^9)$",
+      "choices": [
+        "$1.0 \\times 10^9$",
+        "$9.0 \\times 10^9$",
+        "$1.0 \\times 10^8$",
+        "$1.0 \\times 10^{10}$"
+      ],
+      "answer": "$1.0 \\times 10^9$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Evaluate: $((4.0 \\times 10^3) + (5.0 \\times 10^5)) \\div (1.0 \\times 10^1)$",
+      "choices": [
+        "$5.04 \\times 10^4$",
+        "$9.0 \\times 10^4$",
+        "$5.04 \\times 10^3$",
+        "$5.04 \\times 10^6$"
+      ],
+      "answer": "$5.04 \\times 10^4$",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Evaluate: $((8.5 \\times 10^{-1}) - (3.5 \\times 10^{-2})) \\times (1.0 \\times 10^2)$",
+      "choices": [
+        "$8.15 \\times 10^1$",
+        "$5.0 \\times 10^1$",
+        "$8.15 \\times 10^0$",
+        "$8.15 \\times 10^2$"
+      ],
+      "answer": "$8.15 \\times 10^1$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Evaluate: $(2.0 \\times 10^0) \\times (4.0 \\times 10^{-3}) + (1.0 \\times 10^{-2})$",
+      "choices": [
+        "$1.8 \\times 10^{-2}$",
+        "$8.0 \\times 10^{-3}$",
+        "$1.8 \\times 10^{-3}$",
+        "$1.8 \\times 10^{-1}$"
+      ],
+      "answer": "$1.8 \\times 10^{-2}$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Evaluate: $(2.4 \\times 10^6) \\div (6.0 \\times 10^{-1}) - (3.0 \\times 10^6)$",
+      "choices": [
+        "$1.0 \\times 10^6$",
+        "$4.0 \\times 10^6$",
+        "$1.0 \\times 10^5$",
+        "$1.0 \\times 10^7$"
+      ],
+      "answer": "$1.0 \\times 10^6$",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Evaluate: $((1.1 \\times 10^{-3}) + (2.2 \\times 10^{-2})) \\div (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$2.31 \\times 10^{-1}$",
+        "$3.3 \\times 10^{-1}$",
+        "$2.31 \\times 10^{-2}$",
+        "$2.31 \\times 10^0$"
+      ],
+      "answer": "$2.31 \\times 10^{-1}$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Evaluate: $((5.5 \\times 10^2) - (2.5 \\times 10^1)) \\times (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$5.25 \\times 10^1$",
+        "$3.0 \\times 10^1$",
+        "$5.25 \\times 10^0$",
+        "$5.25 \\times 10^2$"
+      ],
+      "answer": "$5.25 \\times 10^1$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Evaluate: $(6.0 \\times 10^{-4}) \\times (1.5 \\times 10^2) + (1.0 \\times 10^{-2})$",
+      "choices": [
+        "$1.0 \\times 10^{-1}$",
+        "$0.09 \\times 10^{-1}$",
+        "$1.0 \\times 10^{-2}$",
+        "$1.0 \\times 10^0$"
+      ],
+      "answer": "$1.0 \\times 10^{-1}$",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Evaluate: $(3.6 \\times 10^2) \\div (1.2 \\times 10^{-3}) - (2.0 \\times 10^5)$",
+      "choices": [
+        "$1.0 \\times 10^5$",
+        "$3.0 \\times 10^5$",
+        "$1.0 \\times 10^4$",
+        "$1.0 \\times 10^6$"
+      ],
+      "answer": "$1.0 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Evaluate: $((7.0 \\times 10^6) + (2.0 \\times 10^4)) \\div (1.0 \\times 10^1)$",
+      "choices": [
+        "$7.02 \\times 10^5$",
+        "$9.0 \\times 10^5$",
+        "$7.02 \\times 10^4$",
+        "$7.02 \\times 10^7$"
+      ],
+      "answer": "$7.02 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Evaluate: $((8.0 \\times 10^{-4}) - (3.0 \\times 10^{-5})) \\times (1.0 \\times 10^3)$",
+      "choices": [
+        "$7.7 \\times 10^{-1}$",
+        "$5.0 \\times 10^{-1}$",
+        "$7.7 \\times 10^{-2}$",
+        "$7.7 \\times 10^0$"
+      ],
+      "answer": "$7.7 \\times 10^{-1}$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "Evaluate: $(1.0 \\times 10^{-1}) \\times (8.0 \\times 10^{-3}) + (1.0 \\times 10^{-4})$",
+      "choices": [
+        "$9.0 \\times 10^{-4}$",
+        "$8.0 \\times 10^{-4}$",
+        "$9.0 \\times 10^{-5}$",
+        "$9.0 \\times 10^{-3}$"
+      ],
+      "answer": "$9.0 \\times 10^{-4}$",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Evaluate: $(4.5 \\times 10^5) \\div (1.5 \\times 10^{-1}) - (2.0 \\times 10^6)$",
+      "choices": [
+        "$1.0 \\times 10^6$",
+        "$3.0 \\times 10^6$",
+        "$1.0 \\times 10^5$",
+        "$1.0 \\times 10^7$"
+      ],
+      "answer": "$1.0 \\times 10^6$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Evaluate: $((2.5 \\times 10^1) + (7.5 \\times 10^0)) \\div (1.0 \\times 10^0)$",
+      "choices": [
+        "$3.25 \\times 10^1$",
+        "$1.0 \\times 10^2$",
+        "$3.25 \\times 10^0$",
+        "$3.25 \\times 10^2$"
+      ],
+      "answer": "$3.25 \\times 10^1$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Evaluate: $((9.5 \\times 10^2) - (4.5 \\times 10^0)) \\times (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$9.455 \\times 10^1$",
+        "$5.0 \\times 10^1$",
+        "$9.455 \\times 10^0$",
+        "$9.455 \\times 10^2$"
+      ],
+      "answer": "$9.455 \\times 10^1$",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Evaluate: $(4.0 \\times 10^{-2}) \\times (2.5 \\times 10^{-3}) + (1.0 \\times 10^{-5})$",
+      "choices": [
+        "$1.1 \\times 10^{-4}$",
+        "$1.0 \\times 10^{-4}$",
+        "$1.1 \\times 10^{-5}$",
+        "$1.1 \\times 10^{-3}$"
+      ],
+      "answer": "$1.1 \\times 10^{-4}$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Evaluate: $(1.8 \\times 10^4) \\div (3.0 \\times 10^{-2}) - (5.0 \\times 10^5)$",
+      "choices": [
+        "$1.0 \\times 10^5$",
+        "$6.0 \\times 10^5$",
+        "$1.0 \\times 10^4$",
+        "$1.0 \\times 10^6$"
+      ],
+      "answer": "$1.0 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Evaluate: $((6.5 \\times 10^0) + (3.5 \\times 10^{-2})) \\div (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$6.535 \\times 10^1$",
+        "$1.0 \\times 10^1$",
+        "$6.535 \\times 10^0$",
+        "$6.535 \\times 10^2$"
+      ],
+      "answer": "$6.535 \\times 10^1$",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Evaluate: $((2.0 \\times 10^5) - (1.0 \\times 10^2)) \\times (1.0 \\times 10^{-3})$",
+      "choices": [
+        "$1.999 \\times 10^2$",
+        "$1.0 \\times 10^2$",
+        "$1.999 \\times 10^1$",
+        "$1.999 \\times 10^3$"
+      ],
+      "answer": "$1.999 \\times 10^2$",
+      "points": 30
+    }
+  ]
+}
