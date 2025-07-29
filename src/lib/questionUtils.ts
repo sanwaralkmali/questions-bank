@@ -20,7 +20,7 @@ export interface QuestionForJSON {
 
 // Backend API URL - change this to your deployed backend URL
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-backend-url.onrender.com' // Replace with your actual deployed URL
+  ? 'https://questions-bank-8z7m.onrender.com' // Replace with your actual deployed URL
   : 'http://localhost:3001';
 
 // Function to save question to backend API
