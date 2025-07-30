@@ -423,7 +423,7 @@
     {
       "id": 53,
       "wave": 2,
-      "question": "Solve $z/4 > 2$.",
+      "question": "Solve $\\frac{z}{4} > 2$.",
       "choices": ["$z > 8$", "$z > 0.5$", "$z < 8$", "$z < 0.5$"],
       "answer": "$z > 8$",
       "points": 15
@@ -431,7 +431,7 @@
     {
       "id": 54,
       "wave": 2,
-      "question": "Solve $a/5 \\le 3$.",
+      "question": "Solve $\\frac{a}{5} \\le 3$.",
       "choices": ["$a \\le 15$", "$a \\le 0.6$", "$a \\ge 15$", "$a \\ge 0.6$"],
       "answer": "$a \\le 15$",
       "points": 15
@@ -455,7 +455,7 @@
     {
       "id": 57,
       "wave": 2,
-      "question": "Solve $d/2 > 7$.",
+      "question": "Solve $\\frac{d}{2} > 7$.",
       "choices": ["$d > 14$", "$d > 3.5$", "$d < 14$", "$d < 3.5$"],
       "answer": "$d > 14$",
       "points": 15
@@ -463,7 +463,7 @@
     {
       "id": 58,
       "wave": 2,
-      "question": "Solve $e/3 \\le 9$.",
+      "question": "Solve $\\frac{e}{3} \\le 9$.",
       "choices": ["$e \\le 27$", "$e \\le 3$", "$e \\ge 27$", "$e \\ge 3$"],
       "answer": "$e \\le 27$",
       "points": 15
@@ -487,7 +487,7 @@
     {
       "id": 61,
       "wave": 2,
-      "question": "Solve $h/6 > 3$.",
+      "question": "Solve $\\frac{h}{6} > 3$.",
       "choices": ["$h > 18$", "$h > 0.5$", "$h < 18$", "$h < 0.5$"],
       "answer": "$h > 18$",
       "points": 15
@@ -495,7 +495,7 @@
     {
       "id": 62,
       "wave": 2,
-      "question": "Solve $i/7 \\le 4$.",
+      "question": "Solve $\\frac{i}{7} \\le 4$.",
       "choices": [
         "$i \\le 28$",
         "$i \\le 0.57$",
@@ -524,7 +524,7 @@
     {
       "id": 65,
       "wave": 2,
-      "question": "Solve $l/8 > 2$.",
+      "question": "Solve $\\frac{l}{8} > 2$.",
       "choices": ["$l > 16$", "$l > 0.25$", "$l < 16$", "$l < 0.25$"],
       "answer": "$l > 16$",
       "points": 15
@@ -532,7 +532,7 @@
     {
       "id": 66,
       "wave": 2,
-      "question": "Solve $m/9 \\le 5$.",
+      "question": "Solve $\\frac{m}{9} \\le 5$.",
       "choices": [
         "$m \\le 45$",
         "$m \\le 0.55$",
@@ -561,7 +561,7 @@
     {
       "id": 69,
       "wave": 2,
-      "question": "Solve $q/10 > 4$.",
+      "question": "Solve $\\frac{q}{10} > 4$.",
       "choices": ["$q > 40$", "$q > 0.4$", "$q < 40$", "$q < 0.4$"],
       "answer": "$q > 40$",
       "points": 15
@@ -569,7 +569,7 @@
     {
       "id": 70,
       "wave": 2,
-      "question": "Solve $r/11 \\le 6$.",
+      "question": "Solve $\\frac{r}{11} \\le 6$.",
       "choices": [
         "$r \\le 66$",
         "$r \\le 0.54$",
@@ -598,7 +598,7 @@
     {
       "id": 73,
       "wave": 2,
-      "question": "Solve $u/12 > 5$.",
+      "question": "Solve $\\frac{u}{12} > 5$.",
       "choices": ["$u > 60$", "$u > 0.41$", "$u < 60$", "$u < 0.41$"],
       "answer": "$u > 60$",
       "points": 15
@@ -606,7 +606,7 @@
     {
       "id": 74,
       "wave": 2,
-      "question": "Solve $v/13 \\le 7$.",
+      "question": "Solve $\\frac{v}{13} \\le 7$.",
       "choices": [
         "$v \\le 91$",
         "$v \\le 0.53$",
@@ -635,7 +635,7 @@
     {
       "id": 77,
       "wave": 2,
-      "question": "Solve $y/14 > 6$.",
+      "question": "Solve $\\frac{y}{14} > 6$.",
       "choices": ["$y > 84$", "$y > 0.42$", "$y < 84$", "$y < 0.42$"],
       "answer": "$y > 84$",
       "points": 15
@@ -643,7 +643,7 @@
     {
       "id": 78,
       "wave": 2,
-      "question": "Solve $z/15 \\le 8$.",
+      "question": "Solve $\\frac{z}{15} \\le 8$.",
       "choices": [
         "$z \\le 120$",
         "$z \\le 0.53$",
@@ -672,7 +672,7 @@
     {
       "id": 81,
       "wave": 2,
-      "question": "Solve $c/16 > 7$.",
+      "question": "Solve $\\frac{c}{16} > 7$.",
       "choices": ["$c > 112$", "$c > 0.43$", "$c < 112$", "$c < 0.43$"],
       "answer": "$c > 112$",
       "points": 15
@@ -680,7 +680,7 @@
     {
       "id": 82,
       "wave": 2,
-      "question": "Solve $d/17 \\le 9$.",
+      "question": "Solve $\\frac{d}{17} \\le 9$.",
       "choices": [
         "$d \\le 153$",
         "$d \\le 0.52$",
@@ -709,7 +709,7 @@
     {
       "id": 85,
       "wave": 2,
-      "question": "Solve $g/18 > 8$.",
+      "question": "Solve $\\frac{g}{18} > 8$.",
       "choices": ["$g > 144$", "$g > 0.44$", "$g < 144$", "$g < 0.44$"],
       "answer": "$g > 144$",
       "points": 15
@@ -717,7 +717,7 @@
     {
       "id": 86,
       "wave": 2,
-      "question": "Solve $h/19 \\le 10$.",
+      "question": "Solve $\\frac{h}{19} \\le 10$.",
       "choices": [
         "$h \\le 190$",
         "$h \\le 0.52$",
@@ -746,7 +746,7 @@
     {
       "id": 89,
       "wave": 2,
-      "question": "Solve $k/20 > 9$.",
+      "question": "Solve $\\frac{k}{20} > 9$.",
       "choices": ["$k > 180$", "$k > 0.45$", "$k < 180$", "$k < 0.45$"],
       "answer": "$k > 180$",
       "points": 15
@@ -754,7 +754,7 @@
     {
       "id": 90,
       "wave": 2,
-      "question": "Solve $l/21 \\le 11$.",
+      "question": "Solve $\\frac{l}{21} \\le 11$.",
       "choices": [
         "$l \\le 231$",
         "$l \\le 0.52$",
@@ -783,7 +783,7 @@
     {
       "id": 93,
       "wave": 2,
-      "question": "Solve $p/22 > 10$.",
+      "question": "Solve $\\frac{p}{22} > 10$.",
       "choices": ["$p > 220$", "$p > 0.45$", "$p < 220$", "$p < 0.45$"],
       "answer": "$p > 220$",
       "points": 15
@@ -791,7 +791,7 @@
     {
       "id": 94,
       "wave": 2,
-      "question": "Solve $q/23 \\le 12$.",
+      "question": "Solve $\\frac{q}{23} \\le 12$.",
       "choices": [
         "$q \\le 276$",
         "$q \\le 0.52$",
@@ -820,7 +820,7 @@
     {
       "id": 97,
       "wave": 2,
-      "question": "Solve $t/24 > 11$.",
+      "question": "Solve $\\frac{t}{24} > 11$.",
       "choices": ["$t > 264$", "$t > 0.45$", "$t < 264$", "$t < 0.45$"],
       "answer": "$t > 264$",
       "points": 15
@@ -828,7 +828,7 @@
     {
       "id": 98,
       "wave": 2,
-      "question": "Solve $u/25 \\le 13$.",
+      "question": "Solve $\\frac{u}{25} \\le 13$.",
       "choices": [
         "$u \\le 325$",
         "$u \\le 0.52$",
