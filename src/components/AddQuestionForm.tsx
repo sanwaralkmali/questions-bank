@@ -37,6 +37,7 @@ interface Skill {
   description: string;
   difficulty: string;
   color: string;
+  filename?: string;
 }
 
 interface AddQuestionFormProps {

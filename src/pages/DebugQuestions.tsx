@@ -37,6 +37,7 @@ interface Skill {
   description: string;
   difficulty: string;
   color: string;
+  filename?: string;
 }
 
 // Helper function to render text with LaTeX expressions
@@ -103,9 +104,19 @@ const DebugQuestions = () => {
     if (selectedSkill) {
       const loadSkillData = async () => {
         try {
-          const response = await fetch(`/data/skills/${selectedSkill}.json`);
-          const data = await response.json();
-          setSkillData(data);
+          // Find the selected skill to get its filename
+          const selectedSkillData = skills.find(
+            (skill) => skill.id === selectedSkill
+          );
+          if (selectedSkillData && selectedSkillData.filename) {
+            const response = await fetch(
+              `/data/skills/${selectedSkillData.filename}`
+            );
+            const data = await response.json();
+            setSkillData(data);
+          } else {
+            console.error("Selected skill not found or missing filename");
+          }
         } catch (error) {
           console.error("Failed to load skill data:", error);
         }
@@ -115,7 +126,7 @@ const DebugQuestions = () => {
     } else {
       setSkillData(null);
     }
-  }, [selectedSkill]);
+  }, [selectedSkill, skills]);
 
   const filteredQuestions =
     skillData?.questions.filter((q) => {
@@ -134,9 +145,19 @@ const DebugQuestions = () => {
     if (selectedSkill) {
       const loadSkillData = async () => {
         try {
-          const response = await fetch(`/data/skills/${selectedSkill}.json`);
-          const data = await response.json();
-          setSkillData(data);
+          // Find the selected skill to get its filename
+          const selectedSkillData = skills.find(
+            (skill) => skill.id === selectedSkill
+          );
+          if (selectedSkillData && selectedSkillData.filename) {
+            const response = await fetch(
+              `/data/skills/${selectedSkillData.filename}`
+            );
+            const data = await response.json();
+            setSkillData(data);
+          } else {
+            console.error("Selected skill not found or missing filename");
+          }
         } catch (error) {
           console.error("Failed to reload skill data:", error);
         }

@@ -1,32 +1,35 @@
 {
   "basic-operations": [
-    "integers",
-    "fractions-operations",
-    "decimals",
-    "mixed-problems",
-    "order-of-operations"
+    "1-integers.json",
+    "5-fractions-operations.json",
+    "6-decimals.json",
+    "7-mixed-problems.json",
+    "8-order-of-operations.json"
   ],
-  "algebra-builder": ["algebra-basics"],
+  "algebra-builder": ["9-algebra-basics.json"],
   "rational-conversion": [
-    "fraction-decimal",
-    "fraction-percentage",
-    "decimal-percentage",
-    "mixed-conversion"
+    "2-fraction-decimal.json",
+    "3-fraction-percentage.json",
+    "4-decimal-percentage.json",
+    "10-mixed-conversion.json"
   ],
-  "basic-scientific-notation": ["basic-scientific-notation"],
-  "operations-scientific-notation": ["operations-scientific-notation"],
-  "number-classification": ["classification-numbers"],
-  "simplyify-expressions": ["simplify-expressions"],
-  "solving-equations": ["solving-equations"],
-  "solving-inequalities": ["solving-inequalities"],
-  "factoring": ["gcf-factoring", "factoring-by-grouping"],
-  "factoring-trinomials": ["factoring-trinomials-1", "factoring-trinomials-2"],
-  "difference-of-squares": ["difference-of-squares"],
-  "difference-sum-of-cubes": ["difference-sum-of-cubes"],
-  "perfect-squares": ["perfect-squares"],
-  "solving-equations-by-factoring": ["solving-equations-by-factoring"],
-  "quadratic-formula": ["quadratic-formula"],
-  "understanding-polynomials": ["understanding-polynomials"],
-  "adding-subtracting-polynomials": ["adding-subtracting-polynomials"],
-  "multiplying-polynomials": ["multiplying-polynomials"]
+  "basic-scientific-notation": ["11-basic-scientific-notation.json"],
+  "operations-scientific-notation": ["13-operations-scientific-notation.json"],
+  "number-classification": ["12-classification-numbers.json"],
+  "simplyify-expressions": ["14-simplify-expressions.json"],
+  "solving-equations": ["15-solving-equations.json"],
+  "solving-inequalities": ["16-solving-inequalities.json"],
+  "factoring": ["17-gcf-factoring.json", "23-factoring-by-grouping.json"],
+  "factoring-trinomials": [
+    "18-factoring-trinomials-1.json",
+    "24-factoring-trinomials-2.json"
+  ],
+  "difference-of-squares": ["19-difference-squares.json"],
+  "difference-sum-of-cubes": ["25-difference-sum-of-cubes.json"],
+  "perfect-squares": ["26-perfect-squares.json"],
+  "solving-equations-by-factoring": ["20-solving-equations-by-factoring.json"],
+  "quadratic-formula": ["27-quadratic-formula.json"],
+  "understanding-polynomials": ["21-understanding-polynomials.json"],
+  "adding-subtracting-polynomials": ["22-adding-subtracting-polynomials.json"],
+  "multiplying-polynomials": ["28-multiplying-polynomials.json"]
 }
