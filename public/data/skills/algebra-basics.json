@@ -1,13 +1,13 @@
 {
   "title": "Algebraic Foundations: Understanding Basic Concepts",
-  "description": "Test your knowledge of variables, constants, terms, coefficients, expressions, and equations.",
+  "description": "Test your knowledge of variables, constants, terms, coefficients, variables, and equations.",
   "waves": 5,
   "timePerQuestion": 45,
   "questions": [
     {
       "id": 1,
       "wave": 1,
-      "question": "In the expression $5x + 3$, what is $x$ called?",
+      "question": "In the variable $5x + 3$, what is $x$ called?",
       "choices": ["A constant", "A term", "A variable", "A coefficient"],
       "answer": "A variable",
       "points": 10
@@ -15,17 +15,17 @@
     {
       "id": 2,
       "wave": 1,
-      "question": "What is the number $7$ in the expression $2y - 7$?",
-      "choices": ["A variable", "A constant", "A coefficient", "An expression"],
+      "question": "What is the number $7$ in the variable $2y - 7$?",
+      "choices": ["A variable", "A constant", "A coefficient", "An variable"],
       "answer": "A constant",
       "points": 10
     },
     {
       "id": 3,
       "wave": 1,
-      "question": "Is $3 + 4 = 7$ an expression or an equation?",
-      "choices": ["An expression", "$An equation$", "A variable", "A constant"],
-      "answer": "$An equation$",
+      "question": "Is $3 + 4 = 7$ an variable or an equation?",
+      "choices": ["An variable", "An equation$", "A variable", "A constant"],
+      "answer": "An equation$",
       "points": 10
     },
     {
@@ -48,30 +48,30 @@
       "id": 6,
       "wave": 1,
       "question": "A letter that stands for an unknown number is called a:",
-      "choices": ["$$constant", "$ $term", "$ $variable", "$ $coefficient"],
-      "answer": "$ $variable",
+      "choices": ["constant", "term", "variable", "coefficient"],
+      "answer": "variable",
       "points": 10
     },
     {
       "id": 7,
       "wave": 1,
       "question": "Which of these is a numerical value that does not change?",
-      "choices": ["$ $variable", "$ $term", "$Equation$", "$$constant"],
-      "answer": "$$constant",
+      "choices": ["variable", "term", "Equation", "constant"],
+      "answer": "constant",
       "points": 10
     },
     {
       "id": 8,
       "wave": 1,
       "question": "A mathematical phrase that contains numbers and variables, but no equals sign, is a(n):",
-      "choices": ["$Equation$", "$Expression$", "$$constant", "$ $coefficient"],
-      "answer": "$Expression$",
+      "choices": ["Equation", "variable", "constant", "coefficient"],
+      "answer": "variable",
       "points": 10
     },
     {
       "id": 9,
       "wave": 1,
-      "question": "What separates terms in an algebraic expression?",
+      "question": "What separates terms in an algebraic variable?",
       "choices": [
         "$Equals sign$",
         "$Multiplication sign$",
@@ -84,7 +84,7 @@
     {
       "id": 10,
       "wave": 1,
-      "question": "In the expression $4a + 9$, how many terms are there?",
+      "question": "In the variable $4a + 9$, how many terms are there?",
       "choices": ["$1$", "$2$", "$3$", "$4$"],
       "answer": "$2$",
       "points": 10
@@ -92,7 +92,7 @@
     {
       "id": 11,
       "wave": 1,
-      "question": "What is $p$ in the expression $p - 1$?",
+      "question": "What is $p$ in the variable $p - 1$?",
       "choices": ["A constant", "A variable", "A term", "A coefficient"],
       "answer": "A variable",
       "points": 10
@@ -100,17 +100,17 @@
     {
       "id": 12,
       "wave": 1,
-      "question": "The number $12$ in the expression $12 + 3q$ is a:",
-      "choices": ["$ $variable", "$ $coefficient", "$$constant", "$ $term"],
-      "answer": "$$constant",
+      "question": "The number $12$ in the variable $12 + 3q$ is a:",
+      "choices": ["variable", "coefficient", "constant", "term"],
+      "answer": "constant",
       "points": 10
     },
     {
       "id": 13,
       "wave": 1,
-      "question": "Is $x + y$ an expression or an equation?",
-      "choices": ["$An equation$", "An expression", "A variable", "A constant"],
-      "answer": "An expression",
+      "question": "Is $x + y$ an variable or an equation?",
+      "choices": ["An equation$", "An variable", "A variable", "A constant"],
+      "answer": "An variable",
       "points": 10
     },
     {
@@ -132,25 +132,25 @@
     {
       "id": 16,
       "wave": 1,
-      "question": "A statement showing two expressions are equal is a(n):",
-      "choices": ["$Expression$", "$ $variable", "$Equation$", "$ $term"],
-      "answer": "$Equation$",
+      "question": "A statement showing two variables are equal is a(n):",
+      "choices": ["variable", "variable", "Equation", "term"],
+      "answer": "Equation",
       "points": 10
     },
     {
       "id": 17,
       "wave": 1,
       "question": "Which of these changes its value?",
-      "choices": ["$$constant", "$ $coefficient", "$ $variable", "$ $term"],
-      "answer": "$ $variable",
+      "choices": ["constant", "coefficient", "variable", "term"],
+      "answer": "variable",
       "points": 10
     },
     {
       "id": 18,
       "wave": 1,
       "question": "What is the numerical part of a term that has a variable?",
-      "choices": ["$$constant", "$ $variable", "$ $term", "$ $coefficient"],
-      "answer": "$ $coefficient",
+      "choices": ["constant", "variable", "term", "coefficient"],
+      "answer": "coefficient",
       "points": 10
     },
     {
@@ -165,16 +165,16 @@
       "id": 20,
       "wave": 1,
       "question": "The $1$ in $1x$ is a:",
-      "choices": ["$ $variable", "$$constant", "$ $term", "$ $coefficient"],
-      "answer": "$ $coefficient",
+      "choices": ["variable", "constant", "term", "coefficient"],
+      "answer": "coefficient",
       "points": 10
     },
     {
       "id": 21,
       "wave": 1,
       "question": "In $a + b$, what are $a$ and $b$?",
-      "choices": ["$Constants$", "$Terms$", "$Coefficients$", "$Variables$"],
-      "answer": "$Variables$",
+      "choices": ["Constants", "Terms", "Coefficients", "Variables"],
+      "answer": "Variables",
       "points": 10
     },
     {
@@ -188,9 +188,9 @@
     {
       "id": 23,
       "wave": 1,
-      "question": "Is $15 = 3 \\times 5$ an expression or an equation?",
-      "choices": ["An expression", "$An equation$", "A variable", "A constant"],
-      "answer": "$An equation$",
+      "question": "Is $15 = 3 \\times 5$ an variable or an equation?",
+      "choices": ["An variable", "An equation$", "A variable", "A constant"],
+      "answer": "An equation$",
       "points": 10
     },
     {
@@ -213,24 +213,24 @@
       "id": 26,
       "wave": 1,
       "question": "Which term always has an equals sign?",
-      "choices": ["$Expression$", "$ $variable", "$Equation$", "$$constant"],
-      "answer": "$Equation$",
+      "choices": ["variable", "variable", "Equation", "constant"],
+      "answer": "Equation",
       "points": 10
     },
     {
       "id": 27,
       "wave": 1,
       "question": "A quantity that has a fixed value is called a:",
-      "choices": ["$ $variable", "$ $coefficient", "$$constant", "$ $term"],
-      "answer": "$$constant",
+      "choices": ["variable", "coefficient", "constant", "term"],
+      "answer": "constant",
       "points": 10
     },
     {
       "id": 28,
       "wave": 1,
-      "question": "Which of these is a single item in an expression?",
-      "choices": ["$Equation$", "$ $variable", "$ $term", "$$constant"],
-      "answer": "$ $term",
+      "question": "Which of these is a single item in an variable?",
+      "choices": ["Equation", "variable", "term", "constant"],
+      "answer": "term",
       "points": 10
     },
     {
@@ -261,16 +261,16 @@
       "id": 32,
       "wave": 1,
       "question": "The number $0$ in $x + 0$ is a:",
-      "choices": ["$ $variable", "$ $coefficient", "$$constant", "$ $term"],
-      "answer": "$$constant",
+      "choices": ["variable", "coefficient", "constant", "term"],
+      "answer": "constant",
       "points": 10
     },
     {
       "id": 33,
       "wave": 1,
-      "question": "Is $2 + y$ an expression or an equation?",
-      "choices": ["$An equation$", "An expression", "A variable", "A constant"],
-      "answer": "An expression",
+      "question": "Is $2 + y$ an variable or an equation?",
+      "choices": ["An equation$", "An variable", "A variable", "A constant"],
+      "answer": "An variable",
       "points": 10
     },
     {
@@ -293,24 +293,24 @@
       "id": 36,
       "wave": 1,
       "question": "A combination of numbers, variables, and operation symbols is a(n):",
-      "choices": ["$Equation$", "$$constant", "$Expression$", "$ $variable"],
-      "answer": "$Expression$",
+      "choices": ["Equation", "constant", "variable", "variable"],
+      "answer": "variable",
       "points": 10
     },
     {
       "id": 37,
       "wave": 1,
       "question": "The numerical factor of a term is its:",
-      "choices": ["$ $variable", "$ $term", "$$constant", "$ $coefficient"],
-      "answer": "$ $coefficient",
+      "choices": ["variable", "term", "constant", "coefficient"],
+      "answer": "coefficient",
       "points": 10
     },
     {
       "id": 38,
       "wave": 1,
       "question": "Which of these is represented by a letter?",
-      "choices": ["$$constant", "$ $coefficient", "$ $term", "$ $variable"],
-      "answer": "$ $variable",
+      "choices": ["constant", "coefficient", "term", "variable"],
+      "answer": "variable",
       "points": 10
     },
     {
@@ -325,7 +325,7 @@
       "id": 40,
       "wave": 1,
       "question": "What is $1$ in $x + 1 = 5$?",
-      "choices": ["A variable", "A coefficient", "A constant", "$An equation$"],
+      "choices": ["A variable", "A coefficient", "A constant", "An equation$"],
       "answer": "A constant",
       "points": 10
     },
@@ -348,9 +348,9 @@
     {
       "id": 43,
       "wave": 1,
-      "question": "Is $25 = 5x$ an expression or an equation?",
-      "choices": ["An expression", "$An equation$", "A variable", "A constant"],
-      "answer": "$An equation$",
+      "question": "Is $25 = 5x$ an variable or an equation?",
+      "choices": ["An variable", "An equation$", "A variable", "A constant"],
+      "answer": "An equation$",
       "points": 10
     },
     {
@@ -373,24 +373,24 @@
       "id": 46,
       "wave": 1,
       "question": "Which of these includes an equals sign?",
-      "choices": ["$Expression$", "$ $term", "$Equation$", "$ $coefficient"],
-      "answer": "$Equation$",
+      "choices": ["variable", "term", "Equation", "coefficient"],
+      "answer": "Equation",
       "points": 10
     },
     {
       "id": 47,
       "wave": 1,
       "question": "A fixed numerical value is a(n):",
-      "choices": ["$ $variable", "$Equation$", "$$constant", "$Expression$"],
-      "answer": "$$constant",
+      "choices": ["variable", "Equation", "constant", "variable"],
+      "answer": "constant",
       "points": 10
     },
     {
       "id": 48,
       "wave": 1,
-      "question": "What are the parts of an expression separated by addition or subtraction?",
-      "choices": ["$Coefficients$", "$Variables$", "$Constants$", "$Terms$"],
-      "answer": "$Terms$",
+      "question": "What are the parts of an variable separated by addition or subtraction?",
+      "choices": ["Coefficients", "Variables", "Constants", "Terms"],
+      "answer": "Terms",
       "points": 10
     },
     {
@@ -412,7 +412,7 @@
     {
       "id": 51,
       "wave": 2,
-      "question": "In the expression $x^2 + 2x - 1$, identify all the variables.",
+      "question": "In the variable $x^2 + 2x - 1$, identify all the variables.",
       "choices": ["$x^2, 2x, 1$", "$x$", "$x^2$", "$x, 2x$"],
       "answer": "$x$",
       "points": 15
@@ -428,7 +428,7 @@
     {
       "id": 53,
       "wave": 2,
-      "question": "Which of these is an expression?",
+      "question": "Which of these is an variable?",
       "choices": ["$3x = 9$", "$y + 5 = 10$", "$2z - 1$", "$a + b = c$"],
       "answer": "$2z - 1$",
       "points": 15
@@ -436,7 +436,7 @@
     {
       "id": 54,
       "wave": 2,
-      "question": "How many terms are in the algebraic expression $x + y - z + 5$?",
+      "question": "How many terms are in the algebraic variable $x + y - z + 5$?",
       "choices": ["$3$", "$4$", "$5$", "$1$"],
       "answer": "$4$",
       "points": 15
@@ -453,8 +453,8 @@
       "id": 56,
       "wave": 2,
       "question": "A symbol that represents a quantity that can change is called a:",
-      "choices": ["$$constant", "$ $coefficient", "$ $variable", "$ $term"],
-      "answer": "$ $variable",
+      "choices": ["constant", "coefficient", "variable", "term"],
+      "answer": "variable",
       "points": 15
     },
     {
@@ -484,9 +484,9 @@
     {
       "id": 60,
       "wave": 2,
-      "question": "What is the coefficient of $p$ in $p/2 + 5$?",
-      "choices": ["$1$", "$2$", "$1/2$", "$5$"],
-      "answer": "$1/2$",
+      "question": "What is the coefficient of $p$ in $\\frac{p}{2} + 5$?",
+      "choices": ["$1$", "$2$", "$\\frac{1}{2}$", "$5$"],
+      "answer": "$\\frac{1}{2}$",
       "points": 15
     },
     {
@@ -508,9 +508,9 @@
     {
       "id": 63,
       "wave": 2,
-      "question": "Is $2(x+y)$ an expression or an equation?",
-      "choices": ["$An equation$", "An expression", "A variable", "A constant"],
-      "answer": "An expression",
+      "question": "Is $2(x+y)$ an variable or an equation?",
+      "choices": ["An equation$", "An variable", "A variable", "A constant"],
+      "answer": "An variable",
       "points": 15
     },
     {
@@ -525,16 +525,16 @@
       "id": 65,
       "wave": 2,
       "question": "What is the coefficient of $b$ in the term $\\frac{b}{5}$?",
-      "choices": ["$5$", "$1$", "$1/5$", "$b$"],
-      "answer": "$1/5$",
+      "choices": ["$5$", "$1$", "$\\frac{1}{5}$", "$b$"],
+      "answer": "$\\frac{1}{5}$",
       "points": 15
     },
     {
       "id": 66,
       "wave": 2,
       "question": "A number that is multiplied by a variable is called a:",
-      "choices": ["$ $term", "$$constant", "$ $variable", "$ $coefficient"],
-      "answer": "$ $coefficient",
+      "choices": ["term", "constant", "variable", "coefficient"],
+      "answer": "coefficient",
       "points": 15
     },
     {
@@ -549,14 +549,14 @@
       "id": 68,
       "wave": 2,
       "question": "Which of these is characterized by having an equals sign?",
-      "choices": ["$Expression$", "$$constant", "$Equation$", "$ $term"],
-      "answer": "$Equation$",
+      "choices": ["variable", "constant", "Equation", "term"],
+      "answer": "Equation",
       "points": 15
     },
     {
       "id": 69,
       "wave": 2,
-      "question": "Which of the following is a variable in the expression $10 - 2k + 3m$?",
+      "question": "Which of the following is a variable in the variable $10 - 2k + 3m$?",
       "choices": ["$10$", "$2$", "$k$", "$3$"],
       "answer": "$k$",
       "points": 15
@@ -572,7 +572,7 @@
     {
       "id": 71,
       "wave": 2,
-      "question": "Identify the variables in the expression $2a + 3b - c$.",
+      "question": "Identify the variables in the variable $2a + 3b - c$.",
       "choices": ["$2, 3$", "$a, b, c$", "$2a, 3b, -c$", "$2, 3, -1$"],
       "answer": "$a, b, c$",
       "points": 15
@@ -589,14 +589,14 @@
       "id": 73,
       "wave": 2,
       "question": "What type of algebraic statement is $A = lw$?",
-      "choices": ["$Expression$", "$$constant", "$Equation$", "$ $term"],
-      "answer": "$Equation$",
+      "choices": ["variable", "constant", "Equation", "term"],
+      "answer": "Equation",
       "points": 15
     },
     {
       "id": 74,
       "wave": 2,
-      "question": "How many terms are in the expression $a^2 + b^2$?",
+      "question": "How many terms are in the variable $a^2 + b^2$?",
       "choices": ["$1$", "$2$", "$3$", "$4$"],
       "answer": "$2$",
       "points": 15
@@ -613,14 +613,14 @@
       "id": 76,
       "wave": 2,
       "question": "Which of these is always a number, not a letter?",
-      "choices": ["$ $variable", "$ $term", "$ $coefficient", "$Expression$"],
-      "answer": "$ $coefficient",
+      "choices": ["variable", "term", "coefficient", "variable"],
+      "answer": "coefficient",
       "points": 15
     },
     {
       "id": 77,
       "wave": 2,
-      "question": "In the expression $x + 2y - 3z + 5$, how many constants are there?",
+      "question": "In the variable $x + 2y - 3z + 5$, how many constants are there?",
       "choices": ["$1$", "$2$", "$3$", "$4$"],
       "answer": "$1$",
       "points": 15
@@ -628,17 +628,17 @@
     {
       "id": 78,
       "wave": 2,
-      "question": "A mathematical statement that asserts equality between two expressions is a(n):",
-      "choices": ["$Expression$", "$ $variable", "$Equation$", "$ $term"],
-      "answer": "$Equation$",
+      "question": "A mathematical statement that asserts equality between two variables is a(n):",
+      "choices": ["variable", "variable", "Equation", "term"],
+      "answer": "Equation",
       "points": 15
     },
     {
       "id": 79,
       "wave": 2,
       "question": "Which is the variable in the statement 'Let $n$ be the number of students'?",
-      "choices": ["$Number$", "$Students$", "$n$", "$Let$"],
-      "answer": "$n$",
+      "choices": ["Number", "Students", "n", "Let"],
+      "answer": "n",
       "points": 15
     },
     {
@@ -660,15 +660,20 @@
     {
       "id": 82,
       "wave": 2,
-      "question": "Which of these is an expression, not an equation?",
-      "choices": ["$5 + 2 = 7$", "$y = 3x$", "$a / 2 + 1$", "$C = 2\\pi r$"],
-      "answer": "$a / 2 + 1$",
+      "question": "Which of these is an variable, not an equation?",
+      "choices": [
+        "$5 + 2 = 7$",
+        "$y = 3x$",
+        "$\\frac{a}{2} + 1$",
+        "$C = 2\\pi r$"
+      ],
+      "answer": "$\\frac{a}{2} + 1$",
       "points": 15
     },
     {
       "id": 83,
       "wave": 2,
-      "question": "What is the constant in the expression $4 - y^2$?",
+      "question": "What is the constant in the variable $4 - y^2$?",
       "choices": ["$4$", "$y$", "$-y^2$", "$y^2$"],
       "answer": "$4$",
       "points": 15
@@ -693,29 +698,29 @@
       "id": 86,
       "wave": 2,
       "question": "The speed of light ($c$) is approximately $300,000 \\,000$ meters per second. In this context, $c$ is a:",
-      "choices": ["$ $variable", "$ $coefficient", "$ $term", "$$constant"],
-      "answer": "$$constant",
+      "choices": ["variable", "coefficient", "term", "constant"],
+      "answer": "constant",
       "points": 15
     },
     {
       "id": 87,
       "wave": 2,
-      "question": "Which of the following is true about an expression?",
+      "question": "Which of the following is true about an variable?",
       "choices": [
-        "$It has an equals sign$",
-        "$It solves for a  $variable",
-        "$It combines numbers and variables$",
-        "$It only has constants$"
+        "It has an equals sign",
+        "It solves for a  variable",
+        "It combines numbers and variables",
+        "It only has constants"
       ],
-      "answer": "$It combines numbers and variables$",
+      "answer": "It combines numbers and variables",
       "points": 15
     },
     {
       "id": 88,
       "wave": 2,
       "question": "If 'age' is represented by $A$, then $A$ is a:",
-      "choices": ["$$constant", "$ $coefficient", "$ $term", "$ $variable"],
-      "answer": "$ $variable",
+      "choices": ["constant", "coefficient", "term", "variable"],
+      "answer": "variable",
       "points": 15
     },
     {
@@ -730,22 +735,22 @@
       "id": 90,
       "wave": 2,
       "question": "The number $17$ in the equation $m - 17 = 20$ is a:",
-      "choices": ["$ $variable", "$ $coefficient", "$ $term", "$$constant"],
-      "answer": "$$constant",
+      "choices": ["variable", "coefficient", "term", "constant"],
+      "answer": "constant",
       "points": 15
     },
     {
       "id": 91,
       "wave": 2,
       "question": "In $A = lw$, if $A$ and $w$ are given numbers, $l$ is the:",
-      "choices": ["$$constant", "$ $variable", "$ $coefficient", "$Equation$"],
-      "answer": "$ $variable",
+      "choices": ["constant", "variable", "coefficient", "Equation"],
+      "answer": "variable",
       "points": 15
     },
     {
       "id": 92,
       "wave": 2,
-      "question": "Which of these is a variable in the expression $100 - 3b$?",
+      "question": "Which of these is a variable in the variable $100 - 3b$?",
       "choices": ["$100$", "$3$", "$b$", "$3b$"],
       "answer": "$b$",
       "points": 15
@@ -761,9 +766,9 @@
     {
       "id": 94,
       "wave": 2,
-      "question": "Is $2x - 3y + 4z$ a term, expression, or equation?",
-      "choices": ["$ $term", "$Equation$", "$Expression$", "$ $variable"],
-      "answer": "$Expression$",
+      "question": "Is $2x - 3y + 4z$ a term, variable, or equation?",
+      "choices": ["term", "Equation", "variable", "variable"],
+      "answer": "variable",
       "points": 15
     },
     {
@@ -822,7 +827,7 @@
     {
       "id": 101,
       "wave": 3,
-      "question": "Consider the expression $3x^2 - 4y + 7$. Identify the coefficient of $y$.",
+      "question": "Consider the variable $3x^2 - 4y + 7$. Identify the coefficient of $y$.",
       "choices": ["$4$", "$-4$", "$3$", "$7$"],
       "answer": "$-4$",
       "points": 20
@@ -838,15 +843,15 @@
     {
       "id": 103,
       "wave": 3,
-      "question": "Classify $x^2 + y^2 = r^2$ as an expression or an equation.",
-      "choices": ["$Expression$", "$Equation$"],
-      "answer": "$Equation$",
+      "question": "Classify $x^2 + y^2 = r^2$ as an variable or an equation.",
+      "choices": ["variable", "Equation"],
+      "answer": "Equation",
       "points": 20
     },
     {
       "id": 104,
       "wave": 3,
-      "question": "How many terms are in the algebraic expression $\\frac{x}{2} - 3y^2 + 7xy - 11$?",
+      "question": "How many terms are in the algebraic variable $\\frac{x}{2} - 3y^2 + 7xy - 11$?",
       "choices": ["$3$", "$4$", "$5$", "$6$"],
       "answer": "$4$",
       "points": 20
@@ -856,12 +861,12 @@
       "wave": 3,
       "question": "Which of the following describes a constant within an algebraic context?",
       "choices": [
-        "$A letter representing an unknown quantity$",
-        "$A number that can change$",
-        "$A fixed numerical value$",
-        "$The numerical factor of a  $term"
+        "A letter representing an unknown quantity",
+        "A number that can change",
+        "A fixed numerical value",
+        "The numerical factor of a  term"
       ],
-      "answer": "$A fixed numerical value$",
+      "answer": "A fixed numerical value",
       "points": 20
     },
     {
@@ -875,31 +880,31 @@
     {
       "id": 107,
       "wave": 3,
-      "question": "In the expression $m - n + k$, what are $m$, $n$, and $k$ examples of?",
-      "choices": ["$Constants$", "$Coefficients$", "$Variables$", "$Terms$"],
-      "answer": "$Variables$",
+      "question": "In the variable $m - n + k$, what are $m$, $n$, and $k$ examples of?",
+      "choices": ["Constants", "Coefficients", "Variables", "Terms"],
+      "answer": "Variables",
       "points": 20
     },
     {
       "id": 108,
       "wave": 3,
-      "question": "Which of these includes an equality sign that balances two expressions?",
-      "choices": ["$ $term", "$ $variable", "$Expression$", "$Equation$"],
-      "answer": "$Equation$",
+      "question": "Which of these includes an equality sign that balances two variables?",
+      "choices": ["term", "variable", "variable", "Equation"],
+      "answer": "Equation",
       "points": 20
     },
     {
       "id": 109,
       "wave": 3,
       "question": "What is the numerical value that multiplies a variable?",
-      "choices": ["$$constant", "$ $term", "$ $variable", "$ $coefficient"],
-      "answer": "$ $coefficient",
+      "choices": ["constant", "term", "variable", "coefficient"],
+      "answer": "coefficient",
       "points": 20
     },
     {
       "id": 110,
       "wave": 3,
-      "question": "Which are the terms in the expression $x^2 + 3x - 5$?",
+      "question": "Which are the terms in the variable $x^2 + 3x - 5$?",
       "choices": ["$x^2, 3x, 5$", "$x^2, 3x, -5$", "$x, x, 3, -5$", "$x^2, x$"],
       "answer": "$x^2, 3x, -5$",
       "points": 20
@@ -915,15 +920,15 @@
     {
       "id": 112,
       "wave": 3,
-      "question": "Classify $5(x+y) - 2z$ as an expression or an equation.",
-      "choices": ["$Expression$", "$Equation$"],
-      "answer": "$Expression$",
+      "question": "Classify $5(x+y) - 2z$ as an variable or an equation.",
+      "choices": ["variable", "Equation"],
+      "answer": "variable",
       "points": 20
     },
     {
       "id": 113,
       "wave": 3,
-      "question": "How many terms does the expression $2ab - 3c + 5d^2 - ef$ have?",
+      "question": "How many terms does the variable $2ab - 3c + 5d^2 - ef$ have?",
       "choices": ["$3$", "$4$", "$5$", "$6$"],
       "answer": "$4$",
       "points": 20
@@ -932,8 +937,8 @@
       "id": 114,
       "wave": 3,
       "question": "What is the coefficient of $q$ in the term $\\frac{q}{4}$?",
-      "choices": ["$4$", "$1/4$", "$q$", "$1$"],
-      "answer": "$1/4$",
+      "choices": ["$4$", "$\\frac{1}{4}$", "$q$", "$1$"],
+      "answer": "$\\frac{1}{4}$",
       "points": 20
     },
     {
@@ -949,20 +954,20 @@
       "wave": 3,
       "question": "Which of these statements correctly defines an equation?",
       "choices": [
-        "$A mathematical phrase without an equals sign$",
-        "$A combination of numbers and variables$",
-        "$A statement that two expressions are equal$",
-        "$A single number or  $variable"
+        "A mathematical phrase without an equals sign",
+        "A combination of numbers and variables",
+        "A statement that two variables are equal",
+        "A single number or  variable"
       ],
-      "answer": "$A statement that two expressions are equal$",
+      "answer": "A statement that two variables are equal",
       "points": 20
     },
     {
       "id": 117,
       "wave": 3,
-      "question": "In the expression $ax + b$, if $x$ is the variable, what are $a$ and $b$?",
-      "choices": ["$Variables$", "$Constants$", "$Terms$", "$Coefficients$"],
-      "answer": "$Constants$",
+      "question": "In the variable $ax + b$, if $x$ is the variable, what are $a$ and $b$?",
+      "choices": ["Variables", "Constants", "Terms", "Coefficients"],
+      "answer": "Constants",
       "points": 20
     },
     {
@@ -1013,9 +1018,9 @@
     {
       "id": 123,
       "wave": 3,
-      "question": "Is $4a + 2b - c + 10$ an expression or an equation?",
-      "choices": ["$Expression$", "$Equation$"],
-      "answer": "$Expression$",
+      "question": "Is $4a + 2b - c + 10$ an variable or an equation?",
+      "choices": ["variable", "Equation"],
+      "answer": "variable",
       "points": 20
     },
     {
@@ -1031,9 +1036,9 @@
       "wave": 3,
       "question": "Which is the correct definition of a term in algebra?",
       "choices": [
-        "$A number by itself$",
-        "$A variable by itself$",
-        "$The product of numbers and variables$",
+        "A number by itself",
+        "A variable by itself",
+        "The product of numbers and variables",
         "All of the above"
       ],
       "answer": "All of the above",
@@ -1042,15 +1047,15 @@
     {
       "id": 126,
       "wave": 3,
-      "question": "Identify the coefficient of $k$ in the term $-k/7$.",
-      "choices": ["$1$", "$-1$", "$1/7$", "$-1/7$"],
-      "answer": "$-1/7$",
+      "question": "Identify the coefficient of $k$ in the term $-\\frac{k}{7}$.",
+      "choices": ["$1$", "$-1$", "$\\frac{1}{7}$", "$\\frac{-1}{7}$"],
+      "answer": "$\\frac{-1}{7}$",
       "points": 20
     },
     {
       "id": 127,
       "wave": 3,
-      "question": "Which of these is an example of an algebraic expression?",
+      "question": "Which of these is an example of an algebraic variable?",
       "choices": ["$2 + 3 = 5$", "$x = 10$", "$4y - 8$", "$A = lw$"],
       "answer": "$4y - 8$",
       "points": 20
@@ -1066,7 +1071,7 @@
     {
       "id": 129,
       "wave": 3,
-      "question": "What is the constant in the expression $x^3 - 2x + 9$?",
+      "question": "What is the constant in the variable $x^3 - 2x + 9$?",
       "choices": ["$x^3$", "$-2$", "$9$", "$x$"],
       "answer": "$9$",
       "points": 20
@@ -1090,7 +1095,7 @@
     {
       "id": 132,
       "wave": 3,
-      "question": "True or False: An expression can have an equals sign.",
+      "question": "True or False: An variable can have an equals sign.",
       "choices": ["$True$", "$False$"],
       "answer": "$False$",
       "points": 20
@@ -1098,7 +1103,7 @@
     {
       "id": 133,
       "wave": 3,
-      "question": "In the expression $5a + 6b - 7c + 8$, which term is a constant?",
+      "question": "In the variable $5a + 6b - 7c + 8$, which term is a constant?",
       "choices": ["$5a$", "$6b$", "$-7c$", "$8$"],
       "answer": "$8$",
       "points": 20
@@ -1108,12 +1113,12 @@
       "wave": 3,
       "question": "What is a 'variable' in the context of algebra?",
       "choices": [
-        "$A fixed numerical value$",
-        "$A number that multiplies another number$",
-        "$A symbol representing a changeable quantity$",
-        "$A result of an equation$"
+        "A fixed numerical value",
+        "A number that multiplies another number",
+        "A symbol representing a changeable quantity",
+        "A result of an equation"
       ],
-      "answer": "$A symbol representing a changeable quantity$",
+      "answer": "A symbol representing a changeable quantity",
       "points": 20
     },
     {
@@ -1136,16 +1141,16 @@
       "id": 137,
       "wave": 3,
       "question": "If 'the number of apples' is represented by $a$, and 'the number of oranges' by $o$, then $a$ and $o$ are:",
-      "choices": ["$Constants$", "$Terms$", "$Coefficients$", "$Variables$"],
-      "answer": "$Variables$",
+      "choices": ["Constants", "Terms", "Coefficients", "Variables"],
+      "answer": "Variables",
       "points": 20
     },
     {
       "id": 138,
       "wave": 3,
-      "question": "The algebraic entity that connects two expressions, stating they have the same value, is an:",
-      "choices": ["$Expression$", "$ $term", "$Equation$", "$ $coefficient"],
-      "answer": "$Equation$",
+      "question": "The algebraic entity that connects two variables, stating they have the same value, is an:",
+      "choices": ["variable", "term", "Equation", "coefficient"],
+      "answer": "Equation",
       "points": 20
     },
     {
@@ -1159,7 +1164,7 @@
     {
       "id": 140,
       "wave": 3,
-      "question": "What is the constant term in the expression $-a + 2b - 7$?",
+      "question": "What is the constant term in the variable $-a + 2b - 7$?",
       "choices": ["$-a$", "$2b$", "$-7$", "$a$"],
       "answer": "$-7$",
       "points": 20
@@ -1175,7 +1180,7 @@
     {
       "id": 142,
       "wave": 3,
-      "question": "Which of these is an example of an expression?",
+      "question": "Which of these is an example of an variable?",
       "choices": ["$C = \\pi d$", "$3x - 5y = 10$", "$a + b$", "$V = lwh$"],
       "answer": "$a + b$",
       "points": 20
@@ -1183,7 +1188,7 @@
     {
       "id": 143,
       "wave": 3,
-      "question": "In the expression $ab + c$, what is $c$?",
+      "question": "In the variable $ab + c$, what is $c$?",
       "choices": ["A variable", "A constant", "A term", "A coefficient"],
       "answer": "A term",
       "points": 20
@@ -1191,7 +1196,7 @@
     {
       "id": 144,
       "wave": 3,
-      "question": "What distinguishes an equation from an expression?",
+      "question": "What distinguishes an equation from an variable?",
       "choices": [
         "$The presence of variables$",
         "$The number of terms$",
@@ -1204,7 +1209,7 @@
     {
       "id": 145,
       "wave": 3,
-      "question": "How many terms are in the expression $x/y - z$?",
+      "question": "How many terms are in the variable $\\frac{x}{y} - z$?",
       "choices": ["$1$", "$2$", "$3$", "$4$"],
       "answer": "$2$",
       "points": 20
@@ -1221,8 +1226,8 @@
       "id": 147,
       "wave": 3,
       "question": "What is the coefficient of $p^2$ in the term $\\frac{4p^2}{5}$?",
-      "choices": ["$4$", "$5$", "$4/5$", "$p^2$"],
-      "answer": "$4/5$",
+      "choices": ["$4$", "$5$", "$\\frac{4}{5}$", "$p^2$"],
+      "answer": "$\\frac{4}{5}$",
       "points": 20
     },
     {
@@ -1237,14 +1242,14 @@
       "id": 149,
       "wave": 3,
       "question": "In the algebraic statement $y = 5x + 1$, what role does $5$ play?",
-      "choices": ["$ $variable", "$$constant", "$ $term", "$ $coefficient"],
-      "answer": "$ $coefficient",
+      "choices": ["variable", "constant", "term", "coefficient"],
+      "answer": "coefficient",
       "points": 20
     },
     {
       "id": 150,
       "wave": 3,
-      "question": "Which are the terms in the expression $10ab + 3c - 12$?",
+      "question": "Which are the terms in the variable $10ab + 3c - 12$?",
       "choices": [
         "$10ab, 3c, 12$",
         "$10ab, 3c, -12$",
@@ -1257,7 +1262,7 @@
     {
       "id": 151,
       "wave": 4,
-      "question": "In the algebraic expression $ax^2 + bx + c$, if $a, b,$ and $c$ are constants, which are the variables?",
+      "question": "In the algebraic variable $ax^2 + bx + c$, if $a, b,$ and $c$ are constants, which are the variables?",
       "choices": ["$a, b, c$", "$x$", "$x^2$", "$x^2, x$"],
       "answer": "$x$",
       "points": 25
@@ -1265,17 +1270,17 @@
     {
       "id": 152,
       "wave": 4,
-      "question": "Identify the coefficient of the term containing $y$ in the expression $\\frac{2xy}{5} - 3x + y^2$.",
-      "choices": ["$2/5$", "$2x/5$", "$y$", "$5$"],
-      "answer": "$2x/5$",
+      "question": "Identify the coefficient of the term containing $y$ in the variable $\\frac{2xy}{5} - 3x + y^2$.",
+      "choices": ["$\\frac{2}{5}$", "$2\\frac{x}{5}$", "$y$", "$5$"],
+      "answer": "$2\\frac{x}{5}$",
       "points": 25
     },
     {
       "id": 153,
       "wave": 4,
-      "question": "Classify the statement $V = \\frac{1}{3}\\pi r^2 h$ (volume of a cone) as an expression or an equation, where $\\pi$ is a constant.",
-      "choices": ["$Expression$", "$Equation$"],
-      "answer": "$Equation$",
+      "question": "Classify the statement $V = \\frac{1}{3}\\pi r^2 h$ (volume of a cone) as an variable or an equation, where $\\pi$ is a constant.",
+      "choices": ["variable", "Equation"],
+      "answer": "Equation",
       "points": 25
     },
     {
@@ -1305,7 +1310,7 @@
     {
       "id": 157,
       "wave": 4,
-      "question": "In the expression $x(y+z) - w$, identify all the variables.",
+      "question": "In the variable $x(y+z) - w$, identify all the variables.",
       "choices": ["$x, y, z, w$", "$x, y, z$", "$x(y+z)$", "$w$"],
       "answer": "$x, y, z, w$",
       "points": 25
@@ -1314,16 +1319,16 @@
       "id": 158,
       "wave": 4,
       "question": "Which of these must contain an equals sign to be complete?",
-      "choices": ["A term", "A variable", "An expression", "$An equation$"],
-      "answer": "$An equation$",
+      "choices": ["A term", "A variable", "An variable", "An equation$"],
+      "answer": "An equation$",
       "points": 25
     },
     {
       "id": 159,
       "wave": 4,
       "question": "A number that does not change its value and is not attached to a variable is a:",
-      "choices": ["$ $variable", "$ $coefficient", "$ $term", "$$constant"],
-      "answer": "$$constant",
+      "choices": ["variable", "coefficient", "term", "constant"],
+      "answer": "constant",
       "points": 25
     },
     {
@@ -1343,14 +1348,14 @@
       "id": 161,
       "wave": 4,
       "question": "In the term $\\frac{3(x+y)}{4}$, what is the coefficient of $(x+y)$?",
-      "choices": ["$3$", "$4$", "$3/4$", "$x+y$"],
-      "answer": "$3/4$",
+      "choices": ["$3$", "$4$", "$\\frac{3}{4}$", "$x+y$"],
+      "answer": "$\\frac{3}{4}$",
       "points": 25
     },
     {
       "id": 162,
       "wave": 4,
-      "question": "Consider the expression $5x^2y - 2xy^2 + y$. Identify the variables.",
+      "question": "Consider the variable $5x^2y - 2xy^2 + y$. Identify the variables.",
       "choices": ["$5, -2, 1$", "$x, y$", "$x^2, y^2$", "$xy, xy$"],
       "answer": "$x, y$",
       "points": 25
@@ -1358,20 +1363,20 @@
     {
       "id": 163,
       "wave": 4,
-      "question": "Which statement is true about expressions and equations?",
+      "question": "Which statement is true about variables and equations?",
       "choices": [
-        "$All expressions are equations$",
-        "$All equations are expressions$",
-        "$Expressions have an equals sign, equations do not$",
-        "$Equations have an equals sign, expressions do not$"
+        "All variables are equations",
+        "All equations are variables",
+        "variables have an equals sign, equations do not",
+        "Equations have an equals sign, variables do not"
       ],
-      "answer": "$Equations have an equals sign, expressions do not$",
+      "answer": "Equations have an equals sign, variables do not",
       "points": 25
     },
     {
       "id": 164,
       "wave": 4,
-      "question": "How many terms are in the algebraic expression $x \\div y - z \\times w + 5$?",
+      "question": "How many terms are in the algebraic variable $x \\div y - z \\times w + 5$?",
       "choices": ["$3$", "$4$", "$5$", "$2$"],
       "answer": "$3$",
       "points": 25
@@ -1397,25 +1402,25 @@
       "wave": 4,
       "question": "Which of these is a variable?",
       "choices": [
-        "$The number of sides of a triangle$",
-        "$The acceleration due to gravity$",
-        "$The length of a growing plant$",
-        "$The value of $\\pi$$"
+        "The number of sides of a triangle",
+        "The acceleration due to gravity",
+        "The length of a growing plant",
+        "The value of $\\pi$"
       ],
-      "answer": "$The length of a growing plant$",
+      "answer": "The length of a growing plant",
       "points": 25
     },
     {
       "id": 168,
       "wave": 4,
-      "question": "What is the primary difference in notation between an expression and an equation?",
+      "question": "What is the primary difference in notation between an variable and an equation?",
       "choices": [
-        "$Variables vs. constants$",
-        "$Terms vs. coefficients$",
-        "$Presence of an equals sign$",
-        "$Use of numbers vs. letters$"
+        "Variables vs. constants",
+        "Terms vs. coefficients",
+        "Presence of an equals sign",
+        "Use of numbers vs. letters"
       ],
-      "answer": "$Presence of an equals sign$",
+      "answer": "Presence of an equals sign",
       "points": 25
     },
     {
@@ -1437,7 +1442,7 @@
     {
       "id": 171,
       "wave": 4,
-      "question": "In the expression $\\frac{3a - 4b}{2}$, identify the variables.",
+      "question": "In the variable $\\frac{3a - 4b}{2}$, identify the variables.",
       "choices": ["$3, 4, 2$", "$a, b$", "$a, b, 2$", "$3a, -4b$"],
       "answer": "$a, b$",
       "points": 25
@@ -1458,30 +1463,25 @@
     {
       "id": 173,
       "wave": 4,
-      "question": "Is $(a+b)^2$ an expression or an equation?",
-      "choices": ["$Expression$", "$Equation$"],
-      "answer": "$Expression$",
+      "question": "Is $(a+b)^2$ an variable or an equation?",
+      "choices": ["variable", "Equation"],
+      "answer": "variable",
       "points": 25
     },
     {
       "id": 174,
       "wave": 4,
       "question": "In the equation $y = kx$, if $x$ and $y$ are variables, $k$ is called the:",
-      "choices": ["$ $variable", "$ $term", "$$constant", "$ $coefficient"],
-      "answer": "$$constant",
+      "choices": ["variable", "term", "constant", "coefficient"],
+      "answer": "constant",
       "points": 25
     },
     {
       "id": 175,
       "wave": 4,
       "question": "A term can consist of a number, a variable, or a combination through what operation?",
-      "choices": [
-        "$Addition$",
-        "$Subtraction$",
-        "$Multiplication$",
-        "$Division$"
-      ],
-      "answer": "$Multiplication$",
+      "choices": ["Addition", "Subtraction", "Multiplication", "Division"],
+      "answer": "Multiplication",
       "points": 25
     },
     {
@@ -1495,7 +1495,7 @@
     {
       "id": 177,
       "wave": 4,
-      "question": "Which of these is a constant in the expression $x^2 + y^2 + 25$?",
+      "question": "Which of these is a constant in the variable $x^2 + y^2 + 25$?",
       "choices": ["$x^2$", "$y^2$", "$25$", "$x, y$"],
       "answer": "$25$",
       "points": 25
@@ -1504,8 +1504,8 @@
       "id": 178,
       "wave": 4,
       "question": "An algebraic statement that has a solution is typically a(n):",
-      "choices": ["$Expression$", "$ $variable", "$$constant", "$Equation$"],
-      "answer": "$Equation$",
+      "choices": ["variable", "variable", "constant", "Equation"],
+      "answer": "Equation",
       "points": 25
     },
     {
@@ -1520,14 +1520,14 @@
       "id": 180,
       "wave": 4,
       "question": "What is the coefficient of $x$ in the term $\\frac{-x}{3}$?",
-      "choices": ["$1/3$", "$-1/3$", "$3$", "$-3$"],
-      "answer": "$-1/3$",
+      "choices": ["$\\frac{1}{3}$", "$\\frac{-1}{3}$", "$3$", "$-3$"],
+      "answer": "$\\frac{-1}{3}$",
       "points": 25
     },
     {
       "id": 181,
       "wave": 4,
-      "question": "Identify the terms in the expression $4(a+b) - 7c + 9$.",
+      "question": "Identify the terms in the variable $4(a+b) - 7c + 9$.",
       "choices": [
         "$4(a+b), 7c, 9$",
         "$4a, 4b, -7c, 9$",
@@ -1554,14 +1554,14 @@
       "id": 183,
       "wave": 4,
       "question": "In the general linear equation $Ax + By = C$, if $x$ and $y$ are variables, what are $A, B,$ and $C$?",
-      "choices": ["$Variables$", "$Constants$", "$Terms$", "$Coefficients$"],
-      "answer": "$Constants$",
+      "choices": ["Variables", "Constants", "Terms", "Coefficients"],
+      "answer": "Constants",
       "points": 25
     },
     {
       "id": 184,
       "wave": 4,
-      "question": "How many terms are there in the expression $5(x-y) + 2z$?",
+      "question": "How many terms are there in the variable $5(x-y) + 2z$?",
       "choices": ["$2$", "$3$", "$4$", "$5$"],
       "answer": "$2$",
       "points": 25
@@ -1577,7 +1577,7 @@
     {
       "id": 186,
       "wave": 4,
-      "question": "True or False: The constant in an expression is always a positive number.",
+      "question": "True or False: The constant in an variable is always a positive number.",
       "choices": ["$True$", "$False$"],
       "answer": "$False$",
       "points": 25
@@ -1585,14 +1585,14 @@
     {
       "id": 187,
       "wave": 4,
-      "question": "Which of these statements accurately defines an algebraic expression?",
+      "question": "Which of these statements accurately defines an algebraic variable?",
       "choices": [
-        "$A statement of equality between two values$",
-        "$A mathematical phrase with an equals sign$",
-        "$A combination of numbers, variables, and operations, without an equals sign$",
-        "$A symbol that represents an unknown number$"
+        "A statement of equality between two values",
+        "A mathematical phrase with an equals sign",
+        "A combination of numbers, variables, and operations, without an equals sign",
+        "A symbol that represents an unknown number"
       ],
-      "answer": "$A combination of numbers, variables, and operations, without an equals sign$",
+      "answer": "A combination of numbers, variables, and operations, without an equals sign",
       "points": 25
     },
     {
@@ -1606,7 +1606,7 @@
     {
       "id": 189,
       "wave": 4,
-      "question": "What is the constant term in the expression $2(x+5) - 3y$?",
+      "question": "What is the constant term in the variable $2(x+5) - 3y$?",
       "choices": ["$2$", "$5$", "$10$", "$-3$"],
       "answer": "$10$",
       "points": 25
@@ -1615,14 +1615,14 @@
       "id": 190,
       "wave": 4,
       "question": "Identify the coefficient of $x^3$ in the term $\\frac{-5x^3}{4}$.",
-      "choices": ["$-5$", "$-4$", "$-5/4$", "$x^3$"],
-      "answer": "$-5/4$",
+      "choices": ["$-5$", "$-4$", "$\\frac{-5}{4}$", "$x^3$"],
+      "answer": "$\\frac{-5}{4}$",
       "points": 25
     },
     {
       "id": 191,
       "wave": 4,
-      "question": "What are the variables in the expression $\\frac{k}{L} + m - n$?",
+      "question": "What are the variables in the variable $\\frac{k}{L} + m - n$?",
       "choices": ["$k, L, m, n$", "$k, L$", "$m, n$", "$k, L, m, n$"],
       "answer": "$k, L, m, n$",
       "points": 25
@@ -1630,7 +1630,7 @@
     {
       "id": 192,
       "wave": 4,
-      "question": "How many terms are in the equation $12 = \\frac{x}{3} + 2y - z/4$?",
+      "question": "How many terms are in the equation $12 = \\frac{x}{3} + 2y - \\frac{z}{4}$?",
       "choices": ["$3$", "$4$", "$5$", "$12$"],
       "answer": "$4$",
       "points": 25
@@ -1638,9 +1638,9 @@
     {
       "id": 193,
       "wave": 4,
-      "question": "Is $A = s^2$ (area of a square) an expression or an equation?",
-      "choices": ["$Expression$", "$Equation$"],
-      "answer": "$Equation$",
+      "question": "Is $A = s^2$ (area of a square) an variable or an equation?",
+      "choices": ["variable", "Equation"],
+      "answer": "Equation",
       "points": 25
     },
     {
@@ -1664,20 +1664,20 @@
       "wave": 4,
       "question": "Which of these is a variable?",
       "choices": [
-        "$The number of hours in a day$",
-        "$The number of states in the USA$",
-        "$The height of a child over time$",
-        "$The freezing point of water$"
+        "The number of hours in a day",
+        "The number of states in the USA",
+        "The height of a child over time",
+        "The freezing point of water"
       ],
-      "answer": "$The height of a child over time$",
+      "answer": "The height of a child over time",
       "points": 25
     },
     {
       "id": 197,
       "wave": 4,
-      "question": "The parts of an algebraic expression that are added or subtracted are known as:",
-      "choices": ["$Coefficients$", "$Variables$", "$Constants$", "$Terms$"],
-      "answer": "$Terms$",
+      "question": "The parts of an algebraic variable that are added or subtracted are known as:",
+      "choices": ["Coefficients", "Variables", "Constants", "Terms"],
+      "answer": "Terms",
       "points": 25
     },
     {
@@ -1691,15 +1691,15 @@
     {
       "id": 199,
       "wave": 4,
-      "question": "What is the coefficient of $y$ in the term $y/8$?",
-      "choices": ["$8$", "$1/8$", "$y$", "$1$"],
-      "answer": "$1/8$",
+      "question": "What is the coefficient of $y$ in the term $\\frac{y}{8}$?",
+      "choices": ["$8$", "$\\frac{1}{8}$", "$y$", "$1$"],
+      "answer": "$\\frac{1}{8}$",
       "points": 25
     },
     {
       "id": 200,
       "wave": 4,
-      "question": "True or False: Every term in an expression has a coefficient.",
+      "question": "True or False: Every term in an variable has a coefficient.",
       "choices": ["$True$", "$False$"],
       "answer": "$True$",
       "points": 25
@@ -1708,14 +1708,14 @@
       "id": 201,
       "wave": 5,
       "question": "In the general quadratic equation $ax^2 + bx + c = 0$, where $x$ is the variable, what are $a, b,$ and $c$?",
-      "choices": ["$Variables$", "$Constants$", "$Terms$", "$Coefficients$"],
-      "answer": "$Constants$",
+      "choices": ["Variables", "Constants", "Terms", "Coefficients"],
+      "answer": "Constants",
       "points": 30
     },
     {
       "id": 202,
       "wave": 5,
-      "question": "Identify the coefficient of the term containing $xyz$ in the expression $-7xyz^2 + 2xy - 5z$.",
+      "question": "Identify the coefficient of the term containing $xyz$ in the variable $-7xyz^2 + 2xy - 5z$.",
       "choices": ["$-7$", "$-7z$", "$-7z^2$", "$2$"],
       "answer": "$-7z$",
       "points": 30
@@ -1723,15 +1723,15 @@
     {
       "id": 203,
       "wave": 5,
-      "question": "Classify the statement $\\sum_{i=1}^{n} x_i = S$ as an expression or an equation.",
-      "choices": ["$Expression$", "$Equation$"],
-      "answer": "$Equation$",
+      "question": "Classify the statement $\\sum_{i=1}^{n} x_i = S$ as an variable or an equation.",
+      "choices": ["variable", "Equation"],
+      "answer": "Equation",
       "points": 30
     },
     {
       "id": 204,
       "wave": 5,
-      "question": "How many terms are in the algebraic expression $x(y+z) - w/2 + 5k^3 - 1/p$?",
+      "question": "How many terms are in the algebraic variable $x(y+z) - \\frac{w}{2} + 5k^3 - \\frac{1}{p}$?",
       "choices": ["$3$", "$4$", "$5$", "$6$"],
       "answer": "$4$",
       "points": 30
@@ -1741,18 +1741,18 @@
       "wave": 5,
       "question": "Which statement precisely describes the role of a constant in an algebraic context?",
       "choices": [
-        "$It is a fixed numerical value in an expression or equation.$",
-        "$It is a symbol whose value can change.$",
-        "$It is the number multiplying a variable.$",
-        "$It is a part of an expression separated by operations.$"
+        "It is a fixed numerical value in an variable or equation.",
+        "It is a symbol whose value can change.",
+        "It is the number multiplying a variable.",
+        "It is a part of an variable separated by operations."
       ],
-      "answer": "$It is a fixed numerical value in an expression or equation.$",
+      "answer": "It is a fixed numerical value in an variable or equation.",
       "points": 30
     },
     {
       "id": 206,
       "wave": 5,
-      "question": "What is the coefficient of $xy$ in the expression $2x^2y - 5xy + 3x$?",
+      "question": "What is the coefficient of $xy$ in the variable $2x^2y - 5xy + 3x$?",
       "choices": ["$2x$", "$-5$", "$3$", "$-5y$"],
       "answer": "$-5$",
       "points": 30
@@ -1761,8 +1761,8 @@
       "id": 207,
       "wave": 5,
       "question": "In the equation $\\frac{1}{R_T} = \\frac{1}{R_1} + \\frac{1}{R_2}$, if $R_T, R_1, R_2$ are resistances that can vary, what are they?",
-      "choices": ["$Constants$", "$Terms$", "$Coefficients$", "$Variables$"],
-      "answer": "$Variables$",
+      "choices": ["Constants", "Terms", "Coefficients", "Variables"],
+      "answer": "Variables",
       "points": 30
     },
     {
@@ -1783,18 +1783,18 @@
       "wave": 5,
       "question": "What is the precise definition of a term in algebra?",
       "choices": [
-        "$A single letter or number.$",
-        "$A collection of variables.$",
-        "$A number, a variable, or a product of numbers and variables, separated by addition or subtraction.$",
-        "$A mathematical statement with an equals sign.$"
+        "A single letter or number.",
+        "A collection of variables.",
+        "A number, a variable, or a product of numbers and variables, separated by addition or subtraction.",
+        "A mathematical statement with an equals sign."
       ],
-      "answer": "$A number, a variable, or a product of numbers and variables, separated by addition or subtraction.$",
+      "answer": "A number, a variable, or a product of numbers and variables, separated by addition or subtraction.",
       "points": 30
     },
     {
       "id": 210,
       "wave": 5,
-      "question": "Identify the constants in the expression $(x+y) + 7 - 2ab$.",
+      "question": "Identify the constants in the variable $(x+y) + 7 - 2ab$.",
       "choices": ["$7$", "$2$", "$7, 2$", "$x, y, a, b$"],
       "answer": "$7$",
       "points": 30
@@ -1803,14 +1803,14 @@
       "id": 211,
       "wave": 5,
       "question": "What is the coefficient of $x$ in the term $\\frac{ax}{b}$?",
-      "choices": ["$a$", "$b$", "$a/b$", "$x$"],
-      "answer": "$a/b$",
+      "choices": ["$a$", "$b$", "$\\frac{a}{b}$", "$x$"],
+      "answer": "$\\frac{a}{b}$",
       "points": 30
     },
     {
       "id": 212,
       "wave": 5,
-      "question": "True or False: All expressions can be solved for a specific numerical value.",
+      "question": "True or False: All variables can be solved for a specific numerical value.",
       "choices": ["$True$", "$False$"],
       "answer": "$False$",
       "points": 30
@@ -1826,7 +1826,7 @@
     {
       "id": 214,
       "wave": 5,
-      "question": "How many terms are in the algebraic expression $3(x-y)^2 + 4/z - 5xyz + 10$?",
+      "question": "How many terms are in the algebraic variable $3(x-y)^2 + \\frac{4}{z} - 5xyz + 10$?",
       "choices": ["$3$", "$4$", "$5$", "$6$"],
       "answer": "$4$",
       "points": 30
@@ -1836,20 +1836,20 @@
       "wave": 5,
       "question": "Which accurately defines an algebraic variable?",
       "choices": [
-        "$A fixed numerical quantity.$",
-        "$A number that multiplies other numbers.$",
-        "$A symbol representing a quantity that can take on different values.$",
-        "$A part of an expression separated by plus or minus signs.$"
+        "A fixed numerical quantity.",
+        "A number that multiplies other numbers.",
+        "A symbol representing a quantity that can take on different values.",
+        "A part of an variable separated by plus or minus signs."
       ],
-      "answer": "$A symbol representing a quantity that can take on different values.$",
+      "answer": "A symbol representing a quantity that can take on different values.",
       "points": 30
     },
     {
       "id": 216,
       "wave": 5,
       "question": "Identify the coefficient of $pqr$ in the term $\\frac{-pqr}{10}$.",
-      "choices": ["$-10$", "$-1/10$", "$1/10$", "$pqr$"],
-      "answer": "$-1/10$",
+      "choices": ["$-10$", "$\\frac{-1}{10}$", "$\\frac{1}{10}$", "$pqr$"],
+      "answer": "$\\frac{-1}{10}$",
       "points": 30
     },
     {
@@ -1868,7 +1868,7 @@
     {
       "id": 218,
       "wave": 5,
-      "question": "In the expression $5x^2 - 3xy + y^3 - 7$, which terms contain variables?",
+      "question": "In the variable $5x^2 - 3xy + y^3 - 7$, which terms contain variables?",
       "choices": [
         "$5x^2, -3xy, y^3$",
         "$5x^2, -3xy, y^3, -7$",
@@ -1883,7 +1883,7 @@
       "wave": 5,
       "question": "What is the constant term in the algebraic statement $P = 2l + 2w$, assuming $l$ and $w$ are variables?",
       "choices": ["$2$", "$P$", "$l$", "$w$"],
-      "answer": "$None$",
+      "answer": "None",
       "points": 30
     },
     {
@@ -1897,7 +1897,7 @@
     {
       "id": 221,
       "wave": 5,
-      "question": "In the expression $x^4 + 3x^2y - 5y^3 + 12$, identify the coefficients.",
+      "question": "In the variable $x^4 + 3x^2y - 5y^3 + 12$, identify the coefficients.",
       "choices": ["$1, 3, -5, 12$", "$1, 3, -5$", "$x, y$", "$4, 3, 5, 12$"],
       "answer": "$1, 3, -5$",
       "points": 30
@@ -1907,18 +1907,18 @@
       "wave": 5,
       "question": "Which of these accurately defines an algebraic equation?",
       "choices": [
-        "$A collection of terms and variables.$",
-        "$A mathematical phrase that uses numbers and operations.$",
-        "$A statement that shows two expressions are equal using an equals sign.$",
-        "$A quantity whose value can change.$"
+        "A collection of terms and variables.",
+        "A mathematical phrase that uses numbers and operations.",
+        "A statement that shows two variables are equal using an equals sign.",
+        "A quantity whose value can change."
       ],
-      "answer": "$A statement that shows two expressions are equal using an equals sign.$",
+      "answer": "A statement that shows two variables are equal using an equals sign.",
       "points": 30
     },
     {
       "id": 223,
       "wave": 5,
-      "question": "How many distinct terms are in the expression $a(b+c) - 2(d+e) + 7f$?",
+      "question": "How many distinct terms are in the variable $a(b+c) - 2(d+e) + 7f$?",
       "choices": ["$3$", "$4$", "$5$", "$6$"],
       "answer": "$3$",
       "points": 30
@@ -1943,15 +1943,15 @@
       "id": 226,
       "wave": 5,
       "question": "What is the coefficient of $x$ in the term $\\frac{x}{yz}$?",
-      "choices": ["$1$", "$y z$", "$1/(yz)$", "$x$"],
-      "answer": "$1/(yz)$",
+      "choices": ["$1$", "$y z$", "$\\frac{1}{(yz)}$", "$x$"],
+      "answer": "$\\frac{1}{(yz)}$",
       "points": 30
     },
     {
       "id": 227,
       "wave": 5,
-      "question": "Consider the expression $3(x+y) - 5(x-y) + 2$. Identify the constants.",
-      "choices": ["$3, -5, 2$", "$2$", "$3, -5$", "$None$"],
+      "question": "Consider the variable $3(x+y) - 5(x-y) + 2$. Identify the constants.",
+      "choices": ["$3, -5, 2$", "$2$", "$3, -5$", "None"],
       "answer": "$2$",
       "points": 30
     },
@@ -1960,12 +1960,12 @@
       "wave": 5,
       "question": "Which of the following is true about variables?",
       "choices": [
-        "$Their values are fixed.$",
-        "$They are always represented by numbers.$",
-        "$They represent quantities that can change.$",
-        "$They are only found in equations.$"
+        "Their values are fixed.",
+        "They are always represented by numbers.",
+        "They represent quantities that can change.",
+        "They are only found in equations."
       ],
-      "answer": "$They represent quantities that can change.$",
+      "answer": "They represent quantities that can change.",
       "points": 30
     },
     {
@@ -1992,23 +1992,23 @@
     {
       "id": 231,
       "wave": 5,
-      "question": "Is $(a+b)^2 = a^2 + 2ab + b^2$ an expression or an equation?",
-      "choices": ["$Expression$", "$Equation$"],
-      "answer": "$Equation$",
+      "question": "Is $(a+b)^2 = a^2 + 2ab + b^2$ an variable or an equation?",
+      "choices": ["variable", "Equation"],
+      "answer": "Equation",
       "points": 30
     },
     {
       "id": 232,
       "wave": 5,
-      "question": "In the expression $P = 2(l+w)$, if $l$ and $w$ are variables, $P$ is a:",
-      "choices": ["$$constant", "$ $coefficient", "$ $term", "$ $variable"],
-      "answer": "$ $variable",
+      "question": "In the variable $P = 2(l+w)$, if $l$ and $w$ are variables, $P$ is a:",
+      "choices": ["constant", "coefficient", "term", "variable"],
+      "answer": "variable",
       "points": 30
     },
     {
       "id": 233,
       "wave": 5,
-      "question": "Which of these is a variable in the expression $\\sqrt{x} + y^2 - 10$?",
+      "question": "Which of these is a variable in the variable $\\sqrt{x} + y^2 - 10$?",
       "choices": ["$x$", "$y$", "$x, y$", "$\\sqrt{x}, y^2$"],
       "answer": "$x, y$",
       "points": 30
@@ -2017,22 +2017,22 @@
       "id": 234,
       "wave": 5,
       "question": "A quantity whose value is fixed and known in a particular problem is a(n):",
-      "choices": ["$ $variable", "$Equation$", "$ $term", "$$constant"],
-      "answer": "$$constant",
+      "choices": ["variable", "Equation", "term", "constant"],
+      "answer": "constant",
       "points": 30
     },
     {
       "id": 235,
       "wave": 5,
-      "question": "What is the coefficient of $m$ in the term $-m/2$",
-      "choices": ["$1/2$", "$-1/2$", "$m$", "$2$"],
-      "answer": "$-1/2$",
+      "question": "What is the coefficient of $m$ in the term $-\\frac{m}{2}$",
+      "choices": ["$\\frac{1}{2}$", "$\\frac{-1}{2}$", "$m$", "$2$"],
+      "answer": "$\\frac{-1}{2}$",
       "points": 30
     },
     {
       "id": 236,
       "wave": 5,
-      "question": "Identify the terms in the expression $5x + 3y^2 - 2z + 8w - 1$.",
+      "question": "Identify the terms in the variable $5x + 3y^2 - 2z + 8w - 1$.",
       "choices": [
         "$5x, 3y^2, -2z, 8w, -1$",
         "$5, 3, -2, 8, -1$",
@@ -2045,7 +2045,7 @@
     {
       "id": 237,
       "wave": 5,
-      "question": "Which of these is an example of an expression?",
+      "question": "Which of these is an example of an variable?",
       "choices": [
         "$C = 2\\pi r$",
         "$5 + (x \\div 2)$",
@@ -2066,7 +2066,7 @@
     {
       "id": 239,
       "wave": 5,
-      "question": "How many terms are in the algebraic expression $(x+y)(x-y)$?",
+      "question": "How many terms are in the algebraic variable $(x+y)(x-y)$?",
       "choices": ["$1$", "$2$", "$3$", "$4$"],
       "answer": "$1$",
       "points": 30
@@ -2090,8 +2090,8 @@
     {
       "id": 242,
       "wave": 5,
-      "question": "What is the constant term in the expression $m - n + k/2 - 7pq + 11$?",
-      "choices": ["$11$", "$2$", "$-7$", "$None$"],
+      "question": "What is the constant term in the variable $m - n + \\frac{k}{2} - 7pq + 11$?",
+      "choices": ["$11$", "$2$", "$-7$", "None"],
       "answer": "$11$",
       "points": 30
     },
@@ -2100,18 +2100,18 @@
       "wave": 5,
       "question": "Which of these defines a coefficient in algebra?",
       "choices": [
-        "$A letter that represents a number.$",
-        "$A number that stands alone.$",
-        "$The numerical factor of a variable term.$",
-        "$A mathematical sentence with an equals sign.$"
+        "A letter that represents a number.",
+        "A number that stands alone.",
+        "The numerical factor of a variable term.",
+        "A mathematical sentence with an equals sign."
       ],
-      "answer": "$The numerical factor of a variable term.$",
+      "answer": "The numerical factor of a variable term.",
       "points": 30
     },
     {
       "id": 244,
       "wave": 5,
-      "question": "True or False: An expression cannot contain any numbers.",
+      "question": "True or False: An variable cannot contain any numbers.",
       "choices": ["$True$", "$False$"],
       "answer": "$False$",
       "points": 30
@@ -2119,7 +2119,7 @@
     {
       "id": 245,
       "wave": 5,
-      "question": "What are the terms in the expression $-a^2 + 2ab - b^2 + 5c$?",
+      "question": "What are the terms in the variable $-a^2 + 2ab - b^2 + 5c$?",
       "choices": [
         "$a^2, 2ab, b^2, 5c$",
         "$-a^2, 2ab, -b^2, 5c$",
@@ -2133,8 +2133,8 @@
       "id": 246,
       "wave": 5,
       "question": "In the equation $f(x) = ax^2 + bx + c$, if $f(x)$ is a variable and $x$ is the variable for the polynomial, then $a, b, c$ are the:",
-      "choices": ["$Variables$", "$Constants$", "$Terms$", "$Coefficients$"],
-      "answer": "$Coefficients$",
+      "choices": ["Variables", "Constants", "Terms", "Coefficients"],
+      "answer": "Coefficients",
       "points": 30
     },
     {
@@ -2148,7 +2148,7 @@
     {
       "id": 248,
       "wave": 5,
-      "question": "What is the constant term in the expression $(x+1)(x-1) + 5$?",
+      "question": "What is the constant term in the variable $(x+1)(x-1) + 5$?",
       "choices": ["$1$", "$-1$", "$5$", "$4$"],
       "answer": "$4$",
       "points": 30
@@ -2164,7 +2164,7 @@
     {
       "id": 250,
       "wave": 5,
-      "question": "True or False: An expression always contains at least one variable.",
+      "question": "True or False: An variable always contains at least one variable.",
       "choices": ["$True$", "$False$"],
       "answer": "$False$",
       "points": 30
