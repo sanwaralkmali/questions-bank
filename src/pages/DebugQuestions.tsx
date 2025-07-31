@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import {
   Select,
   SelectContent,
@@ -10,7 +11,7 @@ import {
 } from "@/components/ui/select";
 import { cn } from "@/lib/utils";
 import "katex/dist/katex.min.css";
-import { InlineMath, BlockMath } from "react-katex";
+import InteractiveLatex from "@/components/InteractiveLatex";
 import AddQuestionForm from "@/components/AddQuestionForm";
 
 interface Question {
@@ -41,7 +42,7 @@ interface Skill {
   category?: string;
 }
 
-// Helper function to render text with LaTeX expressions
+// Helper function to render text with interactive LaTeX expressions
 const renderMathText = (text: string) => {
   // Split text by LaTeX delimiters
   const parts = text.split(/(\$[^$]*\$|\\\([^)]*\\\)|\\\[[^\]]*\\\])/);
@@ -50,15 +51,15 @@ const renderMathText = (text: string) => {
     if (part.startsWith("$") && part.endsWith("$")) {
       // Inline math
       const math = part.slice(1, -1);
-      return <InlineMath key={index} math={math} />;
+      return <InteractiveLatex key={index} math={math} isBlock={false} />;
     } else if (part.startsWith("\\(") && part.endsWith("\\)")) {
       // Inline math with \( \)
       const math = part.slice(2, -2);
-      return <InlineMath key={index} math={math} />;
+      return <InteractiveLatex key={index} math={math} isBlock={false} />;
     } else if (part.startsWith("\\[") && part.endsWith("\\]")) {
       // Block math with \[ \]
       const math = part.slice(2, -2);
-      return <BlockMath key={index} math={math} />;
+      return <InteractiveLatex key={index} math={math} isBlock={true} />;
     } else {
       // Regular text
       return <span key={index}>{part}</span>;
@@ -158,6 +159,8 @@ const DebugQuestions = () => {
       loadSkillData();
     }
   };
+
+
 
   if (loading) {
     return (

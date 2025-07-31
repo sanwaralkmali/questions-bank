@@ -10,6 +10,7 @@ A React application for debugging and testing LaTeX equations in math questions.
 - **Skill Selection**: Choose from different math skills to debug
 - **Raw Data View**: See the raw JSON data for each question
 - **Asynchronous Question Submission**: Submit new questions without blocking the UI - users can continue using the website while questions are processed in the background
+- **Interactive LaTeX Copy**: Hover over any mathematical expression to copy it individually - paste directly as equations in Word
 
 ## Tech Stack
 

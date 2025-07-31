@@ -100,7 +100,7 @@
   },
   {
     "id": "classification-numbers",
-    "title": "Number Classification",
+    "title": "Classification of Numbers",
     "description": "Classify numbers as natural, whole, integers, rational, or irrational.",
     "difficulty": "Medium",
     "color": "secondary",
