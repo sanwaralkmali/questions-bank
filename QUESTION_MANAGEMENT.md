@@ -99,7 +99,7 @@ app.post("/api/questions", (req, res) => {
 To add a new skill:
 
 1. Create a new JSON file in `public/data/skills/`
-2. Add the skill to `public/data/games.json`
+2. Add the skill to `public/data/skills.json`
 3. Follow the existing JSON structure
 
 ## Benefits of JSON Files

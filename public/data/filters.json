@@ -1,35 +1,44 @@
 {
-  "basic-operations": [
+  "Basic Operations": [
     "1-integers.json",
     "5-fractions-operations.json",
     "6-decimals.json",
     "7-mixed-problems.json",
     "8-order-of-operations.json"
   ],
-  "algebra-builder": ["9-algebra-basics.json"],
-  "rational-conversion": [
+  "Rational Conversion": [
     "2-fraction-decimal.json",
     "3-fraction-percentage.json",
     "4-decimal-percentage.json",
     "10-mixed-conversion.json"
   ],
-  "basic-scientific-notation": ["11-basic-scientific-notation.json"],
-  "operations-scientific-notation": ["13-operations-scientific-notation.json"],
-  "number-classification": ["12-classification-numbers.json"],
-  "simplyify-expressions": ["14-simplify-expressions.json"],
-  "solving-equations": ["15-solving-equations.json"],
-  "solving-inequalities": ["16-solving-inequalities.json"],
-  "factoring": ["17-gcf-factoring.json", "23-factoring-by-grouping.json"],
-  "factoring-trinomials": [
-    "18-factoring-trinomials-1.json",
-    "24-factoring-trinomials-2.json"
+  "Algebra": [
+    "9-algebra-basics.json",
+    "14-simplify-expressions.json",
+    "15-solving-equations.json",
+    "16-solving-inequalities.json",
+    "20-solving-equations-by-factoring.json",
+    "27-quadratic-formula.json"
   ],
-  "difference-of-squares": ["19-difference-squares.json"],
-  "difference-sum-of-cubes": ["25-difference-sum-of-cubes.json"],
-  "perfect-squares": ["26-perfect-squares.json"],
-  "solving-equations-by-factoring": ["20-solving-equations-by-factoring.json"],
-  "quadratic-formula": ["27-quadratic-formula.json"],
-  "understanding-polynomials": ["21-understanding-polynomials.json"],
-  "adding-subtracting-polynomials": ["22-adding-subtracting-polynomials.json"],
-  "multiplying-polynomials": ["28-multiplying-polynomials.json"]
+  "Scientific Notation": [
+    "11-basic-scientific-notation.json",
+    "13-operations-scientific-notation.json"
+  ],
+  "Number Theory": [
+    "12-classification-numbers.json"
+  ],
+  "Factoring": [
+    "17-gcf-factoring.json",
+    "18-factoring-trinomials-1.json",
+    "19-difference-squares.json",
+    "23-factoring-by-grouping.json",
+    "24-factoring-trinomials-2.json",
+    "25-difference-sum-of-cubes.json",
+    "26-perfect-squares.json"
+  ],
+  "Polynomials": [
+    "21-understanding-polynomials.json",
+    "22-adding-subtracting-polynomials.json",
+    "28-multiplying-polynomials.json"
+  ]
 }

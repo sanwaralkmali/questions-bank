@@ -1,0 +1,361 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Get current directory for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// All individual skills with their metadata
+const optimizedSkills = [
+  {
+    "id": "integers",
+    "title": "Integer Operations",
+    "description": "Master addition, subtraction, multiplication, and division with integers.",
+    "difficulty": "Easy",
+    "color": "primary",
+    "filename": "1-integers.json",
+    "category": "Basic Operations"
+  },
+  {
+    "id": "fraction-decimal",
+    "title": "Fraction to Decimal",
+    "description": "Convert fractions into their decimal equivalents and practice related problems.",
+    "difficulty": "Easy",
+    "color": "primary",
+    "filename": "2-fraction-decimal.json",
+    "category": "Rational Conversion"
+  },
+  {
+    "id": "fraction-percentage",
+    "title": "Fraction to Percentage",
+    "description": "Convert fractions into percentages and solve percentage-based questions.",
+    "difficulty": "Easy",
+    "color": "primary",
+    "filename": "3-fraction-percentage.json",
+    "category": "Rational Conversion"
+  },
+  {
+    "id": "decimal-percentage",
+    "title": "Decimal to Percentage",
+    "description": "Convert decimals into percentages and practice percentage calculations.",
+    "difficulty": "Easy",
+    "color": "primary",
+    "filename": "4-decimal-percentage.json",
+    "category": "Rational Conversion"
+  },
+  {
+    "id": "fractions-operations",
+    "title": "Fraction Fundamentals",
+    "description": "Convert decimals to fractions and practice fraction operations.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "5-fractions-operations.json",
+    "category": "Basic Operations"
+  },
+  {
+    "id": "decimals",
+    "title": "Decimal Operations",
+    "description": "Convert fractions to decimals and practice decimal operations.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "6-decimals.json",
+    "category": "Basic Operations"
+  },
+  {
+    "id": "mixed-problems",
+    "title": "Mixed Problems",
+    "description": "Solve problems that combine multiple operations.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "7-mixed-problems.json",
+    "category": "Basic Operations"
+  },
+  {
+    "id": "order-of-operations",
+    "title": "Order of Operations",
+    "description": "Learn and practice the order of operations in math.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "8-order-of-operations.json",
+    "category": "Basic Operations"
+  },
+  {
+    "id": "algebra-basics",
+    "title": "Algebra Builder",
+    "description": "Solve simple Algebraic questions",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "9-algebra-basics.json",
+    "category": "Algebra"
+  },
+  {
+    "id": "mixed-conversion",
+    "title": "Mixed Conversion",
+    "description": "Practice converting between fractions, decimals, and percentages in a variety of problems.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "10-mixed-conversion.json",
+    "category": "Rational Conversion"
+  },
+  {
+    "id": "basic-scientific-notation",
+    "title": "Basic Scientific Notation",
+    "description": "Learn the basics of scientific notation and how to express numbers in this form.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "11-basic-scientific-notation.json",
+    "category": "Scientific Notation"
+  },
+  {
+    "id": "classification-numbers",
+    "title": "Classification of Numbers",
+    "description": "Classify numbers as natural, whole, integers, rational, or irrational.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "12-classification-numbers.json",
+    "category": "Number Theory"
+  },
+  {
+    "id": "operations-scientific-notation",
+    "title": "Operations with Scientific Notation",
+    "description": "Practice addition, subtraction, multiplication, and division with numbers in scientific notation.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "13-operations-scientific-notation.json",
+    "category": "Scientific Notation"
+  },
+  {
+    "id": "simplify-expressions",
+    "title": "Simplify Expressions",
+    "description": "Learn to simplify algebraic expressions using various techniques.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "14-simplify-expressions.json",
+    "category": "Algebra"
+  },
+  {
+    "id": "solving-equations",
+    "title": "Solving Equations",
+    "description": "Solve linear equations and understand the process of isolating variables.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "15-solving-equations.json",
+    "category": "Algebra"
+  },
+  {
+    "id": "solving-inequalities",
+    "title": "Solving Inequalities",
+    "description": "Solve linear inequalities and understand the difference from equations.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "16-solving-inequalities.json",
+    "category": "Algebra"
+  },
+  {
+    "id": "gcf-factoring",
+    "title": "GCF Factoring",
+    "description": "Factor polynomials using the greatest common factor method.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "17-gcf-factoring.json",
+    "category": "Factoring"
+  },
+  {
+    "id": "factoring-trinomials-1",
+    "title": "Factoring Trinomials (x² + bx + c)",
+    "description": "Factor trinomials in the form x² + bx + c using various methods.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "18-factoring-trinomials-1.json",
+    "category": "Factoring"
+  },
+  {
+    "id": "difference-squares",
+    "title": "Factoring Difference of Squares",
+    "description": "Factor expressions using the difference of squares formula: a² - b² = (a + b)(a - b).",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "19-difference-squares.json",
+    "category": "Factoring"
+  },
+  {
+    "id": "solving-equations-by-factoring",
+    "title": "Solving Equations by Factoring",
+    "description": "Solve quadratic equations by factoring and using the zero product property.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "20-solving-equations-by-factoring.json",
+    "category": "Algebra"
+  },
+  {
+    "id": "understanding-polynomials",
+    "title": "Understanding Polynomials",
+    "description": "Learn about polynomial terms, degrees, and basic operations.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "21-understanding-polynomials.json",
+    "category": "Polynomials"
+  },
+  {
+    "id": "adding-subtracting-polynomials",
+    "title": "Adding and Subtracting Polynomials",
+    "description": "Combine like terms to add and subtract polynomials.",
+    "difficulty": "Medium",
+    "color": "secondary",
+    "filename": "22-adding-subtracting-polynomials.json",
+    "category": "Polynomials"
+  },
+  {
+    "id": "factoring-by-grouping",
+    "title": "Factoring by Grouping",
+    "description": "Factor polynomials with four terms using the grouping method.",
+    "difficulty": "Hard",
+    "color": "destructive",
+    "filename": "23-factoring-by-grouping.json",
+    "category": "Factoring"
+  },
+  {
+    "id": "factoring-trinomials-2",
+    "title": "Factoring Trinomials (ax² + bx + c)",
+    "description": "Factor trinomials in the form ax² + bx + c where a ≠ 1.",
+    "difficulty": "Hard",
+    "color": "destructive",
+    "filename": "24-factoring-trinomials-2.json",
+    "category": "Factoring"
+  },
+  {
+    "id": "difference-sum-of-cubes",
+    "title": "Factoring Difference of Cubes",
+    "description": "Factor expressions using the difference and sum of cubes formulas.",
+    "difficulty": "Hard",
+    "color": "destructive",
+    "filename": "25-difference-sum-of-cubes.json",
+    "category": "Factoring"
+  },
+  {
+    "id": "perfect-squares",
+    "title": "Factoring Perfect Squares",
+    "description": "Factor expressions that are perfect square trinomials.",
+    "difficulty": "Hard",
+    "color": "destructive",
+    "filename": "26-perfect-squares.json",
+    "category": "Factoring"
+  },
+  {
+    "id": "quadratic-formula",
+    "title": "Solving by Quadratic Formula",
+    "description": "Solve quadratic equations using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a.",
+    "difficulty": "Hard",
+    "color": "destructive",
+    "filename": "27-quadratic-formula.json",
+    "category": "Algebra"
+  },
+  {
+    "id": "multiplying-polynomials",
+    "title": "Multiplying Polynomials",
+    "description": "Multiply polynomials using the distributive property and FOIL method.",
+    "difficulty": "Hard",
+    "color": "destructive",
+    "filename": "28-multiplying-polynomials.json",
+    "category": "Polynomials"
+  }
+];
+
+/**
+ * Create optimized skills.json file
+ */
+function createOptimizedSkills() {
+  const skillsPath = path.join(__dirname, 'public', 'data', 'skills.json');
+  
+  console.log('📝 Creating optimized skills.json...');
+  
+  try {
+    // Sort skills by difficulty: Easy -> Medium -> Hard
+    const sortedSkills = optimizedSkills.sort((a, b) => {
+      const difficultyOrder = { Easy: 1, Medium: 2, Hard: 3 };
+      return (
+        difficultyOrder[a.difficulty] -
+        difficultyOrder[b.difficulty]
+      );
+    });
+    
+    // Write the optimized skills data
+    fs.writeFileSync(skillsPath, JSON.stringify(sortedSkills, null, 2), 'utf8');
+    console.log('✅ skills.json created successfully!');
+    console.log(`📊 Total skills: ${sortedSkills.length}`);
+    
+    // Show statistics
+    const easyCount = sortedSkills.filter(s => s.difficulty === 'Easy').length;
+    const mediumCount = sortedSkills.filter(s => s.difficulty === 'Medium').length;
+    const hardCount = sortedSkills.filter(s => s.difficulty === 'Hard').length;
+    
+    console.log(`📈 Difficulty breakdown:`);
+    console.log(`  Easy: ${easyCount} skills`);
+    console.log(`  Medium: ${mediumCount} skills`);
+    console.log(`  Hard: ${hardCount} skills`);
+    
+  } catch (error) {
+    console.error(`❌ Error creating skills.json:`, error.message);
+  }
+}
+
+/**
+ * Create new optimized filters.json (flattened structure)
+ */
+function createOptimizedFilters() {
+  const filtersPath = path.join(__dirname, 'public', 'data', 'filters.json');
+  
+  console.log('📝 Creating optimized filters.json...');
+  
+  try {
+    // Group skills by category
+    const categoryGroups = {};
+    
+    optimizedSkills.forEach(skill => {
+      const category = skill.category;
+      if (!categoryGroups[category]) {
+        categoryGroups[category] = [];
+      }
+      categoryGroups[category].push(skill.filename);
+    });
+    
+    // Write the optimized filters data
+    fs.writeFileSync(filtersPath, JSON.stringify(categoryGroups, null, 2), 'utf8');
+    console.log('✅ filters.json updated successfully!');
+    
+    // Show categories
+    console.log(`📂 Categories created:`);
+    Object.keys(categoryGroups).forEach(category => {
+      console.log(`  ${category}: ${categoryGroups[category].length} skills`);
+    });
+    
+  } catch (error) {
+    console.error(`❌ Error updating filters.json:`, error.message);
+  }
+}
+
+// Main execution
+function main() {
+  console.log('🚀 Creating optimized skill structure...');
+  console.log('');
+  
+  // Step 1: Create optimized skills.json
+  createOptimizedSkills();
+  
+  console.log('');
+  
+  // Step 2: Create optimized filters.json
+  createOptimizedFilters();
+  
+  console.log('');
+  console.log('✅ Optimization complete!');
+  console.log('');
+  console.log('📋 Next steps:');
+  console.log('1. Update React components to use skills.json instead of games.json');
+  console.log('2. Remove games.json (no longer needed)');
+  console.log('3. Test the application with the new structure');
+}
+
+// Run the script
+main(); 

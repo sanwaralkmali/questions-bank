@@ -9,6 +9,7 @@ A React application for debugging and testing LaTeX equations in math questions.
 - **Wave Filtering**: Filter questions by wave number
 - **Skill Selection**: Choose from different math skills to debug
 - **Raw Data View**: See the raw JSON data for each question
+- **Asynchronous Question Submission**: Submit new questions without blocking the UI - users can continue using the website while questions are processed in the background
 
 ## Tech Stack
 
@@ -63,5 +64,5 @@ src/
 
 The application loads question data from JSON files in the `public/data/` directory:
 
-- `games.json` - List of available skills
+- `skills.json` - List of available skills with metadata
 - `skills/*.json` - Individual skill question data

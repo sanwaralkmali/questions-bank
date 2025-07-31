@@ -38,6 +38,7 @@ interface Skill {
   difficulty: string;
   color: string;
   filename?: string;
+  category?: string;
 }
 
 // Helper function to render text with LaTeX expressions
@@ -76,19 +77,11 @@ const DebugQuestions = () => {
   useEffect(() => {
     const loadSkills = async () => {
       try {
-        const response = await fetch("/data/games.json");
+        const response = await fetch("/data/skills.json");
         const skillsData = await response.json();
 
-        // Sort skills by difficulty: Easy -> Medium -> Hard
-        const sortedSkills = skillsData.sort((a: Skill, b: Skill) => {
-          const difficultyOrder = { Easy: 1, Medium: 2, Hard: 3 };
-          return (
-            difficultyOrder[a.difficulty as keyof typeof difficultyOrder] -
-            difficultyOrder[b.difficulty as keyof typeof difficultyOrder]
-          );
-        });
-
-        setSkills(sortedSkills);
+        // Skills are already sorted by difficulty in the JSON file
+        setSkills(skillsData);
       } catch (error) {
         console.error("Failed to load skills:", error);
       } finally {

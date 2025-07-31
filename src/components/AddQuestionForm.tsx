@@ -38,6 +38,7 @@ interface Skill {
   difficulty: string;
   color: string;
   filename?: string;
+  category?: string;
 }
 
 interface AddQuestionFormProps {
@@ -47,7 +48,6 @@ interface AddQuestionFormProps {
 
 const AddQuestionForm = ({ skills, onQuestionAdded }: AddQuestionFormProps) => {
   const [open, setOpen] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState<QuestionData>({
     question: "",
     choices: ["", "", "", ""],
@@ -120,40 +120,73 @@ const AddQuestionForm = ({ skills, onQuestionAdded }: AddQuestionFormProps) => {
       return;
     }
 
-    setIsSubmitting(true);
+    // Store form data for background submission
+    const questionDataToSubmit = { ...formData };
 
+    // Immediately show success message and close form
+    toast.success("Question Submitted Successfully!", {
+      description:
+        "Your question has been submitted for review. It will be added to the question bank after approval.",
+      duration: 5000,
+    });
+
+    // Reset form and close dialog immediately
+    setFormData({
+      question: "",
+      choices: ["", "", "", ""],
+      correctAnswer: "",
+      skill: "",
+      grade: "",
+      level: "",
+    });
+
+    setOpen(false);
+    onQuestionAdded();
+
+    // Submit question in background (non-blocking)
+    submitQuestionInBackground(questionDataToSubmit);
+  };
+
+  // Background submission function
+  const submitQuestionInBackground = async (questionData: QuestionData) => {
     try {
+      // Show a subtle loading indicator
+      const loadingToast = toast.loading(
+        "Submitting question in background...",
+        {
+          duration: Infinity,
+        }
+      );
+
       // Save question to backend
-      const result = await saveQuestionToFile(formData);
+      const result = await saveQuestionToFile(questionData);
+
+      // Dismiss loading toast
+      toast.dismiss(loadingToast);
 
       if (result.success) {
-        // Show success toaster with review message
-        toast.success("Question Submitted Successfully!", {
+        // Show success notification (already shown above, but this confirms backend success)
+        toast.success("Question successfully saved to database!", {
           description:
-            "Your question has been submitted for review. It will be added to the question bank after approval.",
+            "Your question has been processed and is now in the review queue.",
+          duration: 3000,
+        });
+      } else {
+        // Show error notification for background failure
+        toast.error("Background submission failed", {
+          description:
+            result.message ||
+            "Failed to submit question. Please try again later.",
           duration: 5000,
         });
-
-        // Reset form
-        setFormData({
-          question: "",
-          choices: ["", "", "", ""],
-          correctAnswer: "",
-          skill: "",
-          grade: "",
-          level: "",
-        });
-
-        setOpen(false);
-        onQuestionAdded();
-      } else {
-        toast.error(result.message || "Failed to submit question");
       }
     } catch (error) {
-      console.error("Error adding question:", error);
-      toast.error("Network error. Please check your connection and try again.");
-    } finally {
-      setIsSubmitting(false);
+      console.error("Error in background submission:", error);
+      toast.error("Background submission error", {
+        description:
+          "Network error. Your question may not have been saved. Please try again later.",
+        duration: 5000,
+      });
     }
   };
 
@@ -327,17 +360,10 @@ const AddQuestionForm = ({ skills, onQuestionAdded }: AddQuestionFormProps) => {
           </div>
 
           <DialogFooter>
-            <Button
-              type="button"
-              variant="outline"
-              onClick={handleCancel}
-              disabled={isSubmitting}
-            >
+            <Button type="button" variant="outline" onClick={handleCancel}>
               Cancel
             </Button>
-            <Button type="submit" disabled={isSubmitting}>
-              {isSubmitting ? "Submitting..." : "Submit for Review"}
-            </Button>
+            <Button type="submit">Submit for Review</Button>
           </DialogFooter>
         </form>
       </DialogContent>
